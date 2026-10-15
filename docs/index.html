@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flatline Standings</title>
+  <meta name="description" content="Season standings for the Flatline Faithful weekly poker tournament.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♠</text></svg>">
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="ekg" aria-hidden="true">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0 60 H420 L450 60 L470 20 L495 105 L520 8 L545 92 L565 60 H1200" />
+      </svg>
+    </div>
+    <p class="kicker">Thursday nights · 7 PM</p>
+    <h1>Flatline <span>Faithful</span></h1>
+    <p class="season" id="season">Loading…</p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <main>
+    <section class="podium" id="podium" aria-label="Top three"></section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Leaderboard</h2>
+        <div class="tabs" role="tablist">
+          <button role="tab" aria-selected="true" data-sort="points">Points</button>
+          <button role="tab" aria-selected="false" data-sort="avgPoints">Avg</button>
+          <button role="tab" aria-selected="false" data-sort="winnings">$ Won</button>
+          <button role="tab" aria-selected="false" data-sort="bounties">Bounties</button>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="board">
+          <thead>
+            <tr>
+              <th class="num">#</th>
+              <th>Player</th>
+              <th class="num">Pts</th>
+              <th class="hide-sm">Form</th>
+              <th class="num hide-sm">GP</th>
+              <th class="num">W</th>
+              <th class="num hide-xs">ITM</th>
+              <th class="num hide-sm">$ Won</th>
+              <th class="num hide-sm">KOs $</th>
+            </tr>
+          </thead>
+          <tbody id="board"></tbody>
+        </table>
+      </div>
+      <p class="legend">Click a player for their season. Form shows each week's finish; ▲▼ shows movement since last week.</p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Weekly Results</h2>
+        <select id="event-pick" aria-label="Choose week"></select>
+      </div>
+      <div id="event"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head"><h2>How Points Work</h2></div>
+      <p class="explain">
+        Each week's points depend on your finish, the field size and the prize pool:
+      </p>
+      <code class="formula">pts = √(entries ÷ place) × (1 + log(pool ÷ entries + ¼))² ÷ (1 + log(entries + ¼))</code>
+      <p class="explain">
+        Re-entries count once: your final finish is what scores. Bigger fields are worth more, and winning beats everything.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <span id="updated"></span> · Data from the Poker Mavens server
+  </footer>
+
+  <dialog id="player">
+    <form method="dialog"><button class="close" aria-label="Close">✕</button></form>
+    <div id="player-body"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
