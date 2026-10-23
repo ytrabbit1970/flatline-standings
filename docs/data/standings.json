@@ -1,7 +1,7 @@
 {
  "season": "Season 16",
  "tournament": "Flatline Faithful",
- "updated": "2026-10-16T17:54:03+00:00",
+ "updated": "2026-10-23T04:55:14+00:00",
  "events": [
   {
    "date": "2026-08-06",
@@ -1153,6 +1153,115 @@
      "points": 2.617
     }
    ]
+  },
+  {
+   "date": "2026-10-22",
+   "number": 448,
+   "entrants": 15,
+   "players": 12,
+   "buyIn": "24+1",
+   "bounty": 5.0,
+   "prizePool": 285.0,
+   "start": "2026-10-22 19:00:07",
+   "stop": "2026-10-22 21:38:58",
+   "results": [
+    {
+     "place": 1,
+     "handle": "Berkeley124",
+     "winnings": 128.25,
+     "bounties": 25.0,
+     "reentries": 0,
+     "points": 9.258
+    },
+    {
+     "place": 2,
+     "handle": "ytrabbit",
+     "winnings": 83.22,
+     "bounties": 10.0,
+     "reentries": 0,
+     "points": 6.546
+    },
+    {
+     "place": 3,
+     "handle": "LASwank",
+     "winnings": 48.74,
+     "bounties": 0.0,
+     "reentries": 1,
+     "points": 5.345
+    },
+    {
+     "place": 4,
+     "handle": "marinjon",
+     "winnings": 24.79,
+     "bounties": 15.0,
+     "reentries": 0,
+     "points": 4.629
+    },
+    {
+     "place": 5,
+     "handle": "winston",
+     "winnings": 0.0,
+     "bounties": 10.0,
+     "reentries": 1,
+     "points": 4.14
+    },
+    {
+     "place": 6,
+     "handle": "Manzoniman",
+     "winnings": 0.0,
+     "bounties": 5.0,
+     "reentries": 0,
+     "points": 3.779
+    },
+    {
+     "place": 7,
+     "handle": "CrazyIdeas",
+     "winnings": 0.0,
+     "bounties": 10.0,
+     "reentries": 0,
+     "points": 3.499
+    },
+    {
+     "place": 8,
+     "handle": "LarsEricson",
+     "winnings": 0.0,
+     "bounties": 0.0,
+     "reentries": 1,
+     "points": 3.273
+    },
+    {
+     "place": 9,
+     "handle": "Lagunator",
+     "winnings": 0.0,
+     "bounties": 0.0,
+     "reentries": 0,
+     "points": 3.086
+    },
+    {
+     "place": 10,
+     "handle": "A8_Fold_Path",
+     "winnings": 0.0,
+     "bounties": 0.0,
+     "reentries": 0,
+     "points": 2.927
+    },
+    {
+     "place": 11,
+     "handle": "jalt",
+     "winnings": 0.0,
+     "bounties": 0.0,
+     "reentries": 0,
+     "points": 2.791
+    },
+    {
+     "place": 12,
+     "handle": "Scamp",
+     "winnings": 0.0,
+     "bounties": 0.0,
+     "reentries": 0,
+     "points": 2.672
+    }
+   ]
   }
  ],
  "standings": [
@@ -1223,7 +1332,8 @@
      4,
      4.533,
      true
-    ]
+    ],
+    null
    ],
    "rankHistory": [
     6,
@@ -1236,9 +1346,84 @@
     1,
     1,
     1,
+    1,
     1
    ],
    "rank": 1
+  },
+  {
+   "handle": "ytrabbit",
+   "points": 49.226,
+   "avgPoints": 6.153,
+   "played": 8,
+   "wins": 3,
+   "cashes": 4,
+   "cashPct": 0.5,
+   "winnings": 463.23,
+   "bounties": 90.0,
+   "reentries": 3,
+   "best": 1,
+   "weeks": [
+    [
+     1,
+     9.791,
+     true
+    ],
+    [
+     4,
+     4.433,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    [
+     1,
+     7.702,
+     true
+    ],
+    [
+     7,
+     3.764,
+     false
+    ],
+    [
+     5,
+     4.223,
+     false
+    ],
+    [
+     7,
+     3.701,
+     false
+    ],
+    [
+     1,
+     9.066,
+     true
+    ],
+    [
+     2,
+     6.546,
+     true
+    ]
+   ],
+   "rankHistory": [
+    1,
+    1,
+    2,
+    5,
+    10,
+    11,
+    6,
+    6,
+    7,
+    6,
+    3,
+    2
+   ],
+   "rank": 2
   },
   {
    "handle": "ChoppedRiver",
@@ -1303,7 +1488,8 @@
      2,
      6.411,
      true
-    ]
+    ],
+    null
    ],
    "rankHistory": [
     13,
@@ -1316,88 +1502,21 @@
     7,
     5,
     2,
-    2
-   ],
-   "rank": 2
-  },
-  {
-   "handle": "ytrabbit",
-   "points": 42.68,
-   "avgPoints": 6.097,
-   "played": 7,
-   "wins": 3,
-   "cashes": 3,
-   "cashPct": 0.429,
-   "winnings": 380.01,
-   "bounties": 80.0,
-   "reentries": 3,
-   "best": 1,
-   "weeks": [
-    [
-     1,
-     9.791,
-     true
-    ],
-    [
-     4,
-     4.433,
-     false
-    ],
-    null,
-    null,
-    null,
-    null,
-    [
-     1,
-     7.702,
-     true
-    ],
-    [
-     7,
-     3.764,
-     false
-    ],
-    [
-     5,
-     4.223,
-     false
-    ],
-    [
-     7,
-     3.701,
-     false
-    ],
-    [
-     1,
-     9.066,
-     true
-    ]
-   ],
-   "rankHistory": [
-    1,
-    1,
     2,
-    5,
-    10,
-    11,
-    6,
-    6,
-    7,
-    6,
     3
    ],
    "rank": 3
   },
   {
    "handle": "CrazyIdeas",
-   "points": 40.179,
-   "avgPoints": 5.74,
-   "played": 7,
+   "points": 43.678,
+   "avgPoints": 5.46,
+   "played": 8,
    "wins": 2,
    "cashes": 4,
-   "cashPct": 0.571,
+   "cashPct": 0.5,
    "winnings": 380.51,
-   "bounties": 90.0,
+   "bounties": 100.0,
    "reentries": 3,
    "best": 1,
    "weeks": [
@@ -1439,7 +1558,12 @@
      4.379,
      false
     ],
-    null
+    null,
+    [
+     7,
+     3.499,
+     false
+    ]
    ],
    "rankHistory": [
     3,
@@ -1452,18 +1576,105 @@
     4,
     2,
     3,
+    4,
     4
    ],
    "rank": 4
   },
   {
+   "handle": "Berkeley124",
+   "points": 43.351,
+   "avgPoints": 3.941,
+   "played": 11,
+   "wins": 1,
+   "cashes": 2,
+   "cashPct": 0.182,
+   "winnings": 186.73,
+   "bounties": 35.0,
+   "reentries": 0,
+   "best": 1,
+   "weeks": [
+    [
+     12,
+     2.827,
+     false
+    ],
+    [
+     8,
+     3.135,
+     false
+    ],
+    [
+     8,
+     2.815,
+     false
+    ],
+    [
+     4,
+     4.433,
+     false
+    ],
+    [
+     8,
+     2.983,
+     false
+    ],
+    null,
+    [
+     7,
+     2.911,
+     false
+    ],
+    [
+     15,
+     2.571,
+     false
+    ],
+    [
+     8,
+     3.338,
+     false
+    ],
+    [
+     3,
+     5.653,
+     true
+    ],
+    [
+     7,
+     3.427,
+     false
+    ],
+    [
+     1,
+     9.258,
+     true
+    ]
+   ],
+   "rankHistory": [
+    12,
+    8,
+    7,
+    7,
+    7,
+    9,
+    9,
+    12,
+    10,
+    9,
+    8,
+    5
+   ],
+   "rank": 5
+  },
+  {
    "handle": "Scamp",
-   "points": 39.155,
-   "avgPoints": 3.916,
-   "played": 10,
+   "points": 41.827,
+   "avgPoints": 3.802,
+   "played": 11,
    "wins": 0,
    "cashes": 3,
-   "cashPct": 0.3,
+   "cashPct": 0.273,
    "winnings": 191.06,
    "bounties": 40.0,
    "reentries": 4,
@@ -1519,6 +1730,11 @@
      11,
      2.733,
      false
+    ],
+    [
+     12,
+     2.672,
+     false
     ]
    ],
    "rankHistory": [
@@ -1532,9 +1748,84 @@
     2,
     3,
     5,
-    5
+    5,
+    6
    ],
-   "rank": 5
+   "rank": 6
+  },
+  {
+   "handle": "LASwank",
+   "points": 40.055,
+   "avgPoints": 5.007,
+   "played": 8,
+   "wins": 1,
+   "cashes": 4,
+   "cashPct": 0.5,
+   "winnings": 302.28,
+   "bounties": 85.0,
+   "reentries": 5,
+   "best": 1,
+   "weeks": [
+    [
+     7,
+     3.701,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    [
+     4,
+     4.433,
+     false
+    ],
+    [
+     2,
+     5.446,
+     true
+    ],
+    [
+     1,
+     9.958,
+     true
+    ],
+    [
+     10,
+     2.986,
+     false
+    ],
+    [
+     11,
+     2.952,
+     false
+    ],
+    [
+     3,
+     5.234,
+     true
+    ],
+    [
+     3,
+     5.345,
+     true
+    ]
+   ],
+   "rankHistory": [
+    7,
+    12,
+    14,
+    15,
+    15,
+    15,
+    13,
+    9,
+    9,
+    10,
+    7,
+    7
+   ],
+   "rank": 7
   },
   {
    "handle": "LAWolfie",
@@ -1591,6 +1882,7 @@
      4.896,
      true
     ],
+    null,
     null
    ],
    "rankHistory": [
@@ -1604,166 +1896,19 @@
     3,
     4,
     4,
-    6
-   ],
-   "rank": 6
-  },
-  {
-   "handle": "LASwank",
-   "points": 34.71,
-   "avgPoints": 4.959,
-   "played": 7,
-   "wins": 1,
-   "cashes": 3,
-   "cashPct": 0.429,
-   "winnings": 253.54,
-   "bounties": 85.0,
-   "reentries": 4,
-   "best": 1,
-   "weeks": [
-    [
-     7,
-     3.701,
-     false
-    ],
-    null,
-    null,
-    null,
-    null,
-    [
-     4,
-     4.433,
-     false
-    ],
-    [
-     2,
-     5.446,
-     true
-    ],
-    [
-     1,
-     9.958,
-     true
-    ],
-    [
-     10,
-     2.986,
-     false
-    ],
-    [
-     11,
-     2.952,
-     false
-    ],
-    [
-     3,
-     5.234,
-     true
-    ]
-   ],
-   "rankHistory": [
-    7,
-    12,
-    14,
-    15,
-    15,
-    15,
-    13,
-    9,
-    9,
-    10,
-    7
-   ],
-   "rank": 7
-  },
-  {
-   "handle": "Berkeley124",
-   "points": 34.093,
-   "avgPoints": 3.409,
-   "played": 10,
-   "wins": 0,
-   "cashes": 1,
-   "cashPct": 0.1,
-   "winnings": 58.48,
-   "bounties": 10.0,
-   "reentries": 0,
-   "best": 3,
-   "weeks": [
-    [
-     12,
-     2.827,
-     false
-    ],
-    [
-     8,
-     3.135,
-     false
-    ],
-    [
-     8,
-     2.815,
-     false
-    ],
-    [
-     4,
-     4.433,
-     false
-    ],
-    [
-     8,
-     2.983,
-     false
-    ],
-    null,
-    [
-     7,
-     2.911,
-     false
-    ],
-    [
-     15,
-     2.571,
-     false
-    ],
-    [
-     8,
-     3.338,
-     false
-    ],
-    [
-     3,
-     5.653,
-     true
-    ],
-    [
-     7,
-     3.427,
-     false
-    ]
-   ],
-   "rankHistory": [
-    12,
-    8,
-    7,
-    7,
-    7,
-    9,
-    9,
-    12,
-    10,
-    9,
+    6,
     8
    ],
    "rank": 8
   },
   {
    "handle": "A8_Fold_Path",
-   "points": 33.61,
-   "avgPoints": 4.201,
-   "played": 8,
+   "points": 36.537,
+   "avgPoints": 4.06,
+   "played": 9,
    "wins": 1,
    "cashes": 2,
-   "cashPct": 0.25,
+   "cashPct": 0.222,
    "winnings": 149.95,
    "bounties": 50.0,
    "reentries": 1,
@@ -1811,7 +1956,12 @@
      2.827,
      false
     ],
-    null
+    null,
+    [
+     10,
+     2.927,
+     false
+    ]
    ],
    "rankHistory": [
     null,
@@ -1824,89 +1974,22 @@
     5,
     6,
     7,
+    9,
     9
    ],
    "rank": 9
   },
   {
-   "handle": "Manzoniman",
-   "points": 31.112,
-   "avgPoints": 4.445,
-   "played": 7,
-   "wins": 1,
-   "cashes": 1,
-   "cashPct": 0.143,
-   "winnings": 123.5,
-   "bounties": 40.0,
-   "reentries": 0,
-   "best": 1,
-   "weeks": [
-    [
-     9,
-     3.264,
-     false
-    ],
-    null,
-    null,
-    [
-     5,
-     3.965,
-     false
-    ],
-    [
-     6,
-     3.445,
-     false
-    ],
-    [
-     1,
-     8.866,
-     true
-    ],
-    null,
-    [
-     5,
-     4.453,
-     false
-    ],
-    [
-     6,
-     3.855,
-     false
-    ],
-    [
-     9,
-     3.264,
-     false
-    ],
-    null
-   ],
-   "rankHistory": [
-    9,
-    14,
-    16,
-    13,
-    12,
-    7,
-    8,
-    8,
-    8,
-    8,
-    10
-   ],
-   "rank": 10
-  },
-  {
    "handle": "winston",
-   "points": 31.033,
-   "avgPoints": 3.448,
-   "played": 9,
+   "points": 35.173,
+   "avgPoints": 3.517,
+   "played": 10,
    "wins": 0,
    "cashes": 2,
-   "cashPct": 0.222,
+   "cashPct": 0.2,
    "winnings": 65.61,
-   "bounties": 15.0,
-   "reentries": 0,
+   "bounties": 25.0,
+   "reentries": 1,
    "best": 3,
    "weeks": [
     [
@@ -1955,6 +2038,11 @@
      8,
      3.205,
      false
+    ],
+    [
+     5,
+     4.14,
+     false
     ]
    ],
    "rankHistory": [
@@ -1968,18 +2056,93 @@
     13,
     11,
     11,
+    11,
+    10
+   ],
+   "rank": 10
+  },
+  {
+   "handle": "Manzoniman",
+   "points": 34.891,
+   "avgPoints": 4.361,
+   "played": 8,
+   "wins": 1,
+   "cashes": 1,
+   "cashPct": 0.125,
+   "winnings": 123.5,
+   "bounties": 45.0,
+   "reentries": 0,
+   "best": 1,
+   "weeks": [
+    [
+     9,
+     3.264,
+     false
+    ],
+    null,
+    null,
+    [
+     5,
+     3.965,
+     false
+    ],
+    [
+     6,
+     3.445,
+     false
+    ],
+    [
+     1,
+     8.866,
+     true
+    ],
+    null,
+    [
+     5,
+     4.453,
+     false
+    ],
+    [
+     6,
+     3.855,
+     false
+    ],
+    [
+     9,
+     3.264,
+     false
+    ],
+    null,
+    [
+     6,
+     3.779,
+     false
+    ]
+   ],
+   "rankHistory": [
+    9,
+    14,
+    16,
+    13,
+    12,
+    7,
+    8,
+    8,
+    8,
+    8,
+    10,
     11
    ],
    "rank": 11
   },
   {
    "handle": "Lagunator",
-   "points": 26.012,
-   "avgPoints": 3.716,
-   "played": 7,
+   "points": 29.098,
+   "avgPoints": 3.637,
+   "played": 8,
    "wins": 0,
    "cashes": 1,
-   "cashPct": 0.143,
+   "cashPct": 0.125,
    "winnings": 29.75,
    "bounties": 20.0,
    "reentries": 1,
@@ -2023,6 +2186,11 @@
      5,
      4.054,
      false
+    ],
+    [
+     9,
+     3.086,
+     false
     ]
    ],
    "rankHistory": [
@@ -2036,9 +2204,80 @@
     11,
     13,
     13,
+    12,
     12
    ],
    "rank": 12
+  },
+  {
+   "handle": "jalt",
+   "points": 23.571,
+   "avgPoints": 3.367,
+   "played": 7,
+   "wins": 0,
+   "cashes": 1,
+   "cashPct": 0.143,
+   "winnings": 51.3,
+   "bounties": 30.0,
+   "reentries": 3,
+   "best": 2,
+   "weeks": [
+    [
+     5,
+     4.379,
+     false
+    ],
+    null,
+    [
+     2,
+     5.631,
+     true
+    ],
+    null,
+    null,
+    [
+     11,
+     2.673,
+     false
+    ],
+    null,
+    [
+     13,
+     2.762,
+     false
+    ],
+    [
+     13,
+     2.619,
+     false
+    ],
+    [
+     13,
+     2.716,
+     false
+    ],
+    null,
+    [
+     11,
+     2.791,
+     false
+    ]
+   ],
+   "rankHistory": [
+    5,
+    11,
+    6,
+    12,
+    13,
+    13,
+    14,
+    14,
+    14,
+    14,
+    14,
+    13
+   ],
+   "rank": 13
   },
   {
    "handle": "LawlessWC",
@@ -2083,6 +2322,7 @@
     ],
     null,
     null,
+    null,
     null
    ],
    "rankHistory": [
@@ -2096,70 +2336,7 @@
     10,
     12,
     12,
-    13
-   ],
-   "rank": 13
-  },
-  {
-   "handle": "jalt",
-   "points": 20.78,
-   "avgPoints": 3.463,
-   "played": 6,
-   "wins": 0,
-   "cashes": 1,
-   "cashPct": 0.167,
-   "winnings": 51.3,
-   "bounties": 30.0,
-   "reentries": 3,
-   "best": 2,
-   "weeks": [
-    [
-     5,
-     4.379,
-     false
-    ],
-    null,
-    [
-     2,
-     5.631,
-     true
-    ],
-    null,
-    null,
-    [
-     11,
-     2.673,
-     false
-    ],
-    null,
-    [
-     13,
-     2.762,
-     false
-    ],
-    [
-     13,
-     2.619,
-     false
-    ],
-    [
-     13,
-     2.716,
-     false
-    ],
-    null
-   ],
-   "rankHistory": [
-    5,
-    11,
-    6,
-    12,
     13,
-    13,
-    14,
-    14,
-    14,
-    14,
     14
    ],
    "rank": 14
@@ -2199,6 +2376,7 @@
      3.997,
      false
     ],
+    null,
     null
    ],
    "rankHistory": [
@@ -2211,6 +2389,7 @@
     16,
     17,
     16,
+    15,
     15,
     15
    ],
@@ -2251,6 +2430,7 @@
     null,
     null,
     null,
+    null,
     null
    ],
    "rankHistory": [
@@ -2264,9 +2444,60 @@
     15,
     15,
     16,
+    16,
     16
    ],
    "rank": 16
+  },
+  {
+   "handle": "LarsEricson",
+   "points": 6.295,
+   "avgPoints": 3.147,
+   "played": 2,
+   "wins": 0,
+   "cashes": 0,
+   "cashPct": 0.0,
+   "winnings": 0.0,
+   "bounties": 0.0,
+   "reentries": 2,
+   "best": 8,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     9,
+     3.022,
+     false
+    ],
+    [
+     8,
+     3.273,
+     false
+    ]
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    21,
+    17
+   ],
+   "rank": 17
   },
   {
    "handle": "Neo",
@@ -2299,7 +2530,8 @@
      10,
      2.867,
      false
-    ]
+    ],
+    null
    ],
    "rankHistory": [
     11,
@@ -2312,9 +2544,10 @@
     18,
     18,
     18,
-    17
+    17,
+    18
    ],
-   "rank": 17
+   "rank": 18
   },
   {
    "handle": "TinaSwank",
@@ -2347,6 +2580,7 @@
     ],
     null,
     null,
+    null,
     null
    ],
    "rankHistory": [
@@ -2360,9 +2594,10 @@
     16,
     17,
     17,
-    18
+    18,
+    19
    ],
-   "rank": 18
+   "rank": 19
   },
   {
    "handle": "Eric",
@@ -2395,7 +2630,8 @@
      12,
      2.617,
      false
-    ]
+    ],
+    null
    ],
    "rankHistory": [
     14,
@@ -2408,9 +2644,56 @@
     19,
     19,
     19,
-    19
+    19,
+    20
    ],
-   "rank": 19
+   "rank": 20
+  },
+  {
+   "handle": "marinjon",
+   "points": 4.629,
+   "avgPoints": 4.629,
+   "played": 1,
+   "wins": 0,
+   "cashes": 1,
+   "cashPct": 1.0,
+   "winnings": 24.79,
+   "bounties": 15.0,
+   "reentries": 0,
+   "best": 4,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     4,
+     4.629,
+     true
+    ]
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    21
+   ],
+   "rank": 21
   },
   {
    "handle": "Sheryl",
@@ -2439,7 +2722,8 @@
      6,
      3.701,
      false
-    ]
+    ],
+    null
    ],
    "rankHistory": [
     null,
@@ -2452,53 +2736,10 @@
     null,
     null,
     null,
-    20
+    20,
+    22
    ],
-   "rank": 20
-  },
-  {
-   "handle": "LarsEricson",
-   "points": 3.022,
-   "avgPoints": 3.022,
-   "played": 1,
-   "wins": 0,
-   "cashes": 0,
-   "cashPct": 0.0,
-   "winnings": 0.0,
-   "bounties": 0.0,
-   "reentries": 1,
-   "best": 9,
-   "weeks": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    [
-     9,
-     3.022,
-     false
-    ]
-   ],
-   "rankHistory": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    21
-   ],
-   "rank": 21
+   "rank": 22
   }
  ]
 }
