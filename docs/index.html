@@ -22,7 +22,7 @@
     </div>
     <p class="kicker">Thursday nights · 7 PM</p>
     <h1>Flatline <span>Faithful</span></h1>
-    <p class="season" id="season">Loading…</p>
+    <p class="season"><select id="season-pick" aria-label="Season"></select> <span id="season">Loading…</span></p>
     <div class="stats" id="stats"></div>
   </header>
 
@@ -68,6 +68,11 @@
       <div id="event"></div>
     </section>
 
+    <section class="panel" id="finale-panel" hidden>
+      <div class="panel-head"><h2>Season Finale</h2></div>
+      <div class="finale" id="finale"></div>
+    </section>
+
     <section class="panel">
       <div class="panel-head"><h2>How Points Work</h2></div>
       <p class="explain">
@@ -81,7 +86,7 @@
   </main>
 
   <footer>
-    <span id="updated"></span> · Data from the Poker Mavens server
+    <span id="updated"></span> · <span id="source">Data from the Poker Mavens server</span>
   </footer>
 
   <dialog id="player">

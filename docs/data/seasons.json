@@ -1,0 +1,66 @@
+[
+ {
+  "name": "Season 16",
+  "file": "standings.json"
+ },
+ {
+  "name": "Season 15",
+  "file": "seasons/season-15.json"
+ },
+ {
+  "name": "Season 14",
+  "file": "seasons/season-14.json"
+ },
+ {
+  "name": "Season 13",
+  "file": "seasons/season-13.json"
+ },
+ {
+  "name": "Season 12",
+  "file": "seasons/season-12.json"
+ },
+ {
+  "name": "Season 11",
+  "file": "seasons/season-11.json"
+ },
+ {
+  "name": "Season 10",
+  "file": "seasons/season-10.json"
+ },
+ {
+  "name": "Season 9",
+  "file": "seasons/season-09.json"
+ },
+ {
+  "name": "Season 8",
+  "file": "seasons/season-08.json"
+ },
+ {
+  "name": "Season 7",
+  "file": "seasons/season-07.json"
+ },
+ {
+  "name": "Season 6",
+  "file": "seasons/season-06.json"
+ },
+ {
+  "name": "Season 5",
+  "file": "seasons/season-05.json"
+ },
+ {
+  "name": "Season 4",
+  "file": "seasons/season-04.json"
+ },
+ {
+  "name": "Season 3",
+  "file": "seasons/season-03.json"
+ },
+ {
+  "name": "Season 2",
+  "file": "seasons/season-02.json"
+ },
+ {
+  "name": "Season 1",
+  "file": "seasons/season-01.json"
+ }
+]

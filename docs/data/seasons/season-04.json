@@ -1,0 +1,6829 @@
+{
+ "season": "Season 4",
+ "tournament": "Flatline Faithful",
+ "final": true,
+ "source": "spreadsheet",
+ "events": [
+  {
+   "date": null,
+   "number": null,
+   "players": 20,
+   "entrants": 29,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "feeldrowsey",
+     "place": 1,
+     "points": 11.166,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "winston",
+     "place": 2,
+     "points": 7.895,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Bunny",
+     "place": 3,
+     "points": 6.447,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 4,
+     "points": 5.583,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 5,
+     "points": 4.993,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Hansen2030",
+     "place": 6,
+     "points": 4.558,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 7,
+     "points": 4.22,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Outlaw",
+     "place": 8,
+     "points": 3.948,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "ytrabbit",
+     "place": 9,
+     "points": 3.722,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 10,
+     "points": 3.531,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "LawlessWC",
+     "place": 11,
+     "points": 3.367,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SvenGolly",
+     "place": 12,
+     "points": 3.223,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 13,
+     "points": 3.097,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 14,
+     "points": 2.984,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Ian",
+     "place": 15,
+     "points": 2.883,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 16,
+     "points": 2.791,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 17,
+     "points": 2.708,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Manzoniman",
+     "place": 18,
+     "points": 2.632,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 19,
+     "points": 2.562,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "B_Rad_Alsea",
+     "place": 20,
+     "points": 2.497,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 15,
+   "entrants": 19,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "CrazyIdeas",
+     "place": 1,
+     "points": 9.757,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 2,
+     "points": 6.899,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "B_Rad_Alsea",
+     "place": 3,
+     "points": 5.633,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 4,
+     "points": 4.878,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 5,
+     "points": 4.363,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "winston",
+     "place": 6,
+     "points": 3.983,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 7,
+     "points": 3.688,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 8,
+     "points": 3.449,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "ytrabbit",
+     "place": 9,
+     "points": 3.252,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 10,
+     "points": 3.085,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "feeldrowsey",
+     "place": 11,
+     "points": 2.942,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 12,
+     "points": 2.817,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Hansen2030",
+     "place": 13,
+     "points": 2.706,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 14,
+     "points": 2.608,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Manzoniman",
+     "place": 15,
+     "points": 2.519,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 17,
+   "entrants": 23,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "Neo",
+     "place": 1,
+     "points": 10.521,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Hansen2030",
+     "place": 2,
+     "points": 7.44,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 3,
+     "points": 6.075,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Ian",
+     "place": 4,
+     "points": 5.261,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 5,
+     "points": 4.705,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 6,
+     "points": 4.295,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 7,
+     "points": 3.977,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Manzoniman",
+     "place": 8,
+     "points": 3.72,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 9,
+     "points": 3.507,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 10,
+     "points": 3.327,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "feeldrowsey",
+     "place": 11,
+     "points": 3.172,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "SvenGolly",
+     "place": 12,
+     "points": 3.037,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "B_Rad_Alsea",
+     "place": 13,
+     "points": 2.918,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "ytrabbit",
+     "place": 14,
+     "points": 2.812,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Bunny",
+     "place": 15,
+     "points": 2.717,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 16,
+     "points": 2.63,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "LarsEricson",
+     "place": 17,
+     "points": 2.552,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 22,
+   "entrants": 26,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "DTRS11",
+     "place": 1,
+     "points": 10.778,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Neo",
+     "place": 2,
+     "points": 7.621,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 3,
+     "points": 6.223,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Outlaw",
+     "place": 4,
+     "points": 5.389,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 5,
+     "points": 4.82,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Manzoniman",
+     "place": 6,
+     "points": 4.4,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Hansen2030",
+     "place": 7,
+     "points": 4.074,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "LawlessWC",
+     "place": 8,
+     "points": 3.811,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 9,
+     "points": 3.593,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "ytrabbit",
+     "place": 10,
+     "points": 3.408,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 11,
+     "points": 3.25,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "feeldrowsey",
+     "place": 12,
+     "points": 3.111,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 13,
+     "points": 2.989,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SvenGolly",
+     "place": 14,
+     "points": 2.88,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "LarsEricson",
+     "place": 15,
+     "points": 2.783,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 16,
+     "points": 2.694,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Bunny",
+     "place": 17,
+     "points": 2.614,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "B_Rad_Alsea",
+     "place": 18,
+     "points": 2.54,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 19,
+     "points": 2.473,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Ian",
+     "place": 20,
+     "points": 2.41,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 21,
+     "points": 2.352,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "EricF",
+     "place": 22,
+     "points": 2.298,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 16,
+   "entrants": 20,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "Manzoniman",
+     "place": 1,
+     "points": 9.915,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Outlaw",
+     "place": 2,
+     "points": 7.011,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SvenGolly",
+     "place": 3,
+     "points": 5.724,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Neo",
+     "place": 4,
+     "points": 4.957,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 5,
+     "points": 4.434,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "marinjon",
+     "place": 6,
+     "points": 4.048,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 7,
+     "points": 3.747,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "feeldrowsey",
+     "place": 8,
+     "points": 3.505,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 9,
+     "points": 3.305,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Hansen2030",
+     "place": 10,
+     "points": 3.135,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 11,
+     "points": 2.989,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 12,
+     "points": 2.862,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 13,
+     "points": 2.75,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 14,
+     "points": 2.65,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 15,
+     "points": 2.56,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "ytrabbit",
+     "place": 16,
+     "points": 2.479,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 12,
+   "entrants": 16,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "Manzoniman",
+     "place": 1,
+     "points": 9.488,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 2,
+     "points": 6.709,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "feeldrowsey",
+     "place": 3,
+     "points": 5.478,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 4,
+     "points": 4.744,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 5,
+     "points": 4.243,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SvenGolly",
+     "place": 6,
+     "points": 3.874,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 7,
+     "points": 3.586,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "winston",
+     "place": 8,
+     "points": 3.355,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Bunny",
+     "place": 9,
+     "points": 3.163,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "B_Rad_Alsea",
+     "place": 10,
+     "points": 3.0,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Hansen2030",
+     "place": 11,
+     "points": 2.861,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Outlaw",
+     "place": 12,
+     "points": 2.739,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 17,
+   "entrants": 24,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "SvenGolly",
+     "place": 1,
+     "points": 10.782,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "LarsEricson",
+     "place": 2,
+     "points": 7.624,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 3,
+     "points": 6.225,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Outlaw",
+     "place": 4,
+     "points": 5.391,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Tarsier16",
+     "place": 5,
+     "points": 4.822,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 6,
+     "points": 4.402,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 7,
+     "points": 4.075,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Hansen2030",
+     "place": 8,
+     "points": 3.812,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 9,
+     "points": 3.594,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "LawlessWC",
+     "place": 10,
+     "points": 3.41,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 11,
+     "points": 3.251,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 12,
+     "points": 3.113,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "B_Rad_Alsea",
+     "place": 13,
+     "points": 2.99,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 14,
+     "points": 2.882,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "winston",
+     "place": 15,
+     "points": 2.784,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "ytrabbit",
+     "place": 16,
+     "points": 2.696,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Ian",
+     "place": 17,
+     "points": 2.615,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 21,
+   "entrants": 24,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "Ian",
+     "place": 1,
+     "points": 10.747,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Manzoniman",
+     "place": 2,
+     "points": 7.599,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SvenGolly",
+     "place": 3,
+     "points": 6.205,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 4,
+     "points": 5.374,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "LawlessWC",
+     "place": 5,
+     "points": 4.806,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 6,
+     "points": 4.388,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Bunny",
+     "place": 7,
+     "points": 4.062,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Outlaw",
+     "place": 8,
+     "points": 3.8,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 9,
+     "points": 3.582,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 10,
+     "points": 3.399,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Tarsier16",
+     "place": 11,
+     "points": 3.24,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "dickbholding",
+     "place": 12,
+     "points": 3.102,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Hansen2030",
+     "place": 13,
+     "points": 2.981,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 14,
+     "points": 2.872,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "ytrabbit",
+     "place": 15,
+     "points": 2.775,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Santoro72",
+     "place": 16,
+     "points": 2.687,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 17,
+     "points": 2.607,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "winston",
+     "place": 18,
+     "points": 2.533,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "B_Rad_Alsea",
+     "place": 19,
+     "points": 2.466,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "feeldrowsey",
+     "place": 20,
+     "points": 2.403,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 21,
+     "points": 2.345,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 25,
+   "entrants": 32,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "SvenGolly",
+     "place": 1,
+     "points": 11.531,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Hansen2030",
+     "place": 2,
+     "points": 8.153,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "markdemra",
+     "place": 3,
+     "points": 6.657,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "choppedriver",
+     "place": 4,
+     "points": 5.765,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 5,
+     "points": 5.157,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 6,
+     "points": 4.707,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Manzoniman",
+     "place": 7,
+     "points": 4.358,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 8,
+     "points": 4.077,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Santoro72",
+     "place": 9,
+     "points": 3.844,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Ian",
+     "place": 10,
+     "points": 3.646,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 11,
+     "points": 3.477,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 12,
+     "points": 3.329,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "ytrabbit",
+     "place": 13,
+     "points": 3.198,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 14,
+     "points": 3.082,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "HiPitchEric",
+     "place": 15,
+     "points": 2.977,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "winston",
+     "place": 16,
+     "points": 2.883,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 17,
+     "points": 2.797,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 18,
+     "points": 2.718,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 19,
+     "points": 2.645,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "dickbholding",
+     "place": 20,
+     "points": 2.578,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Tarsier16",
+     "place": 21,
+     "points": 2.516,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Jalt",
+     "place": 22,
+     "points": 2.458,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "HeyAuntie",
+     "place": 23,
+     "points": 2.404,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Polarized616",
+     "place": 24,
+     "points": 2.354,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Outlaw",
+     "place": 25,
+     "points": 2.306,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 17,
+   "entrants": 22,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "Scamp",
+     "place": 1,
+     "points": 10.217,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Bunny",
+     "place": 2,
+     "points": 7.225,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Manzoniman",
+     "place": 3,
+     "points": 5.899,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 4,
+     "points": 5.109,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "choppedriver",
+     "place": 5,
+     "points": 4.569,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 6,
+     "points": 4.171,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Santoro72",
+     "place": 7,
+     "points": 3.862,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 8,
+     "points": 3.612,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SvenGolly",
+     "place": 9,
+     "points": 3.406,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 10,
+     "points": 3.231,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 11,
+     "points": 3.081,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "B_Rad_Alsea",
+     "place": 12,
+     "points": 2.95,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 13,
+     "points": 2.834,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 14,
+     "points": 2.731,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 15,
+     "points": 2.638,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "marinjon",
+     "place": 16,
+     "points": 2.554,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Polarized616",
+     "place": 17,
+     "points": 2.478,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 18,
+   "entrants": 25,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "Lagunator",
+     "place": 1,
+     "points": 10.643,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SvenGolly",
+     "place": 2,
+     "points": 7.526,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Polarized616",
+     "place": 3,
+     "points": 6.145,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 4,
+     "points": 5.321,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 5,
+     "points": 4.76,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 6,
+     "points": 4.345,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Manzoniman",
+     "place": 7,
+     "points": 4.023,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 8,
+     "points": 3.763,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "HiPitchEric",
+     "place": 9,
+     "points": 3.548,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "winston",
+     "place": 10,
+     "points": 3.366,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Santoro72",
+     "place": 11,
+     "points": 3.209,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 12,
+     "points": 3.072,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Tarsier16",
+     "place": 13,
+     "points": 2.952,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 14,
+     "points": 2.844,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "choppedriver",
+     "place": 15,
+     "points": 2.748,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Jalt",
+     "place": 16,
+     "points": 2.661,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 17,
+     "points": 2.581,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Ian",
+     "place": 18,
+     "points": 2.509,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 16,
+   "entrants": 22,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "Jalt",
+     "place": 1,
+     "points": 10.068,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "winston",
+     "place": 2,
+     "points": 7.119,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Polarized616",
+     "place": 3,
+     "points": 5.813,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 4,
+     "points": 5.034,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SvenGolly",
+     "place": 5,
+     "points": 4.503,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "LarsEricson",
+     "place": 6,
+     "points": 4.11,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Santoro72",
+     "place": 7,
+     "points": 3.805,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "choppedriver",
+     "place": 8,
+     "points": 3.56,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 9,
+     "points": 3.356,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Manzoniman",
+     "place": 10,
+     "points": 3.184,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 11,
+     "points": 3.036,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 12,
+     "points": 2.906,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 13,
+     "points": 2.792,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 14,
+     "points": 2.691,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 15,
+     "points": 2.6,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 16,
+     "points": 2.517,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 15,
+   "entrants": 22,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "Jalt",
+     "place": 1,
+     "points": 10.217,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "SvenGolly",
+     "place": 2,
+     "points": 7.225,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "choppedriver",
+     "place": 3,
+     "points": 5.899,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 4,
+     "points": 5.109,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 5,
+     "points": 4.569,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 6,
+     "points": 4.171,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Hansen2030",
+     "place": 7,
+     "points": 3.862,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Ian",
+     "place": 8,
+     "points": 3.612,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 9,
+     "points": 3.406,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 10,
+     "points": 3.231,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 11,
+     "points": 3.081,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 12,
+     "points": 2.95,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Bunny",
+     "place": 13,
+     "points": 2.834,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Santoro72",
+     "place": 14,
+     "points": 2.731,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Polarized616",
+     "place": 15,
+     "points": 2.638,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 16,
+   "entrants": 22,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "ytrabbit",
+     "place": 1,
+     "points": 10.217,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "LarsEricson",
+     "place": 2,
+     "points": 7.225,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 3,
+     "points": 5.899,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 4,
+     "points": 5.109,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Polarized616",
+     "place": 5,
+     "points": 4.569,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "LawlessWC",
+     "place": 6,
+     "points": 4.171,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "JitsuFi",
+     "place": 7,
+     "points": 3.862,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 8,
+     "points": 3.612,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Santoro72",
+     "place": 9,
+     "points": 3.406,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "choppedriver",
+     "place": 10,
+     "points": 3.231,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 11,
+     "points": 3.081,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 12,
+     "points": 2.95,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 13,
+     "points": 2.834,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Jalt",
+     "place": 14,
+     "points": 2.731,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "winston",
+     "place": 15,
+     "points": 2.638,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 16,
+     "points": 2.554,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 19,
+   "entrants": 23,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "Jalt",
+     "place": 1,
+     "points": 10.217,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "LawlessWC",
+     "place": 2,
+     "points": 7.225,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Bunny",
+     "place": 3,
+     "points": 5.899,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Santoro72",
+     "place": 4,
+     "points": 5.109,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 5,
+     "points": 4.569,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 6,
+     "points": 4.171,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 7,
+     "points": 3.862,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 8,
+     "points": 3.612,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 9,
+     "points": 3.406,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "winston",
+     "place": 10,
+     "points": 3.231,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 11,
+     "points": 3.081,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Manzoniman",
+     "place": 12,
+     "points": 2.95,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 13,
+     "points": 2.834,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 14,
+     "points": 2.731,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "ytrabbit",
+     "place": 15,
+     "points": 2.638,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "choppedriver",
+     "place": 16,
+     "points": 2.554,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Polarized616",
+     "place": 17,
+     "points": 2.478,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Ian",
+     "place": 18,
+     "points": 2.408,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "LarsEricson",
+     "place": 19,
+     "points": 2.344,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 16,
+   "entrants": 25,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "SvenGolly",
+     "place": 1,
+     "points": 10.504,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Jalt",
+     "place": 2,
+     "points": 7.428,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Tarsier16",
+     "place": 3,
+     "points": 6.065,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Manzoniman",
+     "place": 4,
+     "points": 5.252,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 5,
+     "points": 4.698,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 6,
+     "points": 4.288,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 7,
+     "points": 3.97,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 8,
+     "points": 3.714,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Ian",
+     "place": 9,
+     "points": 3.501,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Santoro72",
+     "place": 10,
+     "points": 3.322,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "feeldrowsey",
+     "place": 11,
+     "points": 3.167,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "LawlessWC",
+     "place": 12,
+     "points": 3.032,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 13,
+     "points": 2.913,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 14,
+     "points": 2.807,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 15,
+     "points": 2.712,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 16,
+     "points": 2.626,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 24,
+   "entrants": 31,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "SvenGolly",
+     "place": 1,
+     "points": 11.29,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 2,
+     "points": 7.983,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Polarized616",
+     "place": 3,
+     "points": 6.518,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 4,
+     "points": 5.645,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "LarsEricson",
+     "place": 5,
+     "points": 5.049,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Bunny",
+     "place": 6,
+     "points": 4.609,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "winston",
+     "place": 7,
+     "points": 4.267,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Santoro72",
+     "place": 8,
+     "points": 3.992,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Outlaw",
+     "place": 9,
+     "points": 3.763,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 10,
+     "points": 3.57,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 11,
+     "points": 3.404,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Hansen2030",
+     "place": 12,
+     "points": 3.259,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Manzoniman",
+     "place": 13,
+     "points": 3.131,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "markdemra",
+     "place": 14,
+     "points": 3.017,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "JitsuFi",
+     "place": 15,
+     "points": 2.915,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Jalt",
+     "place": 16,
+     "points": 2.822,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 17,
+     "points": 2.738,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 18,
+     "points": 2.661,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 19,
+     "points": 2.59,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "ytrabbit",
+     "place": 20,
+     "points": 2.524,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "LawlessWC",
+     "place": 21,
+     "points": 2.464,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 22,
+     "points": 2.407,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Ian",
+     "place": 23,
+     "points": 2.354,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "choppedriver",
+     "place": 24,
+     "points": 2.305,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 22,
+   "entrants": 29,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "SvenGolly",
+     "place": 1,
+     "points": 11.039,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Hansen2030",
+     "place": 2,
+     "points": 7.806,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 3,
+     "points": 6.373,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 4,
+     "points": 5.52,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "ytrabbit",
+     "place": 5,
+     "points": 4.937,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Bunny",
+     "place": 6,
+     "points": 4.507,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 7,
+     "points": 4.172,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "winston",
+     "place": 8,
+     "points": 3.903,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 9,
+     "points": 3.68,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 10,
+     "points": 3.491,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Outlaw",
+     "place": 11,
+     "points": 3.328,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "LawlessWC",
+     "place": 12,
+     "points": 3.187,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Jalt",
+     "place": 13,
+     "points": 3.062,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "choppedriver",
+     "place": 14,
+     "points": 2.95,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 15,
+     "points": 2.85,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "LarsEricson",
+     "place": 16,
+     "points": 2.76,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Santoro72",
+     "place": 17,
+     "points": 2.677,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 18,
+     "points": 2.602,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Polarized616",
+     "place": 19,
+     "points": 2.533,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 20,
+     "points": 2.468,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 21,
+     "points": 2.409,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "feeldrowsey",
+     "place": 22,
+     "points": 2.354,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 24,
+   "entrants": 32,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "SvenGolly",
+     "place": 1,
+     "points": 11.29,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Manzoniman",
+     "place": 2,
+     "points": 7.983,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Polarized616",
+     "place": 3,
+     "points": 6.518,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 4,
+     "points": 5.645,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 5,
+     "points": 5.049,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 6,
+     "points": 4.609,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Bunny",
+     "place": 7,
+     "points": 4.267,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 8,
+     "points": 3.992,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "winston",
+     "place": 9,
+     "points": 3.763,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 10,
+     "points": 3.57,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Santoro72",
+     "place": 11,
+     "points": 3.404,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 12,
+     "points": 3.259,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Outlaw",
+     "place": 13,
+     "points": 3.131,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "marinjon",
+     "place": 14,
+     "points": 3.017,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "feeldrowsey",
+     "place": 15,
+     "points": 2.915,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "choppedriver",
+     "place": 16,
+     "points": 2.822,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Ian",
+     "place": 17,
+     "points": 2.738,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 18,
+     "points": 2.661,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Tarsier16",
+     "place": 19,
+     "points": 2.59,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Hansen2030",
+     "place": 20,
+     "points": 2.524,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "LawlessWC",
+     "place": 21,
+     "points": 2.464,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 22,
+     "points": 2.407,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Jalt",
+     "place": 23,
+     "points": 2.354,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Neo",
+     "place": 24,
+     "points": 2.305,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "number": null,
+   "players": 19,
+   "entrants": 24,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "handle": "Hansen2030",
+     "place": 1,
+     "points": 10.363,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Polarized616",
+     "place": 2,
+     "points": 7.328,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Lagunator",
+     "place": 3,
+     "points": 5.983,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Bunny",
+     "place": 4,
+     "points": 5.181,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "CrazyIdeas",
+     "place": 5,
+     "points": 4.634,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "LawlessWC",
+     "place": 6,
+     "points": 4.231,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "SammyRo",
+     "place": 7,
+     "points": 3.917,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "berkeley124",
+     "place": 8,
+     "points": 3.664,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "MuddyFilly",
+     "place": 9,
+     "points": 3.454,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "choppedriver",
+     "place": 10,
+     "points": 3.277,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "A8_Fold_Path",
+     "place": 11,
+     "points": 3.124,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Jalt",
+     "place": 12,
+     "points": 2.991,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Ian",
+     "place": 13,
+     "points": 2.874,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "DTRS11",
+     "place": 14,
+     "points": 2.77,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Scamp",
+     "place": 15,
+     "points": 2.676,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "SvenGolly",
+     "place": 16,
+     "points": 2.591,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "Spatula",
+     "place": 17,
+     "points": 2.513,
+     "bounties": null,
+     "reentries": 1,
+     "winnings": null
+    },
+    {
+     "handle": "Santoro72",
+     "place": 18,
+     "points": 2.443,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    },
+    {
+     "handle": "marinjon",
+     "place": 19,
+     "points": 2.377,
+     "bounties": null,
+     "reentries": 0,
+     "winnings": null
+    }
+   ]
+  }
+ ],
+ "standings": [
+  {
+   "handle": "SvenGolly",
+   "points": 116.629,
+   "avgPoints": 6.861,
+   "played": 17,
+   "wins": 6,
+   "cashes": 11,
+   "cashPct": 0.647,
+   "winnings": 1387.42,
+   "bounties": null,
+   "reentries": 2,
+   "best": 1,
+   "rankHistory": [
+    12,
+    19,
+    19,
+    20,
+    15,
+    12,
+    4,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "weeks": [
+    [
+     12,
+     3.223,
+     null
+    ],
+    null,
+    [
+     12,
+     3.037,
+     null
+    ],
+    [
+     14,
+     2.88,
+     null
+    ],
+    [
+     3,
+     5.724,
+     null
+    ],
+    [
+     6,
+     3.874,
+     null
+    ],
+    [
+     1,
+     10.782,
+     null
+    ],
+    [
+     3,
+     6.205,
+     null
+    ],
+    [
+     1,
+     11.531,
+     null
+    ],
+    [
+     9,
+     3.406,
+     null
+    ],
+    [
+     2,
+     7.526,
+     null
+    ],
+    [
+     5,
+     4.503,
+     null
+    ],
+    [
+     2,
+     7.225,
+     null
+    ],
+    null,
+    null,
+    [
+     1,
+     10.504,
+     null
+    ],
+    [
+     1,
+     11.29,
+     null
+    ],
+    [
+     1,
+     11.039,
+     null
+    ],
+    [
+     1,
+     11.29,
+     null
+    ],
+    [
+     16,
+     2.591,
+     null
+    ]
+   ],
+   "rank": 1
+  },
+  {
+   "handle": "Scamp",
+   "points": 78.005,
+   "avgPoints": 3.9,
+   "played": 20,
+   "wins": 1,
+   "cashes": 5,
+   "cashPct": 0.25,
+   "winnings": 411.01,
+   "bounties": null,
+   "reentries": 10,
+   "best": 1,
+   "rankHistory": [
+    4,
+    5,
+    9,
+    10,
+    11,
+    6,
+    3,
+    3,
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2
+   ],
+   "weeks": [
+    [
+     4,
+     5.583,
+     null
+    ],
+    [
+     10,
+     3.085,
+     null
+    ],
+    [
+     16,
+     2.63,
+     null
+    ],
+    [
+     19,
+     2.473,
+     null
+    ],
+    [
+     11,
+     2.989,
+     null
+    ],
+    [
+     2,
+     6.709,
+     null
+    ],
+    [
+     3,
+     6.225,
+     null
+    ],
+    [
+     17,
+     2.607,
+     null
+    ],
+    [
+     6,
+     4.707,
+     null
+    ],
+    [
+     1,
+     10.217,
+     null
+    ],
+    [
+     8,
+     3.763,
+     null
+    ],
+    [
+     12,
+     2.906,
+     null
+    ],
+    [
+     11,
+     3.081,
+     null
+    ],
+    [
+     16,
+     2.554,
+     null
+    ],
+    [
+     6,
+     4.171,
+     null
+    ],
+    [
+     15,
+     2.712,
+     null
+    ],
+    [
+     11,
+     3.404,
+     null
+    ],
+    [
+     15,
+     2.85,
+     null
+    ],
+    [
+     18,
+     2.661,
+     null
+    ],
+    [
+     15,
+     2.676,
+     null
+    ]
+   ],
+   "rank": 2
+  },
+  {
+   "handle": "Manzoniman",
+   "points": 77.053,
+   "avgPoints": 5.137,
+   "played": 15,
+   "wins": 2,
+   "cashes": 6,
+   "cashPct": 0.4,
+   "winnings": 651.32,
+   "bounties": null,
+   "reentries": 7,
+   "best": 1,
+   "rankHistory": [
+    18,
+    16,
+    15,
+    12,
+    4,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    3
+   ],
+   "weeks": [
+    [
+     18,
+     2.632,
+     null
+    ],
+    [
+     15,
+     2.519,
+     null
+    ],
+    [
+     8,
+     3.72,
+     null
+    ],
+    [
+     6,
+     4.4,
+     null
+    ],
+    [
+     1,
+     9.915,
+     null
+    ],
+    [
+     1,
+     9.488,
+     null
+    ],
+    null,
+    [
+     2,
+     7.599,
+     null
+    ],
+    [
+     7,
+     4.358,
+     null
+    ],
+    [
+     3,
+     5.899,
+     null
+    ],
+    [
+     7,
+     4.023,
+     null
+    ],
+    [
+     10,
+     3.184,
+     null
+    ],
+    null,
+    null,
+    [
+     12,
+     2.95,
+     null
+    ],
+    [
+     4,
+     5.252,
+     null
+    ],
+    [
+     13,
+     3.131,
+     null
+    ],
+    null,
+    [
+     2,
+     7.983,
+     null
+    ],
+    null
+   ],
+   "rank": 3
+  },
+  {
+   "handle": "CrazyIdeas",
+   "points": 74.726,
+   "avgPoints": 4.151,
+   "played": 18,
+   "wins": 1,
+   "cashes": 8,
+   "cashPct": 0.444,
+   "winnings": 328.31,
+   "bounties": null,
+   "reentries": 6,
+   "best": 1,
+   "rankHistory": [
+    14,
+    2,
+    2,
+    2,
+    3,
+    5,
+    7,
+    7,
+    5,
+    5,
+    4,
+    4,
+    4,
+    6,
+    5,
+    4,
+    4,
+    5,
+    4,
+    4
+   ],
+   "weeks": [
+    [
+     14,
+     2.984,
+     null
+    ],
+    [
+     1,
+     9.757,
+     null
+    ],
+    [
+     10,
+     3.327,
+     null
+    ],
+    [
+     5,
+     4.82,
+     null
+    ],
+    [
+     13,
+     2.75,
+     null
+    ],
+    null,
+    [
+     7,
+     4.075,
+     null
+    ],
+    [
+     10,
+     3.399,
+     null
+    ],
+    [
+     5,
+     5.157,
+     null
+    ],
+    [
+     13,
+     2.834,
+     null
+    ],
+    [
+     5,
+     4.76,
+     null
+    ],
+    [
+     11,
+     3.036,
+     null
+    ],
+    [
+     6,
+     4.171,
+     null
+    ],
+    null,
+    [
+     5,
+     4.569,
+     null
+    ],
+    [
+     5,
+     4.698,
+     null
+    ],
+    [
+     17,
+     2.738,
+     null
+    ],
+    [
+     21,
+     2.409,
+     null
+    ],
+    [
+     6,
+     4.609,
+     null
+    ],
+    [
+     5,
+     4.634,
+     null
+    ]
+   ],
+   "rank": 4
+  },
+  {
+   "handle": "DTRS11",
+   "points": 71.712,
+   "avgPoints": 3.984,
+   "played": 18,
+   "wins": 1,
+   "cashes": 3,
+   "cashPct": 0.167,
+   "winnings": 324.9,
+   "bounties": null,
+   "reentries": 10,
+   "best": 1,
+   "rankHistory": [
+    7,
+    7,
+    5,
+    1,
+    1,
+    2,
+    2,
+    6,
+    6,
+    7,
+    8,
+    7,
+    7,
+    7,
+    7,
+    6,
+    6,
+    6,
+    5,
+    5
+   ],
+   "weeks": [
+    [
+     7,
+     4.22,
+     null
+    ],
+    [
+     8,
+     3.449,
+     null
+    ],
+    [
+     3,
+     6.075,
+     null
+    ],
+    [
+     1,
+     10.778,
+     null
+    ],
+    [
+     14,
+     2.65,
+     null
+    ],
+    [
+     5,
+     4.243,
+     null
+    ],
+    null,
+    null,
+    [
+     19,
+     2.645,
+     null
+    ],
+    [
+     14,
+     2.731,
+     null
+    ],
+    [
+     17,
+     2.581,
+     null
+    ],
+    [
+     13,
+     2.792,
+     null
+    ],
+    [
+     9,
+     3.406,
+     null
+    ],
+    [
+     13,
+     2.834,
+     null
+    ],
+    [
+     8,
+     3.612,
+     null
+    ],
+    [
+     7,
+     3.97,
+     null
+    ],
+    [
+     19,
+     2.59,
+     null
+    ],
+    [
+     3,
+     6.373,
+     null
+    ],
+    [
+     8,
+     3.992,
+     null
+    ],
+    [
+     14,
+     2.77,
+     null
+    ]
+   ],
+   "rank": 5
+  },
+  {
+   "handle": "Spatula",
+   "points": 70.512,
+   "avgPoints": 3.526,
+   "played": 20,
+   "wins": 0,
+   "cashes": 4,
+   "cashPct": 0.2,
+   "winnings": 145.15,
+   "bounties": null,
+   "reentries": 13,
+   "best": 4,
+   "rankHistory": [
+    19,
+    9,
+    7,
+    7,
+    9,
+    8,
+    8,
+    8,
+    7,
+    6,
+    6,
+    6,
+    6,
+    5,
+    6,
+    5,
+    5,
+    4,
+    6,
+    6
+   ],
+   "weeks": [
+    [
+     19,
+     2.562,
+     null
+    ],
+    [
+     4,
+     4.878,
+     null
+    ],
+    [
+     6,
+     4.295,
+     null
+    ],
+    [
+     11,
+     3.25,
+     null
+    ],
+    [
+     15,
+     2.56,
+     null
+    ],
+    [
+     4,
+     4.744,
+     null
+    ],
+    [
+     6,
+     4.402,
+     null
+    ],
+    [
+     6,
+     4.388,
+     null
+    ],
+    [
+     18,
+     2.718,
+     null
+    ],
+    [
+     4,
+     5.109,
+     null
+    ],
+    [
+     14,
+     2.844,
+     null
+    ],
+    [
+     16,
+     2.517,
+     null
+    ],
+    [
+     12,
+     2.95,
+     null
+    ],
+    [
+     4,
+     5.109,
+     null
+    ],
+    [
+     11,
+     3.081,
+     null
+    ],
+    [
+     6,
+     4.288,
+     null
+    ],
+    [
+     22,
+     2.407,
+     null
+    ],
+    [
+     10,
+     3.491,
+     null
+    ],
+    [
+     22,
+     2.407,
+     null
+    ],
+    [
+     17,
+     2.513,
+     null
+    ]
+   ],
+   "rank": 6
+  },
+  {
+   "handle": "Hansen2030",
+   "points": 67.534,
+   "avgPoints": 4.824,
+   "played": 14,
+   "wins": 1,
+   "cashes": 5,
+   "cashPct": 0.357,
+   "winnings": 568.88,
+   "bounties": null,
+   "reentries": 7,
+   "best": 1,
+   "rankHistory": [
+    6,
+    10,
+    3,
+    4,
+    6,
+    4,
+    6,
+    5,
+    3,
+    4,
+    7,
+    8,
+    8,
+    9,
+    11,
+    12,
+    12,
+    11,
+    11,
+    7
+   ],
+   "weeks": [
+    [
+     6,
+     4.558,
+     null
+    ],
+    [
+     13,
+     2.706,
+     null
+    ],
+    [
+     2,
+     7.44,
+     null
+    ],
+    [
+     7,
+     4.074,
+     null
+    ],
+    [
+     10,
+     3.135,
+     null
+    ],
+    [
+     11,
+     2.861,
+     null
+    ],
+    [
+     8,
+     3.812,
+     null
+    ],
+    [
+     13,
+     2.981,
+     null
+    ],
+    [
+     2,
+     8.153,
+     null
+    ],
+    null,
+    null,
+    null,
+    [
+     7,
+     3.862,
+     null
+    ],
+    null,
+    null,
+    null,
+    [
+     12,
+     3.259,
+     null
+    ],
+    [
+     2,
+     7.806,
+     null
+    ],
+    [
+     20,
+     2.524,
+     null
+    ],
+    [
+     1,
+     10.363,
+     null
+    ]
+   ],
+   "rank": 7
+  },
+  {
+   "handle": "A8_Fold_Path",
+   "points": 66.33,
+   "avgPoints": 3.902,
+   "played": 17,
+   "wins": 0,
+   "cashes": 5,
+   "cashPct": 0.294,
+   "winnings": 328.75,
+   "bounties": null,
+   "reentries": 4,
+   "best": 2,
+   "rankHistory": [
+    10,
+    4,
+    4,
+    6,
+    7,
+    9,
+    12,
+    10,
+    10,
+    8,
+    10,
+    9,
+    10,
+    11,
+    10,
+    10,
+    9,
+    8,
+    7,
+    8
+   ],
+   "weeks": [
+    [
+     10,
+     3.531,
+     null
+    ],
+    [
+     2,
+     6.899,
+     null
+    ],
+    [
+     9,
+     3.507,
+     null
+    ],
+    [
+     21,
+     2.352,
+     null
+    ],
+    [
+     7,
+     3.747,
+     null
+    ],
+    null,
+    [
+     14,
+     2.882,
+     null
+    ],
+    [
+     14,
+     2.872,
+     null
+    ],
+    [
+     12,
+     3.329,
+     null
+    ],
+    [
+     11,
+     3.081,
+     null
+    ],
+    null,
+    [
+     4,
+     5.034,
+     null
+    ],
+    null,
+    [
+     12,
+     2.95,
+     null
+    ],
+    [
+     9,
+     3.406,
+     null
+    ],
+    [
+     14,
+     2.807,
+     null
+    ],
+    [
+     4,
+     5.645,
+     null
+    ],
+    [
+     4,
+     5.52,
+     null
+    ],
+    [
+     4,
+     5.645,
+     null
+    ],
+    [
+     11,
+     3.124,
+     null
+    ]
+   ],
+   "rank": 8
+  },
+  {
+   "handle": "Lagunator",
+   "points": 65.339,
+   "avgPoints": 4.356,
+   "played": 15,
+   "wins": 1,
+   "cashes": 4,
+   "cashPct": 0.267,
+   "winnings": 310.2,
+   "bounties": null,
+   "reentries": 3,
+   "best": 1,
+   "rankHistory": [
+    13,
+    13,
+    18,
+    14,
+    13,
+    10,
+    11,
+    14,
+    13,
+    10,
+    5,
+    5,
+    5,
+    4,
+    4,
+    7,
+    7,
+    7,
+    8,
+    9
+   ],
+   "weeks": [
+    [
+     13,
+     3.097,
+     null
+    ],
+    [
+     7,
+     3.688,
+     null
+    ],
+    null,
+    [
+     3,
+     6.223,
+     null
+    ],
+    [
+     12,
+     2.862,
+     null
+    ],
+    [
+     7,
+     3.586,
+     null
+    ],
+    [
+     9,
+     3.594,
+     null
+    ],
+    null,
+    [
+     8,
+     4.077,
+     null
+    ],
+    [
+     6,
+     4.171,
+     null
+    ],
+    [
+     1,
+     10.643,
+     null
+    ],
+    [
+     9,
+     3.356,
+     null
+    ],
+    [
+     5,
+     4.569,
+     null
+    ],
+    [
+     11,
+     3.081,
+     null
+    ],
+    [
+     14,
+     2.731,
+     null
+    ],
+    null,
+    null,
+    [
+     9,
+     3.68,
+     null
+    ],
+    null,
+    [
+     3,
+     5.983,
+     null
+    ]
+   ],
+   "rank": 9
+  },
+  {
+   "handle": "berkeley124",
+   "points": 62.897,
+   "avgPoints": 3.31,
+   "played": 19,
+   "wins": 0,
+   "cashes": 2,
+   "cashPct": 0.105,
+   "winnings": 77.47,
+   "bounties": null,
+   "reentries": 2,
+   "best": 4,
+   "rankHistory": [
+    16,
+    15,
+    12,
+    9,
+    10,
+    14,
+    13,
+    12,
+    12,
+    11,
+    9,
+    10,
+    9,
+    8,
+    8,
+    8,
+    8,
+    9,
+    9,
+    10
+   ],
+   "weeks": [
+    [
+     16,
+     2.791,
+     null
+    ],
+    [
+     12,
+     2.817,
+     null
+    ],
+    [
+     5,
+     4.705,
+     null
+    ],
+    [
+     9,
+     3.593,
+     null
+    ],
+    [
+     9,
+     3.305,
+     null
+    ],
+    null,
+    [
+     12,
+     3.113,
+     null
+    ],
+    [
+     9,
+     3.582,
+     null
+    ],
+    [
+     11,
+     3.477,
+     null
+    ],
+    [
+     10,
+     3.231,
+     null
+    ],
+    [
+     12,
+     3.072,
+     null
+    ],
+    [
+     14,
+     2.691,
+     null
+    ],
+    [
+     4,
+     5.109,
+     null
+    ],
+    [
+     8,
+     3.612,
+     null
+    ],
+    [
+     13,
+     2.834,
+     null
+    ],
+    [
+     13,
+     2.913,
+     null
+    ],
+    [
+     18,
+     2.661,
+     null
+    ],
+    [
+     20,
+     2.468,
+     null
+    ],
+    [
+     12,
+     3.259,
+     null
+    ],
+    [
+     8,
+     3.664,
+     null
+    ]
+   ],
+   "rank": 10
+  },
+  {
+   "handle": "MuddyFilly",
+   "points": 62.423,
+   "avgPoints": 3.672,
+   "played": 17,
+   "wins": 0,
+   "cashes": 2,
+   "cashPct": 0.118,
+   "winnings": 107.35,
+   "bounties": null,
+   "reentries": 5,
+   "best": 3,
+   "rankHistory": [
+    17,
+    11,
+    17,
+    18,
+    20,
+    20,
+    19,
+    20,
+    19,
+    16,
+    15,
+    13,
+    11,
+    10,
+    9,
+    9,
+    10,
+    10,
+    10,
+    11
+   ],
+   "weeks": [
+    [
+     17,
+     2.708,
+     null
+    ],
+    [
+     5,
+     4.363,
+     null
+    ],
+    null,
+    [
+     13,
+     2.989,
+     null
+    ],
+    null,
+    null,
+    [
+     11,
+     3.251,
+     null
+    ],
+    [
+     4,
+     5.374,
+     null
+    ],
+    [
+     17,
+     2.797,
+     null
+    ],
+    [
+     8,
+     3.612,
+     null
+    ],
+    [
+     6,
+     4.345,
+     null
+    ],
+    [
+     15,
+     2.6,
+     null
+    ],
+    [
+     10,
+     3.231,
+     null
+    ],
+    [
+     3,
+     5.899,
+     null
+    ],
+    [
+     7,
+     3.862,
+     null
+    ],
+    [
+     16,
+     2.626,
+     null
+    ],
+    [
+     10,
+     3.57,
+     null
+    ],
+    [
+     7,
+     4.172,
+     null
+    ],
+    [
+     10,
+     3.57,
+     null
+    ],
+    [
+     9,
+     3.454,
+     null
+    ]
+   ],
+   "rank": 11
+  },
+  {
+   "handle": "Jalt",
+   "points": 57.01,
+   "avgPoints": 5.183,
+   "played": 11,
+   "wins": 3,
+   "cashes": 4,
+   "cashPct": 0.364,
+   "winnings": 564.15,
+   "bounties": null,
+   "reentries": 6,
+   "best": 1,
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    30,
+    31,
+    31,
+    26,
+    18,
+    19,
+    13,
+    11,
+    11,
+    12,
+    12,
+    12
+   ],
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     22,
+     2.458,
+     null
+    ],
+    null,
+    [
+     16,
+     2.661,
+     null
+    ],
+    [
+     1,
+     10.068,
+     null
+    ],
+    [
+     1,
+     10.217,
+     null
+    ],
+    [
+     14,
+     2.731,
+     null
+    ],
+    [
+     1,
+     10.217,
+     null
+    ],
+    [
+     2,
+     7.428,
+     null
+    ],
+    [
+     16,
+     2.822,
+     null
+    ],
+    [
+     13,
+     3.062,
+     null
+    ],
+    [
+     23,
+     2.354,
+     null
+    ],
+    [
+     12,
+     2.991,
+     null
+    ]
+   ],
+   "rank": 12
+  },
+  {
+   "handle": "SammyRo",
+   "points": 55.357,
+   "avgPoints": 3.954,
+   "played": 14,
+   "wins": 0,
+   "cashes": 4,
+   "cashPct": 0.286,
+   "winnings": 269.34,
+   "bounties": null,
+   "reentries": 5,
+   "best": 2,
+   "rankHistory": [
+    5,
+    8,
+    8,
+    8,
+    8,
+    13,
+    15,
+    17,
+    15,
+    14,
+    11,
+    12,
+    14,
+    15,
+    17,
+    16,
+    14,
+    14,
+    14,
+    13
+   ],
+   "weeks": [
+    [
+     5,
+     4.993,
+     null
+    ],
+    [
+     14,
+     2.608,
+     null
+    ],
+    [
+     7,
+     3.977,
+     null
+    ],
+    [
+     16,
+     2.694,
+     null
+    ],
+    [
+     5,
+     4.434,
+     null
+    ],
+    null,
+    null,
+    [
+     21,
+     2.345,
+     null
+    ],
+    [
+     14,
+     3.082,
+     null
+    ],
+    [
+     15,
+     2.638,
+     null
+    ],
+    [
+     4,
+     5.321,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    [
+     8,
+     3.714,
+     null
+    ],
+    [
+     2,
+     7.983,
+     null
+    ],
+    [
+     18,
+     2.602,
+     null
+    ],
+    [
+     5,
+     5.049,
+     null
+    ],
+    [
+     7,
+     3.917,
+     null
+    ]
+   ],
+   "rank": 13
+  },
+  {
+   "handle": "Bunny",
+   "points": 53.524,
+   "avgPoints": 4.46,
+   "played": 12,
+   "wins": 0,
+   "cashes": 6,
+   "cashPct": 0.5,
+   "winnings": 359.27,
+   "bounties": null,
+   "reentries": 2,
+   "best": 2,
+   "rankHistory": [
+    3,
+    14,
+    14,
+    16,
+    18,
+    18,
+    18,
+    19,
+    20,
+    15,
+    17,
+    17,
+    17,
+    18,
+    16,
+    17,
+    17,
+    16,
+    15,
+    14
+   ],
+   "weeks": [
+    [
+     3,
+     6.447,
+     null
+    ],
+    null,
+    [
+     15,
+     2.717,
+     null
+    ],
+    [
+     17,
+     2.614,
+     null
+    ],
+    null,
+    [
+     9,
+     3.163,
+     null
+    ],
+    null,
+    [
+     7,
+     4.062,
+     null
+    ],
+    null,
+    [
+     2,
+     7.225,
+     null
+    ],
+    null,
+    null,
+    [
+     13,
+     2.834,
+     null
+    ],
+    null,
+    [
+     3,
+     5.899,
+     null
+    ],
+    null,
+    [
+     6,
+     4.609,
+     null
+    ],
+    [
+     6,
+     4.507,
+     null
+    ],
+    [
+     7,
+     4.267,
+     null
+    ],
+    [
+     4,
+     5.181,
+     null
+    ]
+   ],
+   "rank": 14
+  },
+  {
+   "handle": "winston",
+   "points": 51.72,
+   "avgPoints": 3.978,
+   "played": 13,
+   "wins": 0,
+   "cashes": 2,
+   "cashPct": 0.154,
+   "winnings": 264.06,
+   "bounties": null,
+   "reentries": 6,
+   "best": 2,
+   "rankHistory": [
+    2,
+    3,
+    6,
+    15,
+    17,
+    17,
+    17,
+    18,
+    16,
+    19,
+    16,
+    11,
+    12,
+    12,
+    12,
+    13,
+    13,
+    13,
+    13,
+    15
+   ],
+   "weeks": [
+    [
+     2,
+     7.895,
+     null
+    ],
+    [
+     6,
+     3.983,
+     null
+    ],
+    null,
+    null,
+    null,
+    [
+     8,
+     3.355,
+     null
+    ],
+    [
+     15,
+     2.784,
+     null
+    ],
+    [
+     18,
+     2.533,
+     null
+    ],
+    [
+     16,
+     2.883,
+     null
+    ],
+    null,
+    [
+     10,
+     3.366,
+     null
+    ],
+    [
+     2,
+     7.119,
+     null
+    ],
+    null,
+    [
+     15,
+     2.638,
+     null
+    ],
+    [
+     10,
+     3.231,
+     null
+    ],
+    null,
+    [
+     7,
+     4.267,
+     null
+    ],
+    [
+     8,
+     3.903,
+     null
+    ],
+    [
+     9,
+     3.763,
+     null
+    ],
+    null
+   ],
+   "rank": 15
+  },
+  {
+   "handle": "Polarized616",
+   "points": 49.371,
+   "avgPoints": 4.488,
+   "played": 11,
+   "wins": 0,
+   "cashes": 6,
+   "cashPct": 0.545,
+   "winnings": 484.4,
+   "bounties": null,
+   "reentries": 2,
+   "best": 2,
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    32,
+    29,
+    26,
+    23,
+    24,
+    23,
+    24,
+    24,
+    21,
+    21,
+    19,
+    16
+   ],
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     24,
+     2.354,
+     null
+    ],
+    [
+     17,
+     2.478,
+     null
+    ],
+    [
+     3,
+     6.145,
+     null
+    ],
+    [
+     3,
+     5.813,
+     null
+    ],
+    [
+     15,
+     2.638,
+     null
+    ],
+    [
+     5,
+     4.569,
+     null
+    ],
+    [
+     17,
+     2.478,
+     null
+    ],
+    null,
+    [
+     3,
+     6.518,
+     null
+    ],
+    [
+     19,
+     2.533,
+     null
+    ],
+    [
+     3,
+     6.518,
+     null
+    ],
+    [
+     2,
+     7.328,
+     null
+    ]
+   ],
+   "rank": 16
+  },
+  {
+   "handle": "Ian",
+   "points": 47.559,
+   "avgPoints": 3.963,
+   "played": 13,
+   "wins": 1,
+   "cashes": 2,
+   "cashPct": 0.167,
+   "winnings": 214.2,
+   "bounties": null,
+   "reentries": 4,
+   "best": 1,
+   "rankHistory": [
+    15,
+    20,
+    16,
+    17,
+    19,
+    19,
+    20,
+    11,
+    11,
+    13,
+    14,
+    16,
+    13,
+    14,
+    15,
+    14,
+    15,
+    17,
+    16,
+    17
+   ],
+   "weeks": [
+    [
+     15,
+     2.883,
+     null
+    ],
+    null,
+    [
+     4,
+     5.261,
+     null
+    ],
+    [
+     20,
+     2.41,
+     null
+    ],
+    null,
+    null,
+    [
+     17,
+     2.615,
+     null
+    ],
+    [
+     1,
+     10.747,
+     null
+    ],
+    [
+     10,
+     3.646,
+     null
+    ],
+    null,
+    [
+     18,
+     2.509,
+     null
+    ],
+    null,
+    [
+     8,
+     3.612,
+     null
+    ],
+    null,
+    [
+     18,
+     2.408,
+     null
+    ],
+    [
+     9,
+     3.501,
+     null
+    ],
+    [
+     23,
+     2.354,
+     null
+    ],
+    null,
+    [
+     17,
+     2.738,
+     null
+    ],
+    [
+     13,
+     2.874,
+     null
+    ]
+   ],
+   "rank": 17
+  },
+  {
+   "handle": "ytrabbit",
+   "points": 44.658,
+   "avgPoints": 3.722,
+   "played": 12,
+   "wins": 1,
+   "cashes": 2,
+   "cashPct": 0.167,
+   "winnings": 201.74,
+   "bounties": null,
+   "reentries": 3,
+   "best": 1,
+   "rankHistory": [
+    9,
+    12,
+    13,
+    13,
+    14,
+    16,
+    16,
+    16,
+    14,
+    18,
+    19,
+    19,
+    20,
+    13,
+    14,
+    15,
+    16,
+    15,
+    17,
+    18
+   ],
+   "weeks": [
+    [
+     9,
+     3.722,
+     null
+    ],
+    [
+     9,
+     3.252,
+     null
+    ],
+    [
+     14,
+     2.812,
+     null
+    ],
+    [
+     10,
+     3.408,
+     null
+    ],
+    [
+     16,
+     2.479,
+     null
+    ],
+    null,
+    [
+     16,
+     2.696,
+     null
+    ],
+    [
+     15,
+     2.775,
+     null
+    ],
+    [
+     13,
+     3.198,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    [
+     1,
+     10.217,
+     null
+    ],
+    [
+     15,
+     2.638,
+     null
+    ],
+    null,
+    [
+     20,
+     2.524,
+     null
+    ],
+    [
+     5,
+     4.937,
+     null
+    ],
+    null,
+    null
+   ],
+   "rank": 18
+  },
+  {
+   "handle": "Santoro72",
+   "points": 44.489,
+   "avgPoints": 3.422,
+   "played": 13,
+   "wins": 0,
+   "cashes": 1,
+   "cashPct": 0.077,
+   "winnings": 0,
+   "bounties": null,
+   "reentries": 3,
+   "best": 4,
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    26,
+    25,
+    24,
+    22,
+    21,
+    23,
+    24,
+    20,
+    19,
+    18,
+    18,
+    18,
+    19
+   ],
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     16,
+     2.687,
+     null
+    ],
+    [
+     9,
+     3.844,
+     null
+    ],
+    [
+     7,
+     3.862,
+     null
+    ],
+    [
+     11,
+     3.209,
+     null
+    ],
+    [
+     7,
+     3.805,
+     null
+    ],
+    [
+     14,
+     2.731,
+     null
+    ],
+    [
+     9,
+     3.406,
+     null
+    ],
+    [
+     4,
+     5.109,
+     null
+    ],
+    [
+     10,
+     3.322,
+     null
+    ],
+    [
+     8,
+     3.992,
+     null
+    ],
+    [
+     17,
+     2.677,
+     null
+    ],
+    [
+     11,
+     3.404,
+     null
+    ],
+    [
+     18,
+     2.443,
+     null
+    ]
+   ],
+   "rank": 19
+  },
+  {
+   "handle": "LawlessWC",
+   "points": 42.166,
+   "avgPoints": 3.833,
+   "played": 11,
+   "wins": 0,
+   "cashes": 2,
+   "cashPct": 0.182,
+   "winnings": 141.48,
+   "bounties": null,
+   "reentries": 2,
+   "best": 2,
+   "rankHistory": [
+    11,
+    18,
+    21,
+    21,
+    21,
+    21,
+    22,
+    21,
+    21,
+    21,
+    21,
+    25,
+    26,
+    26,
+    22,
+    21,
+    22,
+    22,
+    22,
+    20
+   ],
+   "weeks": [
+    [
+     11,
+     3.367,
+     null
+    ],
+    null,
+    null,
+    [
+     8,
+     3.811,
+     null
+    ],
+    null,
+    null,
+    [
+     10,
+     3.41,
+     null
+    ],
+    [
+     5,
+     4.806,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     6,
+     4.171,
+     null
+    ],
+    [
+     2,
+     7.225,
+     null
+    ],
+    [
+     12,
+     3.032,
+     null
+    ],
+    [
+     21,
+     2.464,
+     null
+    ],
+    [
+     12,
+     3.187,
+     null
+    ],
+    [
+     21,
+     2.464,
+     null
+    ],
+    [
+     6,
+     4.231,
+     null
+    ]
+   ],
+   "rank": 20
+  },
+  {
+   "handle": "Outlaw",
+   "points": 40.806,
+   "avgPoints": 4.081,
+   "played": 10,
+   "wins": 0,
+   "cashes": 3,
+   "cashPct": 0.3,
+   "winnings": 198.0,
+   "bounties": null,
+   "reentries": 3,
+   "best": 2,
+   "rankHistory": [
+    8,
+    17,
+    20,
+    19,
+    12,
+    11,
+    9,
+    9,
+    9,
+    12,
+    13,
+    15,
+    16,
+    17,
+    19,
+    20,
+    20,
+    19,
+    20,
+    21
+   ],
+   "weeks": [
+    [
+     8,
+     3.948,
+     null
+    ],
+    null,
+    null,
+    [
+     4,
+     5.389,
+     null
+    ],
+    [
+     2,
+     7.011,
+     null
+    ],
+    [
+     12,
+     2.739,
+     null
+    ],
+    [
+     4,
+     5.391,
+     null
+    ],
+    [
+     8,
+     3.8,
+     null
+    ],
+    [
+     25,
+     2.306,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     9,
+     3.763,
+     null
+    ],
+    [
+     11,
+     3.328,
+     null
+    ],
+    [
+     13,
+     3.131,
+     null
+    ],
+    null
+   ],
+   "rank": 21
+  },
+  {
+   "handle": "feeldrowsey",
+   "points": 40.213,
+   "avgPoints": 4.021,
+   "played": 10,
+   "wins": 1,
+   "cashes": 2,
+   "cashPct": 0.2,
+   "winnings": 205.2,
+   "bounties": null,
+   "reentries": 4,
+   "best": 1,
+   "rankHistory": [
+    1,
+    1,
+    1,
+    3,
+    2,
+    3,
+    5,
+    4,
+    8,
+    9,
+    12,
+    14,
+    15,
+    16,
+    18,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "weeks": [
+    [
+     1,
+     11.166,
+     null
+    ],
+    [
+     11,
+     2.942,
+     null
+    ],
+    [
+     11,
+     3.172,
+     null
+    ],
+    [
+     12,
+     3.111,
+     null
+    ],
+    [
+     8,
+     3.505,
+     null
+    ],
+    [
+     3,
+     5.478,
+     null
+    ],
+    null,
+    [
+     20,
+     2.403,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     11,
+     3.167,
+     null
+    ],
+    null,
+    [
+     22,
+     2.354,
+     null
+    ],
+    [
+     15,
+     2.915,
+     null
+    ],
+    null
+   ],
+   "rank": 22
+  },
+  {
+   "handle": "choppedriver",
+   "points": 39.681,
+   "avgPoints": 3.607,
+   "played": 11,
+   "wins": 0,
+   "cashes": 3,
+   "cashPct": 0.273,
+   "winnings": 195.86,
+   "bounties": null,
+   "reentries": 2,
+   "best": 3,
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    26,
+    25,
+    24,
+    24,
+    22,
+    20,
+    21,
+    22,
+    24,
+    24,
+    23,
+    23
+   ],
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     4,
+     5.765,
+     null
+    ],
+    [
+     5,
+     4.569,
+     null
+    ],
+    [
+     15,
+     2.748,
+     null
+    ],
+    [
+     8,
+     3.56,
+     null
+    ],
+    [
+     3,
+     5.899,
+     null
+    ],
+    [
+     10,
+     3.231,
+     null
+    ],
+    [
+     16,
+     2.554,
+     null
+    ],
+    null,
+    [
+     24,
+     2.305,
+     null
+    ],
+    [
+     14,
+     2.95,
+     null
+    ],
+    [
+     16,
+     2.822,
+     null
+    ],
+    [
+     10,
+     3.277,
+     null
+    ]
+   ],
+   "rank": 23
+  },
+  {
+   "handle": "LarsEricson",
+   "points": 34.447,
+   "avgPoints": 4.306,
+   "played": 8,
+   "wins": 0,
+   "cashes": 3,
+   "cashPct": 0.375,
+   "winnings": 269.89,
+   "bounties": null,
+   "reentries": 3,
+   "best": 2,
+   "rankHistory": [
+    null,
+    null,
+    22,
+    22,
+    22,
+    22,
+    21,
+    22,
+    22,
+    22,
+    25,
+    22,
+    25,
+    22,
+    23,
+    23,
+    23,
+    23,
+    24,
+    24
+   ],
+   "weeks": [
+    null,
+    null,
+    [
+     17,
+     2.552,
+     null
+    ],
+    [
+     15,
+     2.783,
+     null
+    ],
+    null,
+    null,
+    [
+     2,
+     7.624,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    [
+     6,
+     4.11,
+     null
+    ],
+    null,
+    [
+     2,
+     7.225,
+     null
+    ],
+    [
+     19,
+     2.344,
+     null
+    ],
+    null,
+    [
+     5,
+     5.049,
+     null
+    ],
+    [
+     16,
+     2.76,
+     null
+    ],
+    null,
+    null
+   ],
+   "rank": 24
+  },
+  {
+   "handle": "Neo",
+   "points": 25.404,
+   "avgPoints": 6.351,
+   "played": 4,
+   "wins": 1,
+   "cashes": 3,
+   "cashPct": 0.75,
+   "winnings": 327.96,
+   "bounties": null,
+   "reentries": 2,
+   "best": 1,
+   "rankHistory": [
+    null,
+    null,
+    11,
+    5,
+    5,
+    7,
+    10,
+    13,
+    17,
+    20,
+    20,
+    20,
+    21,
+    25,
+    26,
+    26,
+    26,
+    26,
+    25,
+    25
+   ],
+   "weeks": [
+    null,
+    null,
+    [
+     1,
+     10.521,
+     null
+    ],
+    [
+     2,
+     7.621,
+     null
+    ],
+    [
+     4,
+     4.957,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     24,
+     2.305,
+     null
+    ],
+    null
+   ],
+   "rank": 25
+  },
+  {
+   "handle": "B_Rad_Alsea",
+   "points": 24.994,
+   "avgPoints": 3.124,
+   "played": 8,
+   "wins": 0,
+   "cashes": 1,
+   "cashPct": 0.125,
+   "winnings": 51.3,
+   "bounties": null,
+   "reentries": 1,
+   "best": 3,
+   "rankHistory": [
+    20,
+    6,
+    10,
+    11,
+    16,
+    15,
+    14,
+    15,
+    18,
+    17,
+    18,
+    18,
+    19,
+    21,
+    25,
+    25,
+    25,
+    25,
+    26,
+    26
+   ],
+   "weeks": [
+    [
+     20,
+     2.497,
+     null
+    ],
+    [
+     3,
+     5.633,
+     null
+    ],
+    [
+     13,
+     2.918,
+     null
+    ],
+    [
+     18,
+     2.54,
+     null
+    ],
+    null,
+    [
+     10,
+     3.0,
+     null
+    ],
+    [
+     13,
+     2.99,
+     null
+    ],
+    [
+     19,
+     2.466,
+     null
+    ],
+    null,
+    [
+     12,
+     2.95,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rank": 26
+  },
+  {
+   "handle": "Tarsier16",
+   "points": 22.185,
+   "avgPoints": 3.698,
+   "played": 6,
+   "wins": 0,
+   "cashes": 2,
+   "cashPct": 0.333,
+   "winnings": 69.98,
+   "bounties": null,
+   "reentries": 1,
+   "best": 3,
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    23,
+    23,
+    23,
+    23,
+    23,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27
+   ],
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     5,
+     4.822,
+     null
+    ],
+    [
+     11,
+     3.24,
+     null
+    ],
+    [
+     21,
+     2.516,
+     null
+    ],
+    null,
+    [
+     13,
+     2.952,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    [
+     3,
+     6.065,
+     null
+    ],
+    null,
+    null,
+    [
+     19,
+     2.59,
+     null
+    ],
+    null
+   ],
+   "rank": 27
+  },
+  {
+   "handle": "marinjon",
+   "points": 11.997,
+   "avgPoints": 2.999,
+   "played": 4,
+   "wins": 0,
+   "cashes": 0,
+   "cashPct": 0,
+   "winnings": 0,
+   "bounties": null,
+   "reentries": 0,
+   "best": 6,
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    23,
+    23,
+    24,
+    24,
+    28,
+    27,
+    28,
+    29,
+    29,
+    29,
+    29,
+    29,
+    30,
+    30,
+    29,
+    28
+   ],
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    [
+     6,
+     4.048,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    [
+     16,
+     2.554,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     14,
+     3.017,
+     null
+    ],
+    [
+     19,
+     2.377,
+     null
+    ]
+   ],
+   "rank": 28
+  },
+  {
+   "handle": "markdemra",
+   "points": 9.675,
+   "avgPoints": 4.837,
+   "played": 2,
+   "wins": 0,
+   "cashes": 1,
+   "cashPct": 0.5,
+   "winnings": 83.7,
+   "bounties": null,
+   "reentries": 0,
+   "best": 3,
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    24,
+    26,
+    27,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    28,
+    29
+   ],
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     3,
+     6.657,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     14,
+     3.017,
+     null
+    ],
+    null,
+    null,
+    null
+   ],
+   "rank": 29
+  },
+  {
+   "handle": "JitsuFi",
+   "points": 6.777,
+   "avgPoints": 3.388,
+   "played": 2,
+   "wins": 0,
+   "cashes": 0,
+   "cashPct": 0,
+   "winnings": 0,
+   "bounties": null,
+   "reentries": 1,
+   "best": 7,
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    32,
+    32,
+    32,
+    29,
+    29,
+    30,
+    30
+   ],
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     7,
+     3.862,
+     null
+    ],
+    null,
+    null,
+    [
+     15,
+     2.915,
+     null
+    ],
+    null,
+    null,
+    null
+   ],
+   "rank": 30
+  },
+  {
+   "handle": "HiPitchEric",
+   "points": 6.525,
+   "avgPoints": 3.262,
+   "played": 2,
+   "wins": 0,
+   "cashes": 0,
+   "cashPct": 0,
+   "winnings": 0,
+   "bounties": null,
+   "reentries": 0,
+   "best": 9,
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    29,
+    30,
+    29,
+    30,
+    30,
+    30,
+    30,
+    30,
+    31,
+    31,
+    31,
+    31
+   ],
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     15,
+     2.977,
+     null
+    ],
+    null,
+    [
+     9,
+     3.548,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rank": 31
+  },
+  {
+   "handle": "dickbholding",
+   "points": 5.681,
+   "avgPoints": 2.84,
+   "played": 2,
+   "wins": 0,
+   "cashes": 0,
+   "cashPct": 0,
+   "winnings": 0,
+   "bounties": null,
+   "reentries": 0,
+   "best": 12,
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    25,
+    27,
+    28,
+    30,
+    31,
+    31,
+    31,
+    31,
+    31,
+    32,
+    32,
+    32,
+    32
+   ],
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     12,
+     3.102,
+     null
+    ],
+    [
+     20,
+     2.578,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rank": 32
+  },
+  {
+   "handle": "HeyAuntie",
+   "points": 2.404,
+   "avgPoints": 2.404,
+   "played": 1,
+   "wins": 0,
+   "cashes": 0,
+   "cashPct": 0,
+   "winnings": 0,
+   "bounties": null,
+   "reentries": 0,
+   "best": 23,
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    31,
+    32,
+    32,
+    32,
+    32,
+    33,
+    33,
+    33,
+    33,
+    33,
+    33,
+    33
+   ],
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     23,
+     2.404,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rank": 33
+  },
+  {
+   "handle": "EricF",
+   "points": 2.298,
+   "avgPoints": 2.298,
+   "played": 1,
+   "wins": 0,
+   "cashes": 0,
+   "cashPct": 0,
+   "winnings": 0,
+   "bounties": null,
+   "reentries": 0,
+   "best": 22,
+   "rankHistory": [
+    null,
+    null,
+    null,
+    23,
+    24,
+    24,
+    25,
+    27,
+    33,
+    33,
+    33,
+    33,
+    33,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34
+   ],
+   "weeks": [
+    null,
+    null,
+    null,
+    [
+     22,
+     2.298,
+     null
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rank": 34
+  }
+ ],
+ "finale": [
+  {
+   "name": "Tournament of Champions",
+   "date": null,
+   "number": null,
+   "entrants": null,
+   "players": 23,
+   "buyIn": null,
+   "bounty": null,
+   "prizePool": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "CrazyIdeas",
+     "winnings": 257.0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 1,
+     "handle": "DTRS11",
+     "winnings": 257.0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 1,
+     "handle": "winston",
+     "winnings": 257.0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 1,
+     "handle": "feeldrowsey",
+     "winnings": 257.0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 6,
+     "handle": "berkeley124",
+     "winnings": 68.0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 7,
+     "handle": "Jalt",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 8,
+     "handle": "ytrabbit",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 9,
+     "handle": "Polarized616",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 10,
+     "handle": "A8_Fold_Path",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 11,
+     "handle": "Hansen2030",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 12,
+     "handle": "Ian",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 13,
+     "handle": "SammyRo",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 14,
+     "handle": "SvenGolly",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 15,
+     "handle": "Outlaw",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 16,
+     "handle": "MuddyFilly",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 17,
+     "handle": "LarsEricson",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 18,
+     "handle": "Santoro72",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 19,
+     "handle": "Bunny",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 20,
+     "handle": "Manzoniman",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 21,
+     "handle": "LawlessWC",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 22,
+     "handle": "Scamp",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 23,
+     "handle": "Tarsier16",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    },
+    {
+     "place": 24,
+     "handle": "Spatula",
+     "winnings": 0,
+     "bounties": null,
+     "reentries": null
+    }
+   ]
+  }
+ ]
+}

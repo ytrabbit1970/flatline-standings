@@ -1,7 +1,7 @@
 {
  "season": "Season 16",
  "tournament": "Flatline Faithful",
- "updated": "2026-10-30T02:01:16+00:00",
+ "updated": "2026-10-30T04:19:31+00:00",
  "events": [
   {
    "date": "2026-08-06",
@@ -2741,5 +2741,6 @@
    ],
    "rank": 22
   }
- ]
+ ],
+ "finale": []
 }
