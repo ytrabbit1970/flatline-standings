@@ -117,6 +117,12 @@ select { background: rgba(0,0,0,.35); color: var(--text); border: 1px solid var(
 
 .table-wrap { overflow-x: auto; }
 
+.recap { margin: 18px 0 22px; max-width: 72ch; }
+.recap .red { color: #ff5a6e; }
+.recap h3 { font: 400 26px/1.1 "Bebas Neue", sans-serif; letter-spacing: .03em; margin: 0 0 6px; }
+.recap .dek { color: var(--muted); font-style: italic; font-size: 13px; margin: 0 0 14px; }
+.recap p { line-height: 1.65; margin: 0 0 12px; }
+
 .finale { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
 .finale h3 { font: 400 24px "Bebas Neue", sans-serif; letter-spacing: .04em; margin: 0 0 4px; }
 .finale .champ { color: var(--gold); font-weight: 600; margin: 0 0 10px; }

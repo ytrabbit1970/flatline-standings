@@ -158,6 +158,7 @@ function renderEvent(i) {
       ${e.prizePool != null ? `<span>Prize pool <b class="money">${usd(e.prizePool)}</b></span>` : ""}
       ${e.bounty != null ? `<span>Bounty <b>${usd(e.bounty)}</b></span>` : ""}
     </div>
+    <article class="recap" id="recap" hidden></article>
     <div class="table-wrap"><table>
       <thead><tr><th class="num">Place</th><th>Player</th><th class="num">Pts</th>
         ${cash ? '<th class="num">Cash</th>' : ""}${kos ? '<th class="num">KOs $</th>' : ""}${re ? '<th class="num hide-xs">Re-entries</th>' : ""}</tr></thead>
@@ -171,6 +172,27 @@ function renderEvent(i) {
           ${re ? `<td class="num hide-xs">${r.reentries || ""}</td>` : ""}
         </tr>`).join("")}</tbody>
     </table></div>`;
+  loadRecap(e);
+}
+
+// A CardPlayer-style write-up, if there is one: data/recaps/<date>.md with a "# " headline,
+// an *italic* line under it and plain paragraphs.
+function loadRecap(e) {
+  if (!e.date) return;
+  fetch(`data/recaps/${e.date}.md`, { cache: "no-cache" })
+    .then((r) => (r.ok ? r.text() : Promise.reject()))
+    .then((md) => {
+      const el = $("#recap");
+      if (!el || DATA.events[+$("#event-pick").value] !== e) return;
+      el.innerHTML = md.trim().split(/\n\s*\n/).map((block) => {
+        const t = esc(block.trim().replace(/\s*\n\s*/g, " ")).replace(/[♥♦]/g, '<span class="red">$&</span>');
+        if (t.startsWith("# ")) return `<h3>${t.slice(2)}</h3>`;
+        if (/^\*.*\*$/.test(t)) return `<p class="dek">${t.slice(1, -1)}</p>`;
+        return `<p>${t}</p>`;
+      }).join("");
+      el.hidden = false;
+    })
+    .catch(() => {});
 }
 
 // ToC and Extravaganza. Older seasons' sheets sometimes only recorded who cashed, without places.
