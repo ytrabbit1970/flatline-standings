@@ -313,3 +313,5 @@ section.wrap { padding: 28px 0; }
 .prose .bounties { display: flex; justify-content: center; gap: 16px; margin: 24px 0; }
 .prose .bounties img { width: 180px; max-width: 45%; margin: 0; border-radius: 12px; }
 .hof-after { margin-top: 28px; }
+.plaque-title { margin: 0; }
+.plaque-title img { display: block; width: min(560px, 100%); height: auto; filter: drop-shadow(0 18px 40px rgba(0, 0, 0, .55)); }

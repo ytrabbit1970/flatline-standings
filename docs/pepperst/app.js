@@ -397,7 +397,7 @@ async function post(view, blog, path) {
       <article class="article">
         <header class="article-head">
           <a class="back" href="${blog === "main" ? `#/recaps/${p.published.slice(0, 4)}` : "#/"}">← ${blog === "main" ? `${p.published.slice(0, 4)} recaps` : "Home"}</a>
-          <h1>${esc(p.title)}</h1>
+          ${hof ? `<h1 class="plaque-title"><img src="hof-plaque.png" alt="${esc(p.title)}" width="1200" height="600"></h1>` : `<h1>${esc(p.title)}</h1>`}
           <p class="meta">
             ${blog === "main" ? `<time datetime="${esc(p.published)}">${fmtDate(p.published)}</time><span>·</span>` : ""}
             ${p.author && p.author !== "Unknown" ? `<span>${esc(p.author)}</span><span>·</span>` : ""}
@@ -440,6 +440,18 @@ function splitHallOfFame(html) {
 function hallOfFameIntro(html) {
   const box = document.createElement("div");
   box.innerHTML = clean(splitHallOfFame(html)[0]);
+  // The photo of the chip wall: the grid replaces it, and its plaque is the page title (hof-plaque.png).
+  box.querySelectorAll('img[src*="IMG_4314"]').forEach((img) => {
+    const p = img.closest("p, figure");
+    p && p.parentNode === box && !p.textContent.trim() ? p.remove() : img.remove();
+  });
+  // Line breaks straight after a block (paragraph, list, photo) are just Blogger spacing.
+  [...box.childNodes].forEach((n) => {
+    if (n.nodeName !== "BR") return;
+    let prev = n.previousSibling;
+    while (prev && prev.nodeType === 3 && !prev.textContent.trim()) prev = prev.previousSibling;
+    if (!prev || /^(P|UL|OL|FIGURE|IMG|DIV|TABLE|H\d)$/.test(prev.nodeName)) n.remove();
+  });
   // Much of this post is bare text between <br>s, so work with every node, not just elements.
   const nodes = [...box.childNodes];
   const find = (re, from = 0) => nodes.findIndex((n, i) => i >= from && re.test(n.textContent));
@@ -468,7 +480,10 @@ function hallOfFameIntro(html) {
   const between = nodes.slice(end + 1, ado < 0 ? nodes.length : ado);
   const chips = between.flatMap((n) => (n.nodeName === "IMG" ? [n] : n.querySelectorAll ? [...n.querySelectorAll("img")] : []));
   const bounties = chips.length ? `<div class="bounties">${chips.map((img) => img.outerHTML).join("")}</div>` : "";
-  return outer(nodes.slice(0, start)) + bounties + (ado >= 0 ? outer(nodes.slice(ado)) : "") +
+  // Trailing <br>s and blank text at the end of the intro would leave a gap above the chips.
+  const intro = nodes.slice(0, start);
+  while (intro.length && (intro.at(-1).nodeName === "BR" || (intro.at(-1).nodeType === 3 && !intro.at(-1).textContent.trim()))) intro.pop();
+  return outer(intro) + bounties + (ado >= 0 ? outer(nodes.slice(ado)) : "") +
     grid + `<div class="hof-after">${after}</div>`;
 }
 
