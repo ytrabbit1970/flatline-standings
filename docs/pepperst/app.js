@@ -541,17 +541,25 @@ async function renderHallOfFame(html) {
   const posted = [...new DOMParser().parseFromString(splitHallOfFame(html)[1], "text/html").querySelectorAll("img")]
     .map((img) => img.getAttribute("src")).filter((src) => src && !known.has(imgKey(src)));
 
+  // The wall display: a framed felt board of round slots, 5 across, with spare slots left empty
+  // the way the real one is. Chips posted on Blogger after hof.json was made fill in after the rest.
+  const slots = [
+    ...coins.map((c, i) => `
+      <button class="slot" data-i="${i}" aria-label="${esc(c.name)}, ${c.year}">
+        <span class="well${c.tight ? " tight" : ""}"><img src="${esc(sized(c.legacy, "s200"))}" alt="" loading="lazy" decoding="async"></span>
+        <span class="plate">${esc(c.name)} <i>${c.year}</i></span>
+      </button>`),
+    ...posted.map((src) => `
+      <button class="slot" data-src="${esc(src)}" aria-label="Newest inductee">
+        <span class="well"><img src="${esc(sized(src, "s200"))}" alt="" loading="lazy"></span>
+        <span class="plate">New</span>
+      </button>`),
+  ];
+  while (slots.length % 5) slots.push(`<div class="slot empty" aria-hidden="true"><span class="well"></span><span class="plate">&nbsp;</span></div>`);
   el.innerHTML = `
-    <div class="hof-grid">${coins.map((c, i) => `
-      <button class="chip-cell" data-i="${i}" aria-label="${esc(c.name)}, ${c.year}">
-        <img src="${esc(sized(c.legacy, "s200"))}" alt="" loading="lazy" decoding="async">
-        <b>${esc(c.name)}</b><small>${c.year}</small>
-      </button>`).join("")}
-    </div>
-    ${posted.length ? `<h3 class="hof-new">Newest inductees</h3><div class="hof-grid">${posted.map((src) => `
-      <button class="chip-cell" data-src="${esc(src)}" aria-label="Chip"><img src="${esc(sized(src, "s200"))}" alt="" loading="lazy"></button>`).join("")}</div>` : ""}
+    <div class="display"><div class="felt"><div class="slots">${slots.join("")}</div></div></div>
     <p class="muted small">Ordered by the year on each chip, oldest first. Tap a chip to see both sides.</p>`;
-  el.querySelectorAll(".chip-cell").forEach((b) => b.addEventListener("click", () =>
+  el.querySelectorAll("button.slot").forEach((b) => b.addEventListener("click", () =>
     b.dataset.src ? openPhoto(b.dataset.src) : openCoin(coins[+b.dataset.i])));
 }
 

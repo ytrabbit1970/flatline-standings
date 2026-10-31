@@ -320,3 +320,62 @@ section.wrap { padding: 28px 0; }
 .hof-after li { margin: 0; }
 .hof-after li > p { margin: 0; }
 .hof-after h3 { font-size: 22px; margin: 1.4em 0 .6em; }
+
+/* ---------- Hall of Fame wall display ---------- */
+/* A glossy black frame with a bevelled moulding, beaded inner trim, and black felt with round slots. */
+.display {
+  position: relative; margin: 8px 0 18px; padding: clamp(14px, 3vw, 26px); border-radius: 6px;
+  background: linear-gradient(145deg, #3a3a3c 0%, #121213 18%, #050505 50%, #161617 82%, #2e2e30 100%);
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, .7), 0 2px 0 rgba(255, 255, 255, .06) inset,
+    inset 0 0 0 1px rgba(255, 255, 255, .08), inset 0 0 0 5px #0a0a0a, inset 0 0 0 6px rgba(255, 255, 255, .07);
+}
+.display::before { /* inner lip of the moulding */
+  content: ""; position: absolute; inset: calc(clamp(14px, 3vw, 26px) - 6px); border-radius: 3px; pointer-events: none;
+  background: linear-gradient(145deg, #1d1d1f, #000 40%, #000 60%, #1d1d1f);
+}
+.felt {
+  position: relative; padding: clamp(14px, 3.4vw, 34px) clamp(10px, 2.6vw, 28px);
+  background:
+    radial-gradient(120% 80% at 50% 0%, rgba(255, 255, 255, .045), transparent 60%),
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, .012) 0 2px, transparent 2px 4px),
+    #0b0b0c;
+  box-shadow: inset 0 8px 18px rgba(0, 0, 0, .9), inset 0 0 0 1px #000;
+}
+.felt::before { /* beaded trim */
+  content: ""; position: absolute; inset: 7px; pointer-events: none;
+  border: 2px dotted rgba(255, 255, 255, .13); border-radius: 2px;
+}
+.slots { display: grid; grid-template-columns: repeat(5, 1fr); gap: clamp(8px, 2vw, 18px) clamp(6px, 2vw, 16px); }
+.slot {
+  display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 0; border: 0; background: none;
+  color: inherit; font: inherit; cursor: pointer;
+}
+.slot.empty { cursor: default; }
+.well {
+  position: relative; width: min(100%, 104px); aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center;
+  background: radial-gradient(circle at 50% 38%, #020202 0 55%, #121213 70%, #1c1c1e 74%, #060606 80%);
+  box-shadow: inset 0 7px 12px rgba(0, 0, 0, .95), inset 0 -2px 3px rgba(255, 255, 255, .07), 0 1px 0 rgba(255, 255, 255, .05);
+}
+.well img {
+  width: 90%; height: 90%; border-radius: 50%; object-fit: cover; clip-path: circle(46%);
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, .8)); transition: transform .25s cubic-bezier(.2, .7, .2, 1);
+}
+.slot:hover .well img, .slot:focus-visible .well img { transform: scale(1.08) translateY(-2px); }
+.slot:focus-visible { outline: none; }
+.slot:focus-visible .well { outline: 2px solid var(--red); outline-offset: 3px; }
+.plate {
+  max-width: 100%; padding: 2px 8px; border-radius: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  font: 600 11px var(--body); letter-spacing: .04em; color: #1b1406;
+  background: linear-gradient(180deg, #f3d98a, #c9a24a 55%, #a8812f);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .7), inset 0 1px 0 rgba(255, 255, 255, .5);
+}
+.plate i { font-style: normal; opacity: .7; }
+.slot.empty .plate { visibility: hidden; }
+@media (max-width: 560px) {
+  .plate { font-size: 8.5px; padding: 1px 4px; letter-spacing: 0; }
+  .plate i { display: none; }
+}
+.well { overflow: hidden; }
+.prose .well img { width: 92%; height: 92%; max-height: none; margin: 0; cursor: pointer; }
+.prose .well.tight img { width: 86%; height: 86%; }
