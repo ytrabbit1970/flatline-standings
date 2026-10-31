@@ -310,3 +310,6 @@ section.wrap { padding: 28px 0; }
 .coin-info h3 span { color: var(--red); }
 .coin-info p { margin: 6px 0 0; color: var(--muted); }
 @media (max-width: 560px) { .coin-sides { gap: 10px; } #coin { padding: 20px 14px; } }
+.prose .bounties { display: flex; justify-content: center; gap: 16px; margin: 24px 0; }
+.prose .bounties img { width: 180px; max-width: 45%; margin: 0; border-radius: 12px; }
+.hof-after { margin-top: 28px; }

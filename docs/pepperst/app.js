@@ -434,7 +434,43 @@ function splitHallOfFame(html) {
   return at < 0 ? [html, ""] : [html.slice(0, html.lastIndexOf("<", at)), html.slice(at)];
 }
 
-const hallOfFameIntro = (html) => clean(splitHallOfFame(html)[0]) + `<h2>The Legacy Hall of Fame</h2><div id="hof" class="hof"></div>`;
+// Rearranges the intro: the benefits list and the Invitational details move below the grid (the
+// details as a bulleted list), and the two Legacy Bounty chip photos sit small, side by side.
+// Blocks are found by their text, so if Chris rewrites the post this falls back to the plain intro.
+function hallOfFameIntro(html) {
+  const box = document.createElement("div");
+  box.innerHTML = clean(splitHallOfFame(html)[0]);
+  // Much of this post is bare text between <br>s, so work with every node, not just elements.
+  const nodes = [...box.childNodes];
+  const find = (re, from = 0) => nodes.findIndex((n, i) => i >= from && re.test(n.textContent));
+  const start = find(/also get other benefits/i);
+  const end = find(/Special Legacy Trophy/i, start);
+  const ado = find(/without any further ado/i, end);
+  const grid = `<h2>The Legacy Hall of Fame</h2><div id="hof" class="hof"></div>`;
+  if (start < 0 || end < 0) return box.innerHTML + grid;
+
+  const nodeHtml = (n) => (n.nodeType === 1 ? n.outerHTML : n.nodeType === 3 ? esc(n.textContent) : "");
+  const outer = (list) => list.map(nodeHtml).join("");
+  const benefits = nodes.slice(start, end + 1);
+  const head = benefits.findIndex((n) => /^\s*Legacy Invitational Tournament\s*-/i.test(n.textContent));
+  // In the moved block, loose text becomes a paragraph and stray <br>s go.
+  const blocky = (list) => list.map((n) => (n.nodeType === 3 ? (n.textContent.trim() ? `<p>${esc(n.textContent.trim())}</p>` : "")
+    : n.nodeName === "BR" ? "" : nodeHtml(n))).join("");
+  let after = blocky(benefits);
+  if (head >= 0) {
+    // One line per <br>, whichever paragraph it landed in; the first line is the header.
+    const lines = benefits.slice(head).flatMap((n) => (n.nodeType === 1 ? n.innerHTML : nodeHtml(n)).split(/<br\s*\/?>/i))
+      .filter((l) => l.replace(/&nbsp;| |<[^>]+>/g, " ").trim());
+    after = blocky(benefits.slice(0, head)) +
+      `<h3>${lines[0].replace(/<[^>]+>/g, "").trim()}</h3>` +
+      `<ul>${lines.slice(1).map((l) => `<li>${l.trim()}</li>`).join("")}</ul>`;
+  }
+  const between = nodes.slice(end + 1, ado < 0 ? nodes.length : ado);
+  const chips = between.flatMap((n) => (n.nodeName === "IMG" ? [n] : n.querySelectorAll ? [...n.querySelectorAll("img")] : []));
+  const bounties = chips.length ? `<div class="bounties">${chips.map((img) => img.outerHTML).join("")}</div>` : "";
+  return outer(nodes.slice(0, start)) + bounties + (ado >= 0 ? outer(nodes.slice(ado)) : "") +
+    grid + `<div class="hof-after">${after}</div>`;
+}
 
 async function renderHallOfFame(html) {
   const el = $("#hof");
