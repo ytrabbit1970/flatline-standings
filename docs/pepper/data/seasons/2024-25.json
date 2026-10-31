@@ -1,0 +1,123 @@
+{
+ "season": "2024-25",
+ "tournament": "Pepper Street Poker",
+ "source": "blog",
+ "final": true,
+ "topN": null,
+ "poy": "Chris M.",
+ "finale": [
+  {
+   "name": "2024-25",
+   "date": null,
+   "entrants": 15,
+   "prizePool": 0,
+   "note": "Only the final table's order was recorded. Free-roll; the blog doesn't give the full payouts.",
+   "results": [
+    {
+     "place": 1,
+     "handle": "Chris M.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 2,
+     "handle": "Jeff G.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 3,
+     "handle": "Debbie",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 4,
+     "handle": "Lea Anne",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 5,
+     "handle": "Stuve",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 6,
+     "handle": "Peter C.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 7,
+     "handle": "Allen R.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 8,
+     "handle": "Alan S.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 9,
+     "handle": "Dan G.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": null,
+     "handle": "Jason H.",
+     "winnings": null,
+     "note": "Finish not recorded"
+    },
+    {
+     "place": null,
+     "handle": "Mark S.",
+     "winnings": null,
+     "note": "Finish not recorded"
+    },
+    {
+     "place": null,
+     "handle": "Dan L.",
+     "winnings": null,
+     "note": "Finish not recorded"
+    },
+    {
+     "place": null,
+     "handle": "Wiz",
+     "winnings": null,
+     "note": "Finish not recorded"
+    },
+    {
+     "place": null,
+     "handle": "Colin",
+     "winnings": null,
+     "note": "Finish not recorded"
+    },
+    {
+     "place": null,
+     "handle": "Priya",
+     "winnings": null,
+     "note": "Finish not recorded"
+    },
+    {
+     "place": null,
+     "handle": "Ian T.",
+     "winnings": null,
+     "note": "Unable to attend"
+    },
+    {
+     "place": null,
+     "handle": "Rich W.",
+     "winnings": null,
+     "note": "Unable to attend"
+    }
+   ]
+  }
+ ],
+ "events": [],
+ "standings": []
+}

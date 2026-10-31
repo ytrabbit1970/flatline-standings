@@ -1,0 +1,4619 @@
+{
+ "season": "2013",
+ "tournament": "Pepper Street Poker",
+ "source": "spreadsheet",
+ "final": true,
+ "topN": null,
+ "poy": "Jeff S.",
+ "finale": [],
+ "events": [
+  {
+   "date": null,
+   "label": "Jan",
+   "entrants": 24,
+   "players": 24,
+   "buyIn": null,
+   "rebuy": null,
+   "game": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "Jeff S.",
+     "points": 24.0,
+     "reentries": null
+    },
+    {
+     "place": 2,
+     "handle": "Chris M.",
+     "points": 23.0,
+     "reentries": null
+    },
+    {
+     "place": 3,
+     "handle": "Jacob M.",
+     "points": 22.0,
+     "reentries": null
+    },
+    {
+     "place": 4,
+     "handle": "Jeff W.",
+     "points": 21.0,
+     "reentries": null
+    },
+    {
+     "place": 5,
+     "handle": "Dan G.",
+     "points": 20.0,
+     "reentries": null
+    },
+    {
+     "place": 6,
+     "handle": "Mike K.",
+     "points": 19.0,
+     "reentries": null
+    },
+    {
+     "place": 7,
+     "handle": "Carlos T.",
+     "points": 18.0,
+     "reentries": null
+    },
+    {
+     "place": 8,
+     "handle": "Jeff R.",
+     "points": 17.0,
+     "reentries": null
+    },
+    {
+     "place": 9,
+     "handle": "Barbara N.",
+     "points": 16.0,
+     "reentries": null
+    },
+    {
+     "place": 10,
+     "handle": "Bill K.",
+     "points": 15.0,
+     "reentries": null
+    },
+    {
+     "place": 11,
+     "handle": "Dog D.",
+     "points": 14.0,
+     "reentries": null
+    },
+    {
+     "place": 12,
+     "handle": "Dan I.",
+     "points": 13.0,
+     "reentries": null
+    },
+    {
+     "place": 13,
+     "handle": "Allen R.",
+     "points": 12.0,
+     "reentries": null
+    },
+    {
+     "place": 14,
+     "handle": "Stephen B.",
+     "points": 11.0,
+     "reentries": null
+    },
+    {
+     "place": 15,
+     "handle": "Eric T.",
+     "points": 10.0,
+     "reentries": null
+    },
+    {
+     "place": 16,
+     "handle": "Marc F.",
+     "points": 9.0,
+     "reentries": null
+    },
+    {
+     "place": 17,
+     "handle": "Jeff K.",
+     "points": 8.0,
+     "reentries": null
+    },
+    {
+     "place": 18,
+     "handle": "John S.",
+     "points": 7.0,
+     "reentries": null
+    },
+    {
+     "place": 19,
+     "handle": "Julie A.",
+     "points": 6.0,
+     "reentries": null
+    },
+    {
+     "place": 20,
+     "handle": "Mike B.",
+     "points": 5.0,
+     "reentries": null
+    },
+    {
+     "place": 21,
+     "handle": "Mike P.",
+     "points": 4.0,
+     "reentries": null
+    },
+    {
+     "place": 22,
+     "handle": "Kyle T.",
+     "points": 3.0,
+     "reentries": null
+    },
+    {
+     "place": 23,
+     "handle": "Amy L.",
+     "points": 2.0,
+     "reentries": null
+    },
+    {
+     "place": 24,
+     "handle": "Tony G.",
+     "points": 1.0,
+     "reentries": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "label": "Feb",
+   "entrants": 23,
+   "players": 23,
+   "buyIn": null,
+   "rebuy": null,
+   "game": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "Allen R.",
+     "points": 23.0,
+     "reentries": null
+    },
+    {
+     "place": 2,
+     "handle": "Dan G.",
+     "points": 22.0,
+     "reentries": null
+    },
+    {
+     "place": 3,
+     "handle": "Ken L.",
+     "points": 21.0,
+     "reentries": null
+    },
+    {
+     "place": 4,
+     "handle": "Barbara N.",
+     "points": 20.0,
+     "reentries": null
+    },
+    {
+     "place": 5,
+     "handle": "Julie A.",
+     "points": 19.0,
+     "reentries": null
+    },
+    {
+     "place": 6,
+     "handle": "Jason H.",
+     "points": 18.0,
+     "reentries": null
+    },
+    {
+     "place": 7,
+     "handle": "Marc F.",
+     "points": 17.0,
+     "reentries": null
+    },
+    {
+     "place": 8,
+     "handle": "Jacob M.",
+     "points": 16.0,
+     "reentries": null
+    },
+    {
+     "place": 9,
+     "handle": "Mike K.",
+     "points": 15.0,
+     "reentries": null
+    },
+    {
+     "place": 10,
+     "handle": "Bill K.",
+     "points": 14.0,
+     "reentries": null
+    },
+    {
+     "place": 11,
+     "handle": "Dan I.",
+     "points": 13.0,
+     "reentries": null
+    },
+    {
+     "place": 12,
+     "handle": "Carlos T.",
+     "points": 12.0,
+     "reentries": null
+    },
+    {
+     "place": 13,
+     "handle": "Jeff S.",
+     "points": 11.0,
+     "reentries": null
+    },
+    {
+     "place": 14,
+     "handle": "Mike P.",
+     "points": 10.0,
+     "reentries": null
+    },
+    {
+     "place": 15,
+     "handle": "Josh F.",
+     "points": 9.0,
+     "reentries": null
+    },
+    {
+     "place": 16,
+     "handle": "Jeff R.",
+     "points": 8.0,
+     "reentries": null
+    },
+    {
+     "place": 17,
+     "handle": "Eric T.",
+     "points": 7.0,
+     "reentries": null
+    },
+    {
+     "place": 18,
+     "handle": "Chris M.",
+     "points": 6.0,
+     "reentries": null
+    },
+    {
+     "place": 19,
+     "handle": "Allen Q.",
+     "points": 5.0,
+     "reentries": null
+    },
+    {
+     "place": 20,
+     "handle": "John S.",
+     "points": 4.0,
+     "reentries": null
+    },
+    {
+     "place": 21,
+     "handle": "Wiznik L.",
+     "points": 3.0,
+     "reentries": null
+    },
+    {
+     "place": 22,
+     "handle": "Tony G.",
+     "points": 2.0,
+     "reentries": null
+    },
+    {
+     "place": 23,
+     "handle": "Dog D.",
+     "points": 1.0,
+     "reentries": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "label": "Mar",
+   "entrants": 20,
+   "players": 20,
+   "buyIn": null,
+   "rebuy": null,
+   "game": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "Mike P.",
+     "points": 20.0,
+     "reentries": null
+    },
+    {
+     "place": 2,
+     "handle": "Josh F.",
+     "points": 19.0,
+     "reentries": null
+    },
+    {
+     "place": 3,
+     "handle": "Allen R.",
+     "points": 18.0,
+     "reentries": null
+    },
+    {
+     "place": 4,
+     "handle": "John S.",
+     "points": 17.0,
+     "reentries": null
+    },
+    {
+     "place": 5,
+     "handle": "Beverly M.",
+     "points": 16.0,
+     "reentries": null
+    },
+    {
+     "place": 6,
+     "handle": "Barbara N.",
+     "points": 15.0,
+     "reentries": null
+    },
+    {
+     "place": 7,
+     "handle": "Rob G.",
+     "points": 14.0,
+     "reentries": null
+    },
+    {
+     "place": 8,
+     "handle": "Julie A.",
+     "points": 13.0,
+     "reentries": null
+    },
+    {
+     "place": 9,
+     "handle": "Jeff S.",
+     "points": 12.0,
+     "reentries": null
+    },
+    {
+     "place": 10,
+     "handle": "Marc F.",
+     "points": 11.0,
+     "reentries": null
+    },
+    {
+     "place": 11,
+     "handle": "Dan G.",
+     "points": 10.0,
+     "reentries": null
+    },
+    {
+     "place": 12,
+     "handle": "Garner K.",
+     "points": 9.0,
+     "reentries": null
+    },
+    {
+     "place": 13,
+     "handle": "Eric T.",
+     "points": 8.0,
+     "reentries": null
+    },
+    {
+     "place": 14,
+     "handle": "Mike K.",
+     "points": 7.0,
+     "reentries": null
+    },
+    {
+     "place": 15,
+     "handle": "Stephen B.",
+     "points": 6.0,
+     "reentries": null
+    },
+    {
+     "place": 16,
+     "handle": "Amy L.",
+     "points": 5.0,
+     "reentries": null
+    },
+    {
+     "place": 17,
+     "handle": "Chris M.",
+     "points": 4.0,
+     "reentries": null
+    },
+    {
+     "place": 18,
+     "handle": "Jason H.",
+     "points": 3.0,
+     "reentries": null
+    },
+    {
+     "place": 19,
+     "handle": "Ken L.",
+     "points": 2.0,
+     "reentries": null
+    },
+    {
+     "place": 20,
+     "handle": "Jacob M.",
+     "points": 1.0,
+     "reentries": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "label": "Apr",
+   "entrants": 15,
+   "players": 15,
+   "buyIn": null,
+   "rebuy": null,
+   "game": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "Julie A.",
+     "points": 15.0,
+     "reentries": null
+    },
+    {
+     "place": 2,
+     "handle": "Marc F.",
+     "points": 14.0,
+     "reentries": null
+    },
+    {
+     "place": 3,
+     "handle": "Chris M.",
+     "points": 13.0,
+     "reentries": null
+    },
+    {
+     "place": 4,
+     "handle": "Dan I.",
+     "points": 12.0,
+     "reentries": null
+    },
+    {
+     "place": 5,
+     "handle": "Dan G.",
+     "points": 11.0,
+     "reentries": null
+    },
+    {
+     "place": 6,
+     "handle": "Josh F.",
+     "points": 10.0,
+     "reentries": null
+    },
+    {
+     "place": 7,
+     "handle": "Allen R.",
+     "points": 9.0,
+     "reentries": null
+    },
+    {
+     "place": 8,
+     "handle": "Jeff S.",
+     "points": 8.0,
+     "reentries": null
+    },
+    {
+     "place": 9,
+     "handle": "Barbara N.",
+     "points": 7.0,
+     "reentries": null
+    },
+    {
+     "place": 10,
+     "handle": "Eric T.",
+     "points": 6.0,
+     "reentries": null
+    },
+    {
+     "place": 11,
+     "handle": "Mike P.",
+     "points": 5.0,
+     "reentries": null
+    },
+    {
+     "place": 12,
+     "handle": "Noah P.",
+     "points": 4.0,
+     "reentries": null
+    },
+    {
+     "place": 13,
+     "handle": "Tony G.",
+     "points": 3.0,
+     "reentries": null
+    },
+    {
+     "place": 14,
+     "handle": "Allen Q.",
+     "points": 2.0,
+     "reentries": null
+    },
+    {
+     "place": 15,
+     "handle": "Amy L.",
+     "points": 1.0,
+     "reentries": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "label": "May",
+   "entrants": 19,
+   "players": 19,
+   "buyIn": null,
+   "rebuy": null,
+   "game": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "David M.",
+     "points": 19.0,
+     "reentries": null
+    },
+    {
+     "place": 2,
+     "handle": "Stephen B.",
+     "points": 18.0,
+     "reentries": null
+    },
+    {
+     "place": 3,
+     "handle": "Marc F.",
+     "points": 17.0,
+     "reentries": null
+    },
+    {
+     "place": 4,
+     "handle": "Chris M.",
+     "points": 16.0,
+     "reentries": null
+    },
+    {
+     "place": 5,
+     "handle": "Barbara N.",
+     "points": 15.0,
+     "reentries": null
+    },
+    {
+     "place": 6,
+     "handle": "Carlos T.",
+     "points": 14.0,
+     "reentries": null
+    },
+    {
+     "place": 7,
+     "handle": "Jeff S.",
+     "points": 13.0,
+     "reentries": null
+    },
+    {
+     "place": 8,
+     "handle": "Amy L.",
+     "points": 12.0,
+     "reentries": null
+    },
+    {
+     "place": 9,
+     "handle": "Josh F.",
+     "points": 11.0,
+     "reentries": null
+    },
+    {
+     "place": 10,
+     "handle": "Jason H.",
+     "points": 10.0,
+     "reentries": null
+    },
+    {
+     "place": 11,
+     "handle": "Jacob M.",
+     "points": 9.0,
+     "reentries": null
+    },
+    {
+     "place": 12,
+     "handle": "Julie A.",
+     "points": 8.0,
+     "reentries": null
+    },
+    {
+     "place": 13,
+     "handle": "Jeremy D.",
+     "points": 7.0,
+     "reentries": null
+    },
+    {
+     "place": 14,
+     "handle": "Noah P.",
+     "points": 6.0,
+     "reentries": null
+    },
+    {
+     "place": 15,
+     "handle": "Allen R.",
+     "points": 5.0,
+     "reentries": null
+    },
+    {
+     "place": 16,
+     "handle": "Eric T.",
+     "points": 4.0,
+     "reentries": null
+    },
+    {
+     "place": 17,
+     "handle": "Mike P.",
+     "points": 3.0,
+     "reentries": null
+    },
+    {
+     "place": 18,
+     "handle": "Dog D.",
+     "points": 2.0,
+     "reentries": null
+    },
+    {
+     "place": 19,
+     "handle": "Dan G.",
+     "points": 1.0,
+     "reentries": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "label": "June",
+   "entrants": 14,
+   "players": 14,
+   "buyIn": null,
+   "rebuy": null,
+   "game": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "Bobby B.",
+     "points": 14.0,
+     "reentries": null
+    },
+    {
+     "place": 2,
+     "handle": "Jacob M.",
+     "points": 13.0,
+     "reentries": null
+    },
+    {
+     "place": 3,
+     "handle": "Carlos T.",
+     "points": 12.0,
+     "reentries": null
+    },
+    {
+     "place": 4,
+     "handle": "Allen R.",
+     "points": 11.0,
+     "reentries": null
+    },
+    {
+     "place": 5,
+     "handle": "Dog D.",
+     "points": 10.0,
+     "reentries": null
+    },
+    {
+     "place": 6,
+     "handle": "Dan G.",
+     "points": 9.0,
+     "reentries": null
+    },
+    {
+     "place": 7,
+     "handle": "Jeff S.",
+     "points": 8.0,
+     "reentries": null
+    },
+    {
+     "place": 8,
+     "handle": "Garner K.",
+     "points": 7.0,
+     "reentries": null
+    },
+    {
+     "place": 9,
+     "handle": "Julie A.",
+     "points": 6.0,
+     "reentries": null
+    },
+    {
+     "place": 10,
+     "handle": "Marc F.",
+     "points": 5.0,
+     "reentries": null
+    },
+    {
+     "place": 11,
+     "handle": "Chris M.",
+     "points": 4.0,
+     "reentries": null
+    },
+    {
+     "place": 12,
+     "handle": "Jason H.",
+     "points": 3.0,
+     "reentries": null
+    },
+    {
+     "place": 13,
+     "handle": "Mike P.",
+     "points": 2.0,
+     "reentries": null
+    },
+    {
+     "place": 14,
+     "handle": "Amy L.",
+     "points": 1.0,
+     "reentries": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "label": "July",
+   "entrants": 27,
+   "players": 27,
+   "buyIn": null,
+   "rebuy": null,
+   "game": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "Andrew R.",
+     "points": 27.0,
+     "reentries": null
+    },
+    {
+     "place": 2,
+     "handle": "Mike P.",
+     "points": 26.0,
+     "reentries": null
+    },
+    {
+     "place": 3,
+     "handle": "Dog D.",
+     "points": 25.0,
+     "reentries": null
+    },
+    {
+     "place": 4,
+     "handle": "Julie A.",
+     "points": 24.0,
+     "reentries": null
+    },
+    {
+     "place": 5,
+     "handle": "Jeff S.",
+     "points": 23.0,
+     "reentries": null
+    },
+    {
+     "place": 6,
+     "handle": "Mike K.",
+     "points": 22.0,
+     "reentries": null
+    },
+    {
+     "place": 7,
+     "handle": "Josh F.",
+     "points": 21.0,
+     "reentries": null
+    },
+    {
+     "place": 8,
+     "handle": "David M.",
+     "points": 20.0,
+     "reentries": null
+    },
+    {
+     "place": 9,
+     "handle": "Marc F.",
+     "points": 19.0,
+     "reentries": null
+    },
+    {
+     "place": 10,
+     "handle": "Carlos T.",
+     "points": 18.0,
+     "reentries": null
+    },
+    {
+     "place": 11,
+     "handle": "Dan I.",
+     "points": 17.0,
+     "reentries": null
+    },
+    {
+     "place": 12,
+     "handle": "Allen R.",
+     "points": 16.0,
+     "reentries": null
+    },
+    {
+     "place": 13,
+     "handle": "Allen Q.",
+     "points": 15.0,
+     "reentries": null
+    },
+    {
+     "place": 14,
+     "handle": "Barbara N.",
+     "points": 14.0,
+     "reentries": null
+    },
+    {
+     "place": 15,
+     "handle": "Jeff W.",
+     "points": 13.0,
+     "reentries": null
+    },
+    {
+     "place": 16,
+     "handle": "Jason H.",
+     "points": 12.0,
+     "reentries": null
+    },
+    {
+     "place": 17,
+     "handle": "John S.",
+     "points": 11.0,
+     "reentries": null
+    },
+    {
+     "place": 18,
+     "handle": "Bob F.",
+     "points": 10.0,
+     "reentries": null
+    },
+    {
+     "place": 19,
+     "handle": "Jacob M.",
+     "points": 9.0,
+     "reentries": null
+    },
+    {
+     "place": 20,
+     "handle": "Dan L.",
+     "points": 8.0,
+     "reentries": null
+    },
+    {
+     "place": 21,
+     "handle": "Dan G.",
+     "points": 7.0,
+     "reentries": null
+    },
+    {
+     "place": 22,
+     "handle": "Jeff G.",
+     "points": 6.0,
+     "reentries": null
+    },
+    {
+     "place": 23,
+     "handle": "Eric T.",
+     "points": 5.0,
+     "reentries": null
+    },
+    {
+     "place": 24,
+     "handle": "Tom L.",
+     "points": 4.0,
+     "reentries": null
+    },
+    {
+     "place": 25,
+     "handle": "Jeremy D.",
+     "points": 3.0,
+     "reentries": null
+    },
+    {
+     "place": 26,
+     "handle": "Chris M.",
+     "points": 2.0,
+     "reentries": null
+    },
+    {
+     "place": 27,
+     "handle": "Amy L.",
+     "points": 1.0,
+     "reentries": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "label": "Aug",
+   "entrants": 28,
+   "players": 28,
+   "buyIn": null,
+   "rebuy": null,
+   "game": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "Jeff S.",
+     "points": 28.0,
+     "reentries": null
+    },
+    {
+     "place": 2,
+     "handle": "David M.",
+     "points": 27.0,
+     "reentries": null
+    },
+    {
+     "place": 3,
+     "handle": "Mike P.",
+     "points": 26.0,
+     "reentries": null
+    },
+    {
+     "place": 4,
+     "handle": "Dan L.",
+     "points": 25.0,
+     "reentries": null
+    },
+    {
+     "place": 5,
+     "handle": "Allen Q.",
+     "points": 24.0,
+     "reentries": null
+    },
+    {
+     "place": 6,
+     "handle": "Stephen B.",
+     "points": 23.0,
+     "reentries": null
+    },
+    {
+     "place": 7,
+     "handle": "Jeff W.",
+     "points": 22.0,
+     "reentries": null
+    },
+    {
+     "place": 8,
+     "handle": "Chris M.",
+     "points": 21.0,
+     "reentries": null
+    },
+    {
+     "place": 9,
+     "handle": "Josh F.",
+     "points": 20.0,
+     "reentries": null
+    },
+    {
+     "place": 10,
+     "handle": "Dan G.",
+     "points": 19.0,
+     "reentries": null
+    },
+    {
+     "place": 11,
+     "handle": "Britt H.",
+     "points": 18.0,
+     "reentries": null
+    },
+    {
+     "place": 12,
+     "handle": "Noah P.",
+     "points": 17.0,
+     "reentries": null
+    },
+    {
+     "place": 13,
+     "handle": "Jeff G.",
+     "points": 16.0,
+     "reentries": null
+    },
+    {
+     "place": 14,
+     "handle": "Jacob M.",
+     "points": 15.0,
+     "reentries": null
+    },
+    {
+     "place": 15,
+     "handle": "Andrew R.",
+     "points": 14.0,
+     "reentries": null
+    },
+    {
+     "place": 16,
+     "handle": "Barbara N.",
+     "points": 13.0,
+     "reentries": null
+    },
+    {
+     "place": 17,
+     "handle": "Paul dC.",
+     "points": 12.0,
+     "reentries": null
+    },
+    {
+     "place": 18,
+     "handle": "Eric T.",
+     "points": 11.0,
+     "reentries": null
+    },
+    {
+     "place": 19,
+     "handle": "Dog D.",
+     "points": 10.0,
+     "reentries": null
+    },
+    {
+     "place": 20,
+     "handle": "Carlos T.",
+     "points": 9.0,
+     "reentries": null
+    },
+    {
+     "place": 21,
+     "handle": "Julie A.",
+     "points": 8.0,
+     "reentries": null
+    },
+    {
+     "place": 22,
+     "handle": "Allen R.",
+     "points": 7.0,
+     "reentries": null
+    },
+    {
+     "place": 23,
+     "handle": "Dan I.",
+     "points": 6.0,
+     "reentries": null
+    },
+    {
+     "place": 24,
+     "handle": "Marc F.",
+     "points": 5.0,
+     "reentries": null
+    },
+    {
+     "place": 25,
+     "handle": "Jeremy D.",
+     "points": 4.0,
+     "reentries": null
+    },
+    {
+     "place": 26,
+     "handle": "Mike K.",
+     "points": 3.0,
+     "reentries": null
+    },
+    {
+     "place": 27,
+     "handle": "Greg H.",
+     "points": 2.0,
+     "reentries": null
+    },
+    {
+     "place": 28,
+     "handle": "Jason H.",
+     "points": 1.0,
+     "reentries": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "label": "Sep",
+   "entrants": 17,
+   "players": 17,
+   "buyIn": null,
+   "rebuy": null,
+   "game": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "Jeff W.",
+     "points": 17.0,
+     "reentries": null
+    },
+    {
+     "place": 2,
+     "handle": "David M.",
+     "points": 16.0,
+     "reentries": null
+    },
+    {
+     "place": 3,
+     "handle": "Dan L.",
+     "points": 15.0,
+     "reentries": null
+    },
+    {
+     "place": 4,
+     "handle": "Chris M.",
+     "points": 14.0,
+     "reentries": null
+    },
+    {
+     "place": 5,
+     "handle": "Allen Q.",
+     "points": 13.0,
+     "reentries": null
+    },
+    {
+     "place": 6,
+     "handle": "Paul dC.",
+     "points": 12.0,
+     "reentries": null
+    },
+    {
+     "place": 7,
+     "handle": "Jeff G.",
+     "points": 11.0,
+     "reentries": null
+    },
+    {
+     "place": 8,
+     "handle": "Jacob M.",
+     "points": 10.0,
+     "reentries": null
+    },
+    {
+     "place": 9,
+     "handle": "Dan G.",
+     "points": 9.0,
+     "reentries": null
+    },
+    {
+     "place": 10,
+     "handle": "Jeff S.",
+     "points": 8.0,
+     "reentries": null
+    },
+    {
+     "place": 11,
+     "handle": "Josh F.",
+     "points": 7.0,
+     "reentries": null
+    },
+    {
+     "place": 12,
+     "handle": "Allen R.",
+     "points": 6.0,
+     "reentries": null
+    },
+    {
+     "place": 13,
+     "handle": "Dog D.",
+     "points": 5.0,
+     "reentries": null
+    },
+    {
+     "place": 14,
+     "handle": "Barbara N.",
+     "points": 4.0,
+     "reentries": null
+    },
+    {
+     "place": 15,
+     "handle": "Marc F.",
+     "points": 3.0,
+     "reentries": null
+    },
+    {
+     "place": 16,
+     "handle": "Tony G.",
+     "points": 2.0,
+     "reentries": null
+    },
+    {
+     "place": 17,
+     "handle": "Amy L.",
+     "points": 1.0,
+     "reentries": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "label": "Oct",
+   "entrants": 20,
+   "players": 20,
+   "buyIn": null,
+   "rebuy": null,
+   "game": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "Julie A.",
+     "points": 20.0,
+     "reentries": null
+    },
+    {
+     "place": 2,
+     "handle": "Chris M.",
+     "points": 19.0,
+     "reentries": null
+    },
+    {
+     "place": 3,
+     "handle": "Josh F.",
+     "points": 18.0,
+     "reentries": null
+    },
+    {
+     "place": 4,
+     "handle": "Amy L.",
+     "points": 17.0,
+     "reentries": null
+    },
+    {
+     "place": 5,
+     "handle": "David M.",
+     "points": 16.0,
+     "reentries": null
+    },
+    {
+     "place": 6,
+     "handle": "Marc F.",
+     "points": 15.0,
+     "reentries": null
+    },
+    {
+     "place": 7,
+     "handle": "Jason H.",
+     "points": 14.0,
+     "reentries": null
+    },
+    {
+     "place": 8,
+     "handle": "Allen R.",
+     "points": 13.0,
+     "reentries": null
+    },
+    {
+     "place": 9,
+     "handle": "Paul dC.",
+     "points": 12.0,
+     "reentries": null
+    },
+    {
+     "place": 10,
+     "handle": "Garner K.",
+     "points": 11.0,
+     "reentries": null
+    },
+    {
+     "place": 11,
+     "handle": "Dan G.",
+     "points": 10.0,
+     "reentries": null
+    },
+    {
+     "place": 12,
+     "handle": "Colin H.",
+     "points": 9.0,
+     "reentries": null
+    },
+    {
+     "place": 13,
+     "handle": "Andrew R.",
+     "points": 8.0,
+     "reentries": null
+    },
+    {
+     "place": 14,
+     "handle": "Dan L.",
+     "points": 7.0,
+     "reentries": null
+    },
+    {
+     "place": 15,
+     "handle": "Barbara N.",
+     "points": 6.0,
+     "reentries": null
+    },
+    {
+     "place": 16,
+     "handle": "Marissa C.",
+     "points": 5.0,
+     "reentries": null
+    },
+    {
+     "place": 17,
+     "handle": "Tom L.",
+     "points": 4.0,
+     "reentries": null
+    },
+    {
+     "place": 18,
+     "handle": "Jeff S.",
+     "points": 3.0,
+     "reentries": null
+    },
+    {
+     "place": 19,
+     "handle": "Bobby B.",
+     "points": 2.0,
+     "reentries": null
+    },
+    {
+     "place": 20,
+     "handle": "Mike P.",
+     "points": 1.0,
+     "reentries": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "label": "Nov",
+   "entrants": 28,
+   "players": 28,
+   "buyIn": null,
+   "rebuy": null,
+   "game": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "Mike K.",
+     "points": 28.0,
+     "reentries": null
+    },
+    {
+     "place": 2,
+     "handle": "Brian A.",
+     "points": 27.0,
+     "reentries": null
+    },
+    {
+     "place": 3,
+     "handle": "Jeff S.",
+     "points": 26.0,
+     "reentries": null
+    },
+    {
+     "place": 4,
+     "handle": "Dan G.",
+     "points": 25.0,
+     "reentries": null
+    },
+    {
+     "place": 5,
+     "handle": "Dan L.",
+     "points": 24.0,
+     "reentries": null
+    },
+    {
+     "place": 6,
+     "handle": "Andrew R.",
+     "points": 23.0,
+     "reentries": null
+    },
+    {
+     "place": 7,
+     "handle": "Jeff W.",
+     "points": 22.0,
+     "reentries": null
+    },
+    {
+     "place": 8,
+     "handle": "Marc F.",
+     "points": 21.0,
+     "reentries": null
+    },
+    {
+     "place": 9,
+     "handle": "Carlos T.",
+     "points": 20.0,
+     "reentries": null
+    },
+    {
+     "place": 10,
+     "handle": "Bobby B.",
+     "points": 19.0,
+     "reentries": null
+    },
+    {
+     "place": 11,
+     "handle": "Jacob M.",
+     "points": 18.0,
+     "reentries": null
+    },
+    {
+     "place": 12,
+     "handle": "Colin H.",
+     "points": 17.0,
+     "reentries": null
+    },
+    {
+     "place": 13,
+     "handle": "Stephen B.",
+     "points": 16.0,
+     "reentries": null
+    },
+    {
+     "place": 14,
+     "handle": "Allen Q.",
+     "points": 15.0,
+     "reentries": null
+    },
+    {
+     "place": 15,
+     "handle": "David M.",
+     "points": 14.0,
+     "reentries": null
+    },
+    {
+     "place": 16,
+     "handle": "Jeff G.",
+     "points": 13.0,
+     "reentries": null
+    },
+    {
+     "place": 17,
+     "handle": "Dog D.",
+     "points": 12.0,
+     "reentries": null
+    },
+    {
+     "place": 18,
+     "handle": "Tony G.",
+     "points": 11.0,
+     "reentries": null
+    },
+    {
+     "place": 19,
+     "handle": "Julie A.",
+     "points": 10.0,
+     "reentries": null
+    },
+    {
+     "place": 20,
+     "handle": "Mike P.",
+     "points": 9.0,
+     "reentries": null
+    },
+    {
+     "place": 21,
+     "handle": "Eric T.",
+     "points": 8.0,
+     "reentries": null
+    },
+    {
+     "place": 22,
+     "handle": "Daniel M.",
+     "points": 7.0,
+     "reentries": null
+    },
+    {
+     "place": 23,
+     "handle": "Barbara N.",
+     "points": 6.0,
+     "reentries": null
+    },
+    {
+     "place": 24,
+     "handle": "Josh F.",
+     "points": 5.0,
+     "reentries": null
+    },
+    {
+     "place": 25,
+     "handle": "Allen R.",
+     "points": 4.0,
+     "reentries": null
+    },
+    {
+     "place": 26,
+     "handle": "Chris M.",
+     "points": 3.0,
+     "reentries": null
+    },
+    {
+     "place": 27,
+     "handle": "Amy L.",
+     "points": 2.0,
+     "reentries": null
+    },
+    {
+     "place": 28,
+     "handle": "Bob F.",
+     "points": 1.0,
+     "reentries": null
+    }
+   ]
+  },
+  {
+   "date": null,
+   "label": "Dec",
+   "entrants": 6,
+   "players": 6,
+   "buyIn": null,
+   "rebuy": null,
+   "game": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "Julie A.",
+     "points": 19.0,
+     "reentries": null
+    },
+    {
+     "place": 2,
+     "handle": "Jeff S.",
+     "points": 18.0,
+     "reentries": null
+    },
+    {
+     "place": 3,
+     "handle": "Chris M.",
+     "points": 17.0,
+     "reentries": null
+    },
+    {
+     "place": 4,
+     "handle": "Barbara N.",
+     "points": 16.0,
+     "reentries": null
+    },
+    {
+     "place": 5,
+     "handle": "Amy L.",
+     "points": 15.0,
+     "reentries": null
+    },
+    {
+     "place": 6,
+     "handle": "Dan G.",
+     "points": 13.0,
+     "reentries": null
+    }
+   ]
+  }
+ ],
+ "standings": [
+  {
+   "handle": "Jeff S.",
+   "points": 182.0,
+   "total": 182.0,
+   "avgPoints": 15.167,
+   "played": 12,
+   "wins": 2,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 1,
+   "weeks": [
+    [
+     1,
+     24.0,
+     true
+    ],
+    [
+     13,
+     11.0,
+     false
+    ],
+    [
+     9,
+     12.0,
+     false
+    ],
+    [
+     8,
+     8.0,
+     false
+    ],
+    [
+     7,
+     13.0,
+     false
+    ],
+    [
+     7,
+     8.0,
+     false
+    ],
+    [
+     5,
+     23.0,
+     false
+    ],
+    [
+     1,
+     28.0,
+     true
+    ],
+    [
+     10,
+     8.0,
+     false
+    ],
+    [
+     18,
+     3.0,
+     false
+    ],
+    [
+     3,
+     26.0,
+     false
+    ],
+    [
+     2,
+     18.0,
+     false
+    ]
+   ],
+   "rankHistory": [
+    1,
+    4,
+    4,
+    4,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "rank": 1
+  },
+  {
+   "handle": "Dan G.",
+   "points": 156.0,
+   "total": 156.0,
+   "avgPoints": 13.0,
+   "played": 12,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 2,
+   "weeks": [
+    [
+     5,
+     20.0,
+     false
+    ],
+    [
+     2,
+     22.0,
+     false
+    ],
+    [
+     11,
+     10.0,
+     false
+    ],
+    [
+     5,
+     11.0,
+     false
+    ],
+    [
+     19,
+     1.0,
+     false
+    ],
+    [
+     6,
+     9.0,
+     false
+    ],
+    [
+     21,
+     7.0,
+     false
+    ],
+    [
+     10,
+     19.0,
+     false
+    ],
+    [
+     9,
+     9.0,
+     false
+    ],
+    [
+     11,
+     10.0,
+     false
+    ],
+    [
+     4,
+     25.0,
+     false
+    ],
+    [
+     6,
+     13.0,
+     false
+    ]
+   ],
+   "rankHistory": [
+    5,
+    1,
+    2,
+    1,
+    5,
+    3,
+    6,
+    4,
+    2,
+    5,
+    2,
+    2
+   ],
+   "rank": 2
+  },
+  {
+   "handle": "Julie A.",
+   "points": 148.0,
+   "total": 148.0,
+   "avgPoints": 13.455,
+   "played": 11,
+   "wins": 3,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 1,
+   "weeks": [
+    [
+     19,
+     6.0,
+     false
+    ],
+    [
+     5,
+     19.0,
+     false
+    ],
+    [
+     8,
+     13.0,
+     false
+    ],
+    [
+     1,
+     15.0,
+     true
+    ],
+    [
+     12,
+     8.0,
+     false
+    ],
+    [
+     9,
+     6.0,
+     false
+    ],
+    [
+     4,
+     24.0,
+     false
+    ],
+    [
+     21,
+     8.0,
+     false
+    ],
+    null,
+    [
+     1,
+     20.0,
+     true
+    ],
+    [
+     19,
+     10.0,
+     false
+    ],
+    [
+     1,
+     19.0,
+     true
+    ]
+   ],
+   "rankHistory": [
+    19,
+    12,
+    7,
+    5,
+    7,
+    6,
+    4,
+    4,
+    7,
+    4,
+    4,
+    3
+   ],
+   "rank": 3
+  },
+  {
+   "handle": "Chris M.",
+   "points": 142.0,
+   "total": 142.0,
+   "avgPoints": 11.833,
+   "played": 12,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 2,
+   "weeks": [
+    [
+     2,
+     23.0,
+     false
+    ],
+    [
+     18,
+     6.0,
+     false
+    ],
+    [
+     17,
+     4.0,
+     false
+    ],
+    [
+     3,
+     13.0,
+     false
+    ],
+    [
+     4,
+     16.0,
+     false
+    ],
+    [
+     11,
+     4.0,
+     false
+    ],
+    [
+     26,
+     2.0,
+     false
+    ],
+    [
+     8,
+     21.0,
+     false
+    ],
+    [
+     4,
+     14.0,
+     false
+    ],
+    [
+     2,
+     19.0,
+     false
+    ],
+    [
+     26,
+     3.0,
+     false
+    ],
+    [
+     3,
+     17.0,
+     false
+    ]
+   ],
+   "rankHistory": [
+    2,
+    8,
+    10,
+    7,
+    6,
+    7,
+    11,
+    9,
+    5,
+    2,
+    5,
+    4
+   ],
+   "rank": 4
+  },
+  {
+   "handle": "Marc F.",
+   "points": 136.0,
+   "total": 136.0,
+   "avgPoints": 12.364,
+   "played": 11,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 2,
+   "weeks": [
+    [
+     16,
+     9.0,
+     false
+    ],
+    [
+     7,
+     17.0,
+     false
+    ],
+    [
+     10,
+     11.0,
+     false
+    ],
+    [
+     2,
+     14.0,
+     false
+    ],
+    [
+     3,
+     17.0,
+     false
+    ],
+    [
+     10,
+     5.0,
+     false
+    ],
+    [
+     9,
+     19.0,
+     false
+    ],
+    [
+     24,
+     5.0,
+     false
+    ],
+    [
+     15,
+     3.0,
+     false
+    ],
+    [
+     6,
+     15.0,
+     false
+    ],
+    [
+     8,
+     21.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    16,
+    10,
+    8,
+    6,
+    2,
+    3,
+    3,
+    6,
+    6,
+    6,
+    3,
+    5
+   ],
+   "rank": 5
+  },
+  {
+   "handle": "Barbara N.",
+   "points": 132.0,
+   "total": 132.0,
+   "avgPoints": 12.0,
+   "played": 11,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 4,
+   "weeks": [
+    [
+     9,
+     16.0,
+     false
+    ],
+    [
+     4,
+     20.0,
+     false
+    ],
+    [
+     6,
+     15.0,
+     false
+    ],
+    [
+     9,
+     7.0,
+     false
+    ],
+    [
+     5,
+     15.0,
+     false
+    ],
+    null,
+    [
+     14,
+     14.0,
+     false
+    ],
+    [
+     16,
+     13.0,
+     false
+    ],
+    [
+     14,
+     4.0,
+     false
+    ],
+    [
+     15,
+     6.0,
+     false
+    ],
+    [
+     23,
+     6.0,
+     false
+    ],
+    [
+     4,
+     16.0,
+     false
+    ]
+   ],
+   "rankHistory": [
+    9,
+    3,
+    3,
+    3,
+    1,
+    3,
+    5,
+    3,
+    4,
+    8,
+    8,
+    6
+   ],
+   "rank": 6
+  },
+  {
+   "handle": "Allen R.",
+   "points": 124.0,
+   "total": 124.0,
+   "avgPoints": 11.273,
+   "played": 11,
+   "wins": 1,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 1,
+   "weeks": [
+    [
+     13,
+     12.0,
+     false
+    ],
+    [
+     1,
+     23.0,
+     true
+    ],
+    [
+     3,
+     18.0,
+     false
+    ],
+    [
+     7,
+     9.0,
+     false
+    ],
+    [
+     15,
+     5.0,
+     false
+    ],
+    [
+     4,
+     11.0,
+     false
+    ],
+    [
+     12,
+     16.0,
+     false
+    ],
+    [
+     22,
+     7.0,
+     false
+    ],
+    [
+     12,
+     6.0,
+     false
+    ],
+    [
+     8,
+     13.0,
+     false
+    ],
+    [
+     25,
+     4.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    13,
+    4,
+    1,
+    2,
+    4,
+    1,
+    2,
+    2,
+    3,
+    3,
+    6,
+    7
+   ],
+   "rank": 7
+  },
+  {
+   "handle": "Josh F.",
+   "points": 120.0,
+   "total": 120.0,
+   "avgPoints": 13.333,
+   "played": 9,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 2,
+   "weeks": [
+    null,
+    [
+     15,
+     9.0,
+     false
+    ],
+    [
+     2,
+     19.0,
+     false
+    ],
+    [
+     6,
+     10.0,
+     false
+    ],
+    [
+     9,
+     11.0,
+     false
+    ],
+    null,
+    [
+     7,
+     21.0,
+     false
+    ],
+    [
+     9,
+     20.0,
+     false
+    ],
+    [
+     11,
+     7.0,
+     false
+    ],
+    [
+     3,
+     18.0,
+     false
+    ],
+    [
+     24,
+     5.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    null,
+    22,
+    13,
+    11,
+    8,
+    10,
+    8,
+    8,
+    8,
+    6,
+    7,
+    8
+   ],
+   "rank": 8
+  },
+  {
+   "handle": "Jacob M.",
+   "points": 113.0,
+   "total": 113.0,
+   "avgPoints": 12.556,
+   "played": 9,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 2,
+   "weeks": [
+    [
+     3,
+     22.0,
+     false
+    ],
+    [
+     8,
+     16.0,
+     false
+    ],
+    [
+     20,
+     1.0,
+     false
+    ],
+    null,
+    [
+     11,
+     9.0,
+     false
+    ],
+    [
+     2,
+     13.0,
+     false
+    ],
+    [
+     19,
+     9.0,
+     false
+    ],
+    [
+     14,
+     15.0,
+     false
+    ],
+    [
+     8,
+     10.0,
+     false
+    ],
+    null,
+    [
+     11,
+     18.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    3,
+    2,
+    6,
+    9,
+    9,
+    8,
+    8,
+    10,
+    10,
+    11,
+    9,
+    9
+   ],
+   "rank": 9
+  },
+  {
+   "handle": "David M.",
+   "points": 112.0,
+   "total": 112.0,
+   "avgPoints": 18.667,
+   "played": 6,
+   "wins": 1,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 1,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    [
+     1,
+     19.0,
+     true
+    ],
+    null,
+    [
+     8,
+     20.0,
+     false
+    ],
+    [
+     2,
+     27.0,
+     false
+    ],
+    [
+     2,
+     16.0,
+     false
+    ],
+    [
+     5,
+     16.0,
+     false
+    ],
+    [
+     15,
+     14.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    23,
+    24,
+    17,
+    12,
+    12,
+    9,
+    10,
+    10
+   ],
+   "rank": 10
+  },
+  {
+   "handle": "Mike P.",
+   "points": 106.0,
+   "total": 106.0,
+   "avgPoints": 10.6,
+   "played": 10,
+   "wins": 1,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 1,
+   "weeks": [
+    [
+     21,
+     4.0,
+     false
+    ],
+    [
+     14,
+     10.0,
+     false
+    ],
+    [
+     1,
+     20.0,
+     true
+    ],
+    [
+     11,
+     5.0,
+     false
+    ],
+    [
+     17,
+     3.0,
+     false
+    ],
+    [
+     13,
+     2.0,
+     false
+    ],
+    [
+     2,
+     26.0,
+     false
+    ],
+    [
+     3,
+     26.0,
+     false
+    ],
+    null,
+    [
+     20,
+     1.0,
+     false
+    ],
+    [
+     20,
+     9.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    21,
+    19,
+    9,
+    9,
+    11,
+    11,
+    8,
+    7,
+    9,
+    10,
+    11,
+    11
+   ],
+   "rank": 11
+  },
+  {
+   "handle": "Carlos T.",
+   "points": 103.0,
+   "total": 103.0,
+   "avgPoints": 14.714,
+   "played": 7,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 3,
+   "weeks": [
+    [
+     7,
+     18.0,
+     false
+    ],
+    [
+     12,
+     12.0,
+     false
+    ],
+    null,
+    null,
+    [
+     6,
+     14.0,
+     false
+    ],
+    [
+     3,
+     12.0,
+     false
+    ],
+    [
+     10,
+     18.0,
+     false
+    ],
+    [
+     20,
+     9.0,
+     false
+    ],
+    null,
+    null,
+    [
+     9,
+     20.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    7,
+    7,
+    11,
+    14,
+    10,
+    9,
+    7,
+    11,
+    11,
+    12,
+    12,
+    12
+   ],
+   "rank": 12
+  },
+  {
+   "handle": "Jeff W.",
+   "points": 95.0,
+   "total": 95.0,
+   "avgPoints": 19.0,
+   "played": 5,
+   "wins": 1,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 1,
+   "weeks": [
+    [
+     4,
+     21.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     15,
+     13.0,
+     false
+    ],
+    [
+     7,
+     22.0,
+     false
+    ],
+    [
+     1,
+     17.0,
+     true
+    ],
+    null,
+    [
+     7,
+     22.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    4,
+    14,
+    19,
+    19,
+    21,
+    22,
+    20,
+    17,
+    13,
+    13,
+    13,
+    13
+   ],
+   "rank": 13
+  },
+  {
+   "handle": "Mike K.",
+   "points": 94.0,
+   "total": 94.0,
+   "avgPoints": 15.667,
+   "played": 6,
+   "wins": 1,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 1,
+   "weeks": [
+    [
+     6,
+     19.0,
+     false
+    ],
+    [
+     9,
+     15.0,
+     false
+    ],
+    [
+     14,
+     7.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    [
+     6,
+     22.0,
+     false
+    ],
+    [
+     26,
+     3.0,
+     false
+    ],
+    null,
+    null,
+    [
+     1,
+     28.0,
+     true
+    ],
+    null
+   ],
+   "rankHistory": [
+    6,
+    6,
+    5,
+    8,
+    12,
+    12,
+    12,
+    12,
+    15,
+    15,
+    14,
+    14
+   ],
+   "rank": 14
+  },
+  {
+   "handle": "Dan L.",
+   "points": 79.0,
+   "total": 79.0,
+   "avgPoints": 15.8,
+   "played": 5,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 3,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     20,
+     8.0,
+     false
+    ],
+    [
+     4,
+     25.0,
+     false
+    ],
+    [
+     3,
+     15.0,
+     false
+    ],
+    [
+     14,
+     7.0,
+     false
+    ],
+    [
+     5,
+     24.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    34,
+    23,
+    20,
+    20,
+    15,
+    15
+   ],
+   "rank": 15
+  },
+  {
+   "handle": "Dog D.",
+   "points": 79.0,
+   "total": 79.0,
+   "avgPoints": 9.875,
+   "played": 8,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 3,
+   "weeks": [
+    [
+     11,
+     14.0,
+     false
+    ],
+    [
+     23,
+     1.0,
+     false
+    ],
+    null,
+    null,
+    [
+     18,
+     2.0,
+     false
+    ],
+    [
+     5,
+     10.0,
+     false
+    ],
+    [
+     3,
+     25.0,
+     false
+    ],
+    [
+     19,
+     10.0,
+     false
+    ],
+    [
+     13,
+     5.0,
+     false
+    ],
+    null,
+    [
+     17,
+     12.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    11,
+    18,
+    23,
+    23,
+    24,
+    19,
+    14,
+    14,
+    14,
+    14,
+    15,
+    15
+   ],
+   "rank": 15
+  },
+  {
+   "handle": "Allen Q.",
+   "points": 74.0,
+   "total": 74.0,
+   "avgPoints": 12.333,
+   "played": 6,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 5,
+   "weeks": [
+    null,
+    [
+     19,
+     5.0,
+     false
+    ],
+    null,
+    [
+     14,
+     2.0,
+     false
+    ],
+    null,
+    null,
+    [
+     13,
+     15.0,
+     false
+    ],
+    [
+     5,
+     24.0,
+     false
+    ],
+    [
+     5,
+     13.0,
+     false
+    ],
+    null,
+    [
+     14,
+     15.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    null,
+    24,
+    28,
+    28,
+    30,
+    31,
+    25,
+    20,
+    17,
+    18,
+    17,
+    17
+   ],
+   "rank": 17
+  },
+  {
+   "handle": "Stephen B.",
+   "points": 74.0,
+   "total": 74.0,
+   "avgPoints": 14.8,
+   "played": 5,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 2,
+   "weeks": [
+    [
+     14,
+     11.0,
+     false
+    ],
+    null,
+    [
+     15,
+     6.0,
+     false
+    ],
+    null,
+    [
+     2,
+     18.0,
+     false
+    ],
+    null,
+    null,
+    [
+     6,
+     23.0,
+     false
+    ],
+    null,
+    null,
+    [
+     13,
+     16.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    14,
+    20,
+    21,
+    21,
+    14,
+    14,
+    19,
+    16,
+    18,
+    19,
+    17,
+    17
+   ],
+   "rank": 17
+  },
+  {
+   "handle": "Andrew R.",
+   "points": 72.0,
+   "total": 72.0,
+   "avgPoints": 18.0,
+   "played": 4,
+   "wins": 1,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 1,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     1,
+     27.0,
+     true
+    ],
+    [
+     15,
+     14.0,
+     false
+    ],
+    null,
+    [
+     13,
+     8.0,
+     false
+    ],
+    [
+     6,
+     23.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    22,
+    21,
+    22,
+    22,
+    19,
+    19
+   ],
+   "rank": 19
+  },
+  {
+   "handle": "Dan I.",
+   "points": 61.0,
+   "total": 61.0,
+   "avgPoints": 12.2,
+   "played": 5,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 4,
+   "weeks": [
+    [
+     12,
+     13.0,
+     false
+    ],
+    [
+     11,
+     13.0,
+     false
+    ],
+    null,
+    [
+     4,
+     12.0,
+     false
+    ],
+    null,
+    null,
+    [
+     11,
+     17.0,
+     false
+    ],
+    [
+     23,
+     6.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    12,
+    10,
+    15,
+    11,
+    13,
+    13,
+    13,
+    15,
+    16,
+    16,
+    20,
+    20
+   ],
+   "rank": 20
+  },
+  {
+   "handle": "Jason H.",
+   "points": 61.0,
+   "total": 61.0,
+   "avgPoints": 8.714,
+   "played": 7,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 6,
+   "weeks": [
+    null,
+    [
+     6,
+     18.0,
+     false
+    ],
+    [
+     18,
+     3.0,
+     false
+    ],
+    null,
+    [
+     10,
+     10.0,
+     false
+    ],
+    [
+     12,
+     3.0,
+     false
+    ],
+    [
+     16,
+     12.0,
+     false
+    ],
+    [
+     28,
+     1.0,
+     false
+    ],
+    null,
+    [
+     7,
+     14.0,
+     false
+    ],
+    null,
+    null
+   ],
+   "rankHistory": [
+    null,
+    16,
+    19,
+    19,
+    16,
+    16,
+    15,
+    19,
+    21,
+    16,
+    20,
+    20
+   ],
+   "rank": 20
+  },
+  {
+   "handle": "Eric T.",
+   "points": 59.0,
+   "total": 59.0,
+   "avgPoints": 7.375,
+   "played": 8,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 10,
+   "weeks": [
+    [
+     15,
+     10.0,
+     false
+    ],
+    [
+     17,
+     7.0,
+     false
+    ],
+    [
+     13,
+     8.0,
+     false
+    ],
+    [
+     10,
+     6.0,
+     false
+    ],
+    [
+     16,
+     4.0,
+     false
+    ],
+    null,
+    [
+     23,
+     5.0,
+     false
+    ],
+    [
+     18,
+     11.0,
+     false
+    ],
+    null,
+    null,
+    [
+     21,
+     8.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    15,
+    17,
+    16,
+    13,
+    14,
+    14,
+    16,
+    18,
+    19,
+    21,
+    22,
+    22
+   ],
+   "rank": 22
+  },
+  {
+   "handle": "Amy L.",
+   "points": 57.0,
+   "total": 57.0,
+   "avgPoints": 5.7,
+   "played": 10,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 4,
+   "weeks": [
+    [
+     23,
+     2.0,
+     false
+    ],
+    null,
+    [
+     16,
+     5.0,
+     false
+    ],
+    [
+     15,
+     1.0,
+     false
+    ],
+    [
+     8,
+     12.0,
+     false
+    ],
+    [
+     14,
+     1.0,
+     false
+    ],
+    [
+     27,
+     1.0,
+     false
+    ],
+    null,
+    [
+     17,
+     1.0,
+     false
+    ],
+    [
+     4,
+     17.0,
+     false
+    ],
+    [
+     27,
+     2.0,
+     false
+    ],
+    [
+     5,
+     15.0,
+     false
+    ]
+   ],
+   "rankHistory": [
+    23,
+    29,
+    27,
+    26,
+    22,
+    22,
+    25,
+    28,
+    29,
+    23,
+    24,
+    23
+   ],
+   "rank": 23
+  },
+  {
+   "handle": "Jeff G.",
+   "points": 46.0,
+   "total": 46.0,
+   "avgPoints": 11.5,
+   "played": 4,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 7,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     22,
+     6.0,
+     false
+    ],
+    [
+     13,
+     16.0,
+     false
+    ],
+    [
+     7,
+     11.0,
+     false
+    ],
+    null,
+    [
+     16,
+     13.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    36,
+    28,
+    24,
+    26,
+    23,
+    24
+   ],
+   "rank": 24
+  },
+  {
+   "handle": "John S.",
+   "points": 39.0,
+   "total": 39.0,
+   "avgPoints": 9.75,
+   "played": 4,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 4,
+   "weeks": [
+    [
+     18,
+     7.0,
+     false
+    ],
+    [
+     20,
+     4.0,
+     false
+    ],
+    [
+     4,
+     17.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    [
+     17,
+     11.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    18,
+    20,
+    13,
+    16,
+    18,
+    18,
+    17,
+    22,
+    23,
+    24,
+    25,
+    25
+   ],
+   "rank": 25
+  },
+  {
+   "handle": "Paul dC.",
+   "points": 36.0,
+   "total": 36.0,
+   "avgPoints": 12.0,
+   "played": 3,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 6,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     17,
+     12.0,
+     false
+    ],
+    [
+     6,
+     12.0,
+     false
+    ],
+    [
+     9,
+     12.0,
+     false
+    ],
+    null,
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    36,
+    28,
+    25,
+    26,
+    26
+   ],
+   "rank": 26
+  },
+  {
+   "handle": "Bobby B.",
+   "points": 35.0,
+   "total": 35.0,
+   "avgPoints": 11.667,
+   "played": 3,
+   "wins": 1,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 1,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     1,
+     14.0,
+     true
+    ],
+    null,
+    null,
+    null,
+    [
+     19,
+     2.0,
+     false
+    ],
+    [
+     10,
+     19.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    27,
+    29,
+    33,
+    34,
+    33,
+    27,
+    27
+   ],
+   "rank": 27
+  },
+  {
+   "handle": "Bill K.",
+   "points": 29.0,
+   "total": 29.0,
+   "avgPoints": 14.5,
+   "played": 2,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 10,
+   "weeks": [
+    [
+     10,
+     15.0,
+     false
+    ],
+    [
+     10,
+     14.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    10,
+    8,
+    12,
+    15,
+    17,
+    17,
+    21,
+    24,
+    25,
+    27,
+    28,
+    28
+   ],
+   "rank": 28
+  },
+  {
+   "handle": "Brian A.",
+   "points": 27.0,
+   "total": 27.0,
+   "avgPoints": 27.0,
+   "played": 1,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 2,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     2,
+     27.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    29,
+    29
+   ],
+   "rank": 29
+  },
+  {
+   "handle": "Garner K.",
+   "points": 27.0,
+   "total": 27.0,
+   "avgPoints": 9.0,
+   "played": 3,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 8,
+   "weeks": [
+    null,
+    null,
+    [
+     12,
+     9.0,
+     false
+    ],
+    null,
+    null,
+    [
+     8,
+     7.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    [
+     10,
+     11.0,
+     false
+    ],
+    null,
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    25,
+    25,
+    28,
+    25,
+    27,
+    31,
+    32,
+    28,
+    29,
+    29
+   ],
+   "rank": 29
+  },
+  {
+   "handle": "Noah P.",
+   "points": 27.0,
+   "total": 27.0,
+   "avgPoints": 9.0,
+   "played": 3,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 12,
+   "weeks": [
+    null,
+    null,
+    null,
+    [
+     12,
+     4.0,
+     false
+    ],
+    [
+     14,
+     6.0,
+     false
+    ],
+    null,
+    null,
+    [
+     12,
+     17.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    31,
+    27,
+    29,
+    31,
+    25,
+    26,
+    28,
+    29,
+    29
+   ],
+   "rank": 29
+  },
+  {
+   "handle": "Colin H.",
+   "points": 26.0,
+   "total": 26.0,
+   "avgPoints": 13.0,
+   "played": 2,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 12,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     12,
+     9.0,
+     false
+    ],
+    [
+     12,
+     17.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    38,
+    32,
+    32
+   ],
+   "rank": 32
+  },
+  {
+   "handle": "Jeff R.",
+   "points": 25.0,
+   "total": 25.0,
+   "avgPoints": 12.5,
+   "played": 2,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 8,
+   "weeks": [
+    [
+     8,
+     17.0,
+     false
+    ],
+    [
+     16,
+     8.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    8,
+    12,
+    16,
+    17,
+    19,
+    20,
+    23,
+    26,
+    27,
+    30,
+    33,
+    33
+   ],
+   "rank": 33
+  },
+  {
+   "handle": "Ken L.",
+   "points": 23.0,
+   "total": 23.0,
+   "avgPoints": 11.5,
+   "played": 2,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 3,
+   "weeks": [
+    null,
+    [
+     3,
+     21.0,
+     false
+    ],
+    [
+     19,
+     2.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    null,
+    14,
+    18,
+    18,
+    20,
+    21,
+    24,
+    27,
+    29,
+    31,
+    34,
+    34
+   ],
+   "rank": 34
+  },
+  {
+   "handle": "Tony G.",
+   "points": 19.0,
+   "total": 19.0,
+   "avgPoints": 3.8,
+   "played": 5,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 13,
+   "weeks": [
+    [
+     24,
+     1.0,
+     false
+    ],
+    [
+     22,
+     2.0,
+     false
+    ],
+    null,
+    [
+     13,
+     3.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    [
+     16,
+     2.0,
+     false
+    ],
+    null,
+    [
+     18,
+     11.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    24,
+    26,
+    30,
+    29,
+    32,
+    33,
+    36,
+    39,
+    38,
+    39,
+    35,
+    35
+   ],
+   "rank": 35
+  },
+  {
+   "handle": "Britt H.",
+   "points": 18.0,
+   "total": 18.0,
+   "avgPoints": 18.0,
+   "played": 1,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 11,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     11,
+     18.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    30,
+    31,
+    32,
+    36,
+    36
+   ],
+   "rank": 36
+  },
+  {
+   "handle": "Beverly M.",
+   "points": 16.0,
+   "total": 16.0,
+   "avgPoints": 16.0,
+   "played": 1,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 5,
+   "weeks": [
+    null,
+    null,
+    [
+     5,
+     16.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    22,
+    22,
+    25,
+    25,
+    27,
+    31,
+    32,
+    33,
+    37,
+    37
+   ],
+   "rank": 37
+  },
+  {
+   "handle": "Jeremy D.",
+   "points": 14.0,
+   "total": 14.0,
+   "avgPoints": 4.667,
+   "played": 3,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 13,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    [
+     13,
+     7.0,
+     false
+    ],
+    null,
+    [
+     25,
+     3.0,
+     false
+    ],
+    [
+     25,
+     4.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    30,
+    31,
+    31,
+    33,
+    34,
+    35,
+    38,
+    38
+   ],
+   "rank": 38
+  },
+  {
+   "handle": "Rob G.",
+   "points": 14.0,
+   "total": 14.0,
+   "avgPoints": 14.0,
+   "played": 1,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 7,
+   "weeks": [
+    null,
+    null,
+    [
+     7,
+     14.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    24,
+    24,
+    26,
+    27,
+    29,
+    33,
+    34,
+    35,
+    38,
+    38
+   ],
+   "rank": 38
+  },
+  {
+   "handle": "Bob F.",
+   "points": 11.0,
+   "total": 11.0,
+   "avgPoints": 5.5,
+   "played": 2,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 18,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     18,
+     10.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    [
+     28,
+     1.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    31,
+    37,
+    37,
+    37,
+    40,
+    40
+   ],
+   "rank": 40
+  },
+  {
+   "handle": "Jeff K.",
+   "points": 8.0,
+   "total": 8.0,
+   "avgPoints": 8.0,
+   "played": 1,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 17,
+   "weeks": [
+    [
+     17,
+     8.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    17,
+    23,
+    26,
+    26,
+    29,
+    30,
+    34,
+    38,
+    38,
+    39,
+    41,
+    41
+   ],
+   "rank": 41
+  },
+  {
+   "handle": "Tom L.",
+   "points": 8.0,
+   "total": 8.0,
+   "avgPoints": 4.0,
+   "played": 2,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 17,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     24,
+     4.0,
+     false
+    ],
+    null,
+    null,
+    [
+     17,
+     4.0,
+     false
+    ],
+    null,
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    39,
+    41,
+    41,
+    39,
+    41,
+    41
+   ],
+   "rank": 41
+  },
+  {
+   "handle": "Daniel M.",
+   "points": 7.0,
+   "total": 7.0,
+   "avgPoints": 7.0,
+   "played": 1,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 22,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     22,
+     7.0,
+     false
+    ],
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    43,
+    43
+   ],
+   "rank": 43
+  },
+  {
+   "handle": "Marissa C.",
+   "points": 5.0,
+   "total": 5.0,
+   "avgPoints": 5.0,
+   "played": 1,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 16,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     16,
+     5.0,
+     false
+    ],
+    null,
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    42,
+    44,
+    44
+   ],
+   "rank": 44
+  },
+  {
+   "handle": "Mike B.",
+   "points": 5.0,
+   "total": 5.0,
+   "avgPoints": 5.0,
+   "played": 1,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 20,
+   "weeks": [
+    [
+     20,
+     5.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    20,
+    24,
+    28,
+    30,
+    33,
+    34,
+    38,
+    40,
+    40,
+    42,
+    44,
+    44
+   ],
+   "rank": 44
+  },
+  {
+   "handle": "Kyle T.",
+   "points": 3.0,
+   "total": 3.0,
+   "avgPoints": 3.0,
+   "played": 1,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 22,
+   "weeks": [
+    [
+     22,
+     3.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    22,
+    26,
+    30,
+    32,
+    34,
+    35,
+    40,
+    42,
+    42,
+    44,
+    46,
+    46
+   ],
+   "rank": 46
+  },
+  {
+   "handle": "Wiznik L.",
+   "points": 3.0,
+   "total": 3.0,
+   "avgPoints": 3.0,
+   "played": 1,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 21,
+   "weeks": [
+    null,
+    [
+     21,
+     3.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    null,
+    26,
+    30,
+    32,
+    34,
+    35,
+    40,
+    42,
+    42,
+    44,
+    46,
+    46
+   ],
+   "rank": 46
+  },
+  {
+   "handle": "Greg H.",
+   "points": 2.0,
+   "total": 2.0,
+   "avgPoints": 2.0,
+   "played": 1,
+   "wins": 0,
+   "cashes": null,
+   "cashPct": null,
+   "winnings": null,
+   "bounties": null,
+   "reentries": null,
+   "best": 27,
+   "weeks": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    [
+     27,
+     2.0,
+     false
+    ],
+    null,
+    null,
+    null,
+    null
+   ],
+   "rankHistory": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    44,
+    44,
+    46,
+    48,
+    48
+   ],
+   "rank": 48
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "season": "2017",
+ "tournament": "Pepper Street Poker",
+ "source": "blog",
+ "final": true,
+ "topN": null,
+ "poy": null,
+ "finale": [
+  {
+   "name": "2017",
+   "date": null,
+   "entrants": 10,
+   "prizePool": 0,
+   "note": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "Nick B.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 2,
+     "handle": "Bobby B.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 3,
+     "handle": "Jeff S.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 4,
+     "handle": "Marc F.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 5,
+     "handle": "Jeff G.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 6,
+     "handle": "Eric T.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 7,
+     "handle": "Allen R.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 8,
+     "handle": "Chris M",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 9,
+     "handle": "Emanuel H.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 10,
+     "handle": "Frank C.",
+     "winnings": null,
+     "note": null
+    }
+   ]
+  }
+ ],
+ "events": [],
+ "standings": []
+}

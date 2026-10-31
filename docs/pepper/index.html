@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pepper Street Standings</title>
+  <meta name="description" content="Player of the Year standings for Pepper Street Poker.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♠</text></svg>">
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+
+  <header class="hero">
+    <p class="kicker">Player of the Year</p>
+    <h1><img class="logo" src="logo.png" alt="Pepper St Poker · Magnolia Park" width="703" height="523"></h1>
+    <p class="season"><select id="season-pick" aria-label="Season"></select> <span id="season">Loading…</span></p>
+    <p class="poy" id="poy"></p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <main>
+    <section class="podium" id="podium" aria-label="Top three"></section>
+
+    <section class="panel" id="board-panel">
+      <div class="panel-head">
+        <h2>Leaderboard</h2>
+        <div class="tabs" role="tablist">
+          <button role="tab" aria-selected="true" data-sort="points">Points</button>
+          <button role="tab" aria-selected="false" data-sort="total">Total</button>
+          <button role="tab" aria-selected="false" data-sort="avgPoints">Avg</button>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="board">
+          <thead>
+            <tr>
+              <th class="num">#</th>
+              <th>Player</th>
+              <th class="num" id="pts-head">Pts</th>
+              <th class="hide-sm">Form</th>
+              <th class="num hide-sm">GP</th>
+              <th class="num">W</th>
+              <th class="num hide-xs">Best</th>
+            </tr>
+          </thead>
+          <tbody id="board"></tbody>
+        </table>
+      </div>
+      <p class="legend">Click a player for their season. Form shows their last 8 finishes; gold is a win.</p>
+    </section>
+
+    <section class="panel" id="event-panel">
+      <div class="panel-head">
+        <h2>Results</h2>
+        <select id="event-pick" aria-label="Choose event"></select>
+      </div>
+      <div id="event"></div>
+    </section>
+
+    <section class="panel" id="finale-panel" hidden>
+      <div class="panel-head"><h2>Tournament of Champions</h2></div>
+      <div class="finale" id="finale"></div>
+    </section>
+
+    <section class="panel" id="rules-panel">
+      <div class="panel-head"><h2>How Points Work</h2></div>
+      <p class="explain" id="rules"></p>
+    </section>
+  </main>
+
+  <footer>
+    <span id="updated"></span> · From the club POY spreadsheets on <a href="https://pepperstreetrules.blogspot.com/2010/01/2010-player-of-year-standings.html">Pepper Street Rules</a>
+  </footer>
+
+  <dialog id="player">
+    <form method="dialog"><button class="close" aria-label="Close">✕</button></form>
+    <div id="player-body"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

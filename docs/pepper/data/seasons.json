@@ -1,0 +1,54 @@
+[
+ {
+  "name": "2024-25",
+  "file": "seasons/2024-25.json"
+ },
+ {
+  "name": "2023",
+  "file": "seasons/2023.json"
+ },
+ {
+  "name": "2022",
+  "file": "seasons/2022.json"
+ },
+ {
+  "name": "2020-21",
+  "file": "seasons/2020-21.json"
+ },
+ {
+  "name": "2019",
+  "file": "seasons/2019.json"
+ },
+ {
+  "name": "2018",
+  "file": "seasons/2018.json"
+ },
+ {
+  "name": "2017",
+  "file": "seasons/2017.json"
+ },
+ {
+  "name": "2016",
+  "file": "seasons/2016.json"
+ },
+ {
+  "name": "2015",
+  "file": "seasons/2015.json"
+ },
+ {
+  "name": "2014",
+  "file": "seasons/2014.json"
+ },
+ {
+  "name": "2013",
+  "file": "seasons/2013.json"
+ },
+ {
+  "name": "2012",
+  "file": "seasons/2012.json"
+ },
+ {
+  "name": "2010",
+  "file": "seasons/2010.json"
+ }
+]

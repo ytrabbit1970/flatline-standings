@@ -1,0 +1,75 @@
+{
+ "season": "2014",
+ "tournament": "Pepper Street Poker",
+ "source": "blog",
+ "final": true,
+ "topN": null,
+ "poy": null,
+ "finale": [
+  {
+   "name": "2014",
+   "date": null,
+   "entrants": 9,
+   "prizePool": 0,
+   "note": null,
+   "results": [
+    {
+     "place": 1,
+     "handle": "Jason H.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 2,
+     "handle": "Allen Q.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 3,
+     "handle": "Chris M.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 4,
+     "handle": "Mike P.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 5,
+     "handle": "Garner K.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 6,
+     "handle": "Jeff S.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 7,
+     "handle": "Marc F.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 8,
+     "handle": "Andrew R.",
+     "winnings": null,
+     "note": null
+    },
+    {
+     "place": 9,
+     "handle": "Greg H.",
+     "winnings": null,
+     "note": null
+    }
+   ]
+  }
+ ],
+ "events": [],
+ "standings": []
+}
