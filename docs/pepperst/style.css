@@ -276,3 +276,37 @@ section.wrap { padding: 28px 0; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
 .prose strong.cap { display: block; margin-top: .3em; font: 700 14px var(--body); letter-spacing: .08em; color: #ff6b70; }
+
+/* ---------- Legacy Hall of Fame ---------- */
+.hof-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin: 8px 0 20px; }
+.chip-cell {
+  display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 12px 4px 10px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 14px; cursor: pointer;
+  color: var(--text); font: inherit; transition: border-color .2s, transform .2s;
+}
+.chip-cell:hover { border-color: var(--red); transform: translateY(-2px); }
+.chip-cell img { width: 84px; height: 84px; border-radius: 50%; object-fit: cover; clip-path: circle(46%); margin: 0 0 6px; box-shadow: 0 6px 18px rgba(0, 0, 0, .5); }
+.chip-cell b { font-size: 13px; line-height: 1.2; text-align: center; }
+.chip-cell small { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.hof-new { font-size: 20px !important; margin-top: 1.2em !important; }
+@media (max-width: 520px) {
+  .hof-grid { gap: 4px; }
+  .chip-cell { padding: 8px 2px; border-radius: 10px; }
+  .chip-cell img { width: 52px; height: 52px; }
+  .chip-cell b { font-size: 11px; }
+}
+#coin {
+  width: min(880px, 94vw); max-height: 92vh; padding: 28px; border: 1px solid var(--line-2); border-radius: 22px;
+  background: var(--bg-2); color: var(--text); box-shadow: 0 40px 100px rgba(0, 0, 0, .7);
+}
+#coin::backdrop { background: rgba(0, 0, 0, .8); backdrop-filter: blur(4px); }
+#coin .lb-close { position: absolute; top: 14px; right: 14px; }
+.coin-sides { display: flex; justify-content: center; gap: 24px; }
+.coin-sides figure { margin: 0; flex: 1 1 0; max-width: 400px; text-align: center; }
+.coin-sides img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 50%; clip-path: circle(47%); box-shadow: 0 18px 50px rgba(0, 0, 0, .6); }
+.coin-sides figcaption { margin-top: 10px; font: 600 12px var(--body); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.coin-info { text-align: center; margin-top: 18px; }
+.coin-info h3 { font-size: 28px; }
+.coin-info h3 span { color: var(--red); }
+.coin-info p { margin: 6px 0 0; color: var(--muted); }
+@media (max-width: 560px) { .coin-sides { gap: 10px; } #coin { padding: 20px 14px; } }

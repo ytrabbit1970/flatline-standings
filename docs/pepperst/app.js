@@ -387,7 +387,8 @@ async function post(view, blog, path) {
     const i = all.findIndex((p) => p.path === path);
     if (i < 0) { view.innerHTML = failed("That post couldn't be found."); return; }
     const p = await fullPost(blog, all[i].id);
-    const body = clean(p.content || "");
+    const hof = blog === "rules" && path === HOF_PATH;
+    const body = hof ? hallOfFameIntro(p.content || "") : clean(p.content || "");
     const text = new DOMParser().parseFromString(body, "text/html").body.textContent;
     // The main blog is newest-first: i - 1 is newer, i + 1 is older.
     const newer = blog === "main" ? all[i - 1] : null, older = blog === "main" ? all[i + 1] : null;
@@ -413,9 +414,71 @@ async function post(view, blog, path) {
         </footer>
       </article>`;
     view.querySelectorAll(".prose img").forEach((img) => img.addEventListener("click", () => openPhoto(img.src)));
+    if (hof) renderHallOfFame(p.content || "");
   } catch {
     view.innerHTML = failed();
   }
+}
+
+// ---------- Legacy Hall of Fame ----------
+// The post is a long column of chip photos. Here it becomes a grid of each player's "Legacy Player"
+// chip, oldest year first; clicking one shows both sides. hof.json holds the name and year printed on
+// each chip (read off the images) and which image is which side.
+
+const HOF_PATH = "2018/10/pepper-street-poker-legacy-hall-of-fame";
+const HOF_HEADING = "LEGACY HALL OF FAME";
+const imgKey = (url) => decodeURIComponent(url).replace(/=[swh]\d+[^/]*$/, "").split("/").filter((s) => !/^[swh]\d+/.test(s)).slice(-1)[0];
+
+function splitHallOfFame(html) {
+  const at = html.indexOf(HOF_HEADING);
+  return at < 0 ? [html, ""] : [html.slice(0, html.lastIndexOf("<", at)), html.slice(at)];
+}
+
+const hallOfFameIntro = (html) => clean(splitHallOfFame(html)[0]) + `<h2>The Legacy Hall of Fame</h2><div id="hof" class="hof"></div>`;
+
+async function renderHallOfFame(html) {
+  const el = $("#hof");
+  let coins = [];
+  try {
+    coins = await fetch("hof.json", { cache: "no-cache" }).then((r) => r.json());
+  } catch {}
+  // Chips posted on Blogger after hof.json was made: show them too, after the known ones.
+  const known = new Set(coins.flatMap((c) => [c.legacy, c.named].filter(Boolean).map(imgKey)));
+  const posted = [...new DOMParser().parseFromString(splitHallOfFame(html)[1], "text/html").querySelectorAll("img")]
+    .map((img) => img.getAttribute("src")).filter((src) => src && !known.has(imgKey(src)));
+
+  el.innerHTML = `
+    <div class="hof-grid">${coins.map((c, i) => `
+      <button class="chip-cell" data-i="${i}" aria-label="${esc(c.name)}, ${c.year}">
+        <img src="${esc(sized(c.legacy, "s200"))}" alt="" loading="lazy" decoding="async">
+        <b>${esc(c.name)}</b><small>${c.year}</small>
+      </button>`).join("")}
+    </div>
+    ${posted.length ? `<h3 class="hof-new">Newest inductees</h3><div class="hof-grid">${posted.map((src) => `
+      <button class="chip-cell" data-src="${esc(src)}" aria-label="Chip"><img src="${esc(sized(src, "s200"))}" alt="" loading="lazy"></button>`).join("")}</div>` : ""}
+    <p class="muted small">Ordered by the year on each chip, oldest first. Tap a chip to see both sides.</p>`;
+  el.querySelectorAll(".chip-cell").forEach((b) => b.addEventListener("click", () =>
+    b.dataset.src ? openPhoto(b.dataset.src) : openCoin(coins[+b.dataset.i])));
+}
+
+function openCoin(c) {
+  let dlg = $("#coin");
+  if (!dlg) {
+    dlg = document.createElement("dialog");
+    dlg.id = "coin";
+    document.body.append(dlg);
+    dlg.addEventListener("click", (ev) => ev.target === dlg && dlg.close());
+  }
+  const side = (url, label) => `<figure><img src="${esc(sized(url, "s800"))}" alt="${esc(c.name)}: ${label}"><figcaption>${label}</figcaption></figure>`;
+  dlg.innerHTML = `
+    <form method="dialog"><button class="lb-close" aria-label="Close">✕</button></form>
+    <div class="coin-sides">${side(c.legacy, "Front")}${c.named ? side(c.named, "Back") : ""}</div>
+    <div class="coin-info">
+      <h3>${esc(c.name)} <span>${c.year}</span></h3>
+      <p>${esc(c.caption)}</p>
+      ${c.named ? "" : '<p class="muted small">Only one side of this chip was posted.</p>'}
+    </div>`;
+  dlg.showModal();
 }
 
 function openPhoto(src) {
