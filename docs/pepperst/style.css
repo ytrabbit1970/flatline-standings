@@ -315,3 +315,8 @@ section.wrap { padding: 28px 0; }
 .hof-after { margin-top: 28px; }
 .plaque-title { margin: 0; }
 .plaque-title img { display: block; width: min(560px, 100%); height: auto; filter: drop-shadow(0 18px 40px rgba(0, 0, 0, .55)); }
+.plaque-title img { width: 100%; }
+.hof-intro p { margin: 0 0 .5em; }
+.hof-after li { margin: 0; }
+.hof-after li > p { margin: 0; }
+.hof-after h3 { font-size: 22px; margin: 1.4em 0 .6em; }

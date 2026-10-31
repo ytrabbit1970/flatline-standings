@@ -450,7 +450,7 @@ function hallOfFameIntro(html) {
     if (n.nodeName !== "BR") return;
     let prev = n.previousSibling;
     while (prev && prev.nodeType === 3 && !prev.textContent.trim()) prev = prev.previousSibling;
-    if (!prev || /^(P|UL|OL|FIGURE|IMG|DIV|TABLE|H\d)$/.test(prev.nodeName)) n.remove();
+    if (!prev || BLOCKS.test(prev.nodeName)) n.remove();
   });
   // Much of this post is bare text between <br>s, so work with every node, not just elements.
   const nodes = [...box.childNodes];
@@ -461,30 +461,73 @@ function hallOfFameIntro(html) {
   const grid = `<h2>The Legacy Hall of Fame</h2><div id="hof" class="hof"></div>`;
   if (start < 0 || end < 0) return box.innerHTML + grid;
 
-  const nodeHtml = (n) => (n.nodeType === 1 ? n.outerHTML : n.nodeType === 3 ? esc(n.textContent) : "");
-  const outer = (list) => list.map(nodeHtml).join("");
   const benefits = nodes.slice(start, end + 1);
   const head = benefits.findIndex((n) => /^\s*Legacy Invitational Tournament\s*-/i.test(n.textContent));
-  // In the moved block, loose text becomes a paragraph and stray <br>s go.
-  const blocky = (list) => list.map((n) => (n.nodeType === 3 ? (n.textContent.trim() ? `<p>${esc(n.textContent.trim())}</p>` : "")
-    : n.nodeName === "BR" ? "" : nodeHtml(n))).join("");
-  let after = blocky(benefits);
+  // "Legacy players also get other benefits..." heads the benefits list, like the Invitational line heads its own.
+  let after = `<h3>${esc(benefits[0].textContent.trim())}</h3>` + paragraphs(benefits.slice(1, head < 0 ? undefined : head));
   if (head >= 0) {
     // One line per <br>, whichever paragraph it landed in; the first line is the header.
     const lines = benefits.slice(head).flatMap((n) => (n.nodeType === 1 ? n.innerHTML : nodeHtml(n)).split(/<br\s*\/?>/i))
-      .filter((l) => l.replace(/&nbsp;| |<[^>]+>/g, " ").trim());
-    after = blocky(benefits.slice(0, head)) +
-      `<h3>${lines[0].replace(/<[^>]+>/g, "").trim()}</h3>` +
+      .filter((l) => l.replace(/&nbsp;|\u00a0|<[^>]+>/g, " ").trim());
+    after += `<h3>${lines[0].replace(/<[^>]+>/g, "").trim()}</h3>` +
       `<ul>${lines.slice(1).map((l) => `<li>${l.trim()}</li>`).join("")}</ul>`;
   }
   const between = nodes.slice(end + 1, ado < 0 ? nodes.length : ado);
   const chips = between.flatMap((n) => (n.nodeName === "IMG" ? [n] : n.querySelectorAll ? [...n.querySelectorAll("img")] : []));
-  const bounties = chips.length ? `<div class="bounties">${chips.map((img) => img.outerHTML).join("")}</div>` : "";
-  // Trailing <br>s and blank text at the end of the intro would leave a gap above the chips.
-  const intro = nodes.slice(0, start);
-  while (intro.length && (intro.at(-1).nodeName === "BR" || (intro.at(-1).nodeType === 3 && !intro.at(-1).textContent.trim()))) intro.pop();
-  return outer(intro) + bounties + (ado >= 0 ? outer(nodes.slice(ado)) : "") +
-    grid + `<div class="hof-after">${after}</div>`;
+  // Local copies of the two bounty chips, recoloured to the site red.
+  const bountyImg = (img) => {
+    const who = (img.getAttribute("src").match(/LB\+(\w+)\+for/) || [])[1];
+    return who ? `<img src="hof-bounty-${who.toLowerCase()}.jpg" alt="Legacy Bounty chip: ${esc(who)}">` : img.outerHTML;
+  };
+  const bounties = chips.length ? `<div class="bounties">${chips.map(bountyImg).join("")}</div>` : "";
+  return `<div class="hof-intro">${paragraphs(nodes.slice(0, start))}</div>` + bounties +
+    (ado >= 0 ? `<div class="hof-intro">${paragraphs(nodes.slice(ado))}</div>` : "") +
+    grid + `<div class="hof-after">${mergeLists(after)}</div>`;
+}
+
+const BLOCKS = /^(P|UL|OL|FIGURE|IMG|DIV|TABLE|H\d)$/;
+const nodeHtml = (n) => (n.nodeType === 1 ? n.outerHTML : n.nodeType === 3 ? esc(n.textContent) : "");
+
+// Loose text and <br>s -> <p>s: a run of two or more <br>s ends a paragraph; block elements pass through.
+function paragraphs(list) {
+  let out = "", buf = [];
+  const blank = (n) => n && n.nodeType === 3 && !n.textContent.trim();
+  const flush = () => {
+    const h = buf.map(nodeHtml).join("").replace(/^(\s|<br>)+|(\s|<br>)+$/g, "");
+    if (h.replace(/&nbsp;|\u00a0|\s|<br>/g, "")) out += `<p>${h}</p>`;
+    buf = [];
+  };
+  for (let i = 0; i < list.length; i++) {
+    const n = list[i];
+    if (n.nodeName === "BR") {
+      let j = i + 1;
+      while (blank(list[j])) j++;
+      if (list[j]?.nodeName !== "BR") { buf.push(n); continue; }
+      flush();
+      while (list[i + 1] && (list[i + 1].nodeName === "BR" || blank(list[i + 1]))) i++;
+    } else if (n.nodeType === 1 && BLOCKS.test(n.nodeName)) {
+      flush();
+      out += n.outerHTML;
+    } else buf.push(n);
+  }
+  flush();
+  return out;
+}
+
+// Blogger wrote the benefits as one <ul> per bullet; join neighbouring lists into one.
+function mergeLists(html) {
+  const box = document.createElement("div");
+  box.innerHTML = html;
+  box.querySelectorAll("ul").forEach((ul) => {
+    let next = ul.nextSibling;
+    while (next && ((next.nodeType === 3 && !next.textContent.trim()) || next.nodeName === "UL")) {
+      const n = next.nextSibling;
+      if (next.nodeName === "UL") ul.append(...next.children);
+      next.remove();
+      next = n;
+    }
+  });
+  return box.innerHTML;
 }
 
 async function renderHallOfFame(html) {
