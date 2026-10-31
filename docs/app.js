@@ -159,6 +159,7 @@ function renderEvent(i) {
       ${e.bounty != null ? `<span>Bounty <b>${usd(e.bounty)}</b></span>` : ""}
     </div>
     <article class="recap" id="recap" hidden></article>
+    ${highHand(e)}
     <div class="table-wrap"><table>
       <thead><tr><th class="num">Place</th><th>Player</th><th class="num">Pts</th>
         ${cash ? '<th class="num">Cash</th>' : ""}${kos ? '<th class="num">KOs $</th>' : ""}${re ? '<th class="num hide-xs">Re-entries</th>' : ""}</tr></thead>
@@ -174,6 +175,30 @@ function renderEvent(i) {
     </table></div>`;
   loadRecap(e);
 }
+
+// "Jc" -> J♣, with hearts and diamonds in red.
+const card = (c) => {
+  const suit = { s: "♠", h: "♥", d: "♦", c: "♣" }[c[1]];
+  return `<span class="card${"hd".includes(c[1]) ? " red" : ""}">${c[0] === "T" ? "10" : c[0]}${suit}</span>`;
+};
+
+// Best hand shown at a showdown that night, with each winner's share ($0 before the paid high hand began).
+function highHand(e) {
+  const h = e.highHand;
+  if (!h) return "";
+  return `<div class="high-hand">
+    <span class="hh-label">High hand</span>
+    <b>${esc(h.name)}</b>
+    ${h.winners.map((w) => `<span class="hh-who">${esc(w.handle)} ${w.cards.map(card).join("")}
+      <small>on ${w.board.map(card).join("")} · ${fmtTime(w.time)}</small>
+      <span class="money">${usd(w.payout ?? 0)}</span></span>`).join("")}
+  </div>`;
+}
+
+const fmtTime = (t) => {
+  const [hh, mm] = t.split(":").map(Number);
+  return `${hh % 12 || 12}:${String(mm).padStart(2, "0")} ${hh < 12 ? "AM" : "PM"}`;
+};
 
 // A CardPlayer-style write-up, if there is one: data/recaps/<date>.md with a "# " headline,
 // an *italic* line under it and plain paragraphs.

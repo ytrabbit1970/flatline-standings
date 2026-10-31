@@ -1,7 +1,7 @@
 {
  "season": "Season 16",
  "tournament": "Flatline Faithful",
- "updated": "2026-10-30T13:00:13+00:00",
+ "updated": "2026-10-31T00:52:39+00:00",
  "events": [
   {
    "date": "2026-08-06",
@@ -134,7 +134,30 @@
      "reentries": 0,
      "points": 2.528
     }
-   ]
+   ],
+   "highHand": {
+    "name": "Four of a Kind, Jacks",
+    "winners": [
+     {
+      "handle": "ytrabbit",
+      "cards": [
+       "8c",
+       "Jc"
+      ],
+      "board": [
+       "Js",
+       "Jh",
+       "7h",
+       "Jd",
+       "As"
+      ],
+      "time": "21:27",
+      "hand": "180688-175",
+      "payout": 0
+     }
+    ],
+    "payout": 0
+   }
   },
   {
    "date": "2026-08-13",
@@ -235,7 +258,30 @@
      "reentries": 1,
      "points": 2.673
     }
-   ]
+   ],
+   "highHand": {
+    "name": "Straight Flush, Eight to Queen",
+    "winners": [
+     {
+      "handle": "ytrabbit",
+      "cards": [
+       "Jc",
+       "Qc"
+      ],
+      "board": [
+       "9c",
+       "5d",
+       "Tc",
+       "8c",
+       "Ts"
+      ],
+      "time": "21:06",
+      "hand": "180998-177",
+      "payout": 0
+     }
+    ],
+    "payout": 0
+   }
   },
   {
    "date": "2026-08-20",
@@ -312,7 +358,30 @@
      "reentries": 0,
      "points": 2.815
     }
-   ]
+   ],
+   "highHand": {
+    "name": "Full House, Fives full of Eights",
+    "winners": [
+     {
+      "handle": "Polarized616",
+      "cards": [
+       "5h",
+       "5c"
+      ],
+      "board": [
+       "9c",
+       "7d",
+       "5d",
+       "8s",
+       "8c"
+      ],
+      "time": "19:42",
+      "hand": "181110-49",
+      "payout": 0
+     }
+    ],
+    "payout": 0
+   }
   },
   {
    "date": "2026-08-27",
@@ -405,7 +474,30 @@
      "reentries": 0,
      "points": 2.804
     }
-   ]
+   ],
+   "highHand": {
+    "name": "Full House, Queens full of Nines",
+    "winners": [
+     {
+      "handle": "Polarized616",
+      "cards": [
+       "7d",
+       "Qc"
+      ],
+      "board": [
+       "As",
+       "Qh",
+       "Qs",
+       "9d",
+       "9h"
+      ],
+      "time": "19:46",
+      "hand": "181301-63",
+      "payout": 0
+     }
+    ],
+    "payout": 0
+   }
   },
   {
    "date": "2026-09-03",
@@ -498,7 +590,30 @@
      "reentries": 0,
      "points": 2.668
     }
-   ]
+   ],
+   "highHand": {
+    "name": "Full House, Jacks full of Threes",
+    "winners": [
+     {
+      "handle": "Lagunator",
+      "cards": [
+       "Js",
+       "Ah"
+      ],
+      "board": [
+       "Jc",
+       "3h",
+       "3d",
+       "Td",
+       "Jh"
+      ],
+      "time": "20:34",
+      "hand": "181706-106",
+      "payout": 0
+     }
+    ],
+    "payout": 0
+   }
   },
   {
    "date": "2026-09-10",
@@ -599,7 +714,30 @@
      "reentries": 1,
      "points": 2.673
     }
-   ]
+   ],
+   "highHand": {
+    "name": "Full House, Aces full of Jacks",
+    "winners": [
+     {
+      "handle": "Manzoniman",
+      "cards": [
+       "As",
+       "Jc"
+      ],
+      "board": [
+       "Qd",
+       "Jh",
+       "Ac",
+       "Ah",
+       "Js"
+      ],
+      "time": "21:19",
+      "hand": "182028-196",
+      "payout": 0
+     }
+    ],
+    "payout": 0
+   }
   },
   {
    "date": "2026-09-17",
@@ -676,7 +814,30 @@
      "reentries": 0,
      "points": 2.723
     }
-   ]
+   ],
+   "highHand": {
+    "name": "Full House, Threes full of Kings",
+    "winners": [
+     {
+      "handle": "winston",
+      "cards": [
+       "3s",
+       "3d"
+      ],
+      "board": [
+       "3c",
+       "Ks",
+       "Kh",
+       "Qs",
+       "5c"
+      ],
+      "time": "19:12",
+      "hand": "182047-18",
+      "payout": 0
+     }
+    ],
+    "payout": 0
+   }
   },
   {
    "date": "2026-09-24",
@@ -809,7 +970,30 @@
      "reentries": 0,
      "points": 2.571
     }
-   ]
+   ],
+   "highHand": {
+    "name": "Four of a Kind, Aces",
+    "winners": [
+     {
+      "handle": "CrazyIdeas",
+      "cards": [
+       "Ad",
+       "8c"
+      ],
+      "board": [
+       "Ks",
+       "As",
+       "9c",
+       "Ah",
+       "Ac"
+      ],
+      "time": "19:21",
+      "hand": "182215-31",
+      "payout": 0
+     }
+    ],
+    "payout": 0
+   }
   },
   {
    "date": "2026-10-01",
@@ -926,7 +1110,30 @@
      "reentries": 0,
      "points": 2.619
     }
-   ]
+   ],
+   "highHand": {
+    "name": "Four of a Kind, Sixes",
+    "winners": [
+     {
+      "handle": "LAWolfie",
+      "cards": [
+       "8c",
+       "6c"
+      ],
+      "board": [
+       "6s",
+       "6h",
+       "6d",
+       "7c",
+       "7d"
+      ],
+      "time": "19:26",
+      "hand": "182537-4",
+      "payout": 0
+     }
+    ],
+    "payout": 0
+   }
   },
   {
    "date": "2026-10-08",
@@ -1043,7 +1250,30 @@
      "reentries": 1,
      "points": 2.716
     }
-   ]
+   ],
+   "highHand": {
+    "name": "Full House, Queens full of Aces",
+    "winners": [
+     {
+      "handle": "ytrabbit",
+      "cards": [
+       "Ah",
+       "Qs"
+      ],
+      "board": [
+       "6h",
+       "Qh",
+       "Ad",
+       "Qc",
+       "4s"
+      ],
+      "time": "19:10",
+      "hand": "182907-15",
+      "payout": 0
+     }
+    ],
+    "payout": 0
+   }
   },
   {
    "date": "2026-10-15",
@@ -1152,7 +1382,30 @@
      "reentries": 0,
      "points": 2.617
     }
-   ]
+   ],
+   "highHand": {
+    "name": "Full House, Aces full of Fives",
+    "winners": [
+     {
+      "handle": "ChoppedRiver",
+      "cards": [
+       "As",
+       "8d"
+      ],
+      "board": [
+       "4d",
+       "Ad",
+       "5s",
+       "Ah",
+       "5h"
+      ],
+      "time": "21:51",
+      "hand": "183759-224",
+      "payout": 0
+     }
+    ],
+    "payout": 0
+   }
   },
   {
    "date": "2026-10-22",
@@ -1261,7 +1514,30 @@
      "reentries": 0,
      "points": 2.672
     }
-   ]
+   ],
+   "highHand": {
+    "name": "Straight Flush, Eight to Queen",
+    "winners": [
+     {
+      "handle": "marinjon",
+      "cards": [
+       "Jd",
+       "9d"
+      ],
+      "board": [
+       "Js",
+       "Td",
+       "4c",
+       "Qd",
+       "8d"
+      ],
+      "time": "20:50",
+      "hand": "184087-106",
+      "payout": 0
+     }
+    ],
+    "payout": 0
+   }
   },
   {
    "date": "2026-10-29",
@@ -1370,7 +1646,30 @@
      "reentries": 0,
      "points": 2.726
     }
-   ]
+   ],
+   "highHand": {
+    "name": "Full House, Tens full of Nines",
+    "winners": [
+     {
+      "handle": "Manzoniman",
+      "cards": [
+       "Td",
+       "Th"
+      ],
+      "board": [
+       "Ts",
+       "9s",
+       "9h",
+       "Qd",
+       "Kc"
+      ],
+      "time": "20:40",
+      "hand": "184449-128",
+      "payout": 0
+     }
+    ],
+    "payout": 0
+   }
   }
  ],
  "standings": [

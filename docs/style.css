@@ -123,6 +123,17 @@ select { background: rgba(0,0,0,.35); color: var(--text); border: 1px solid var(
 .recap .dek { color: var(--muted); font-style: italic; font-size: 13px; margin: 0 0 14px; }
 .recap p { line-height: 1.65; margin: 0 0 12px; }
 
+.high-hand {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px;
+  margin: 0 0 22px; padding: 12px 16px; max-width: 72ch;
+  border: 1px solid var(--gold); border-radius: 12px; background: rgba(255, 200, 80, .06);
+}
+.high-hand .hh-label { color: var(--gold); font: 700 11px Inter, sans-serif; text-transform: uppercase; letter-spacing: .1em; }
+.high-hand .hh-who small { color: var(--muted); margin-left: 6px; }
+.high-hand .money { margin-left: 8px; font-family: var(--mono); }
+.card { font-family: var(--mono); font-weight: 700; margin-right: 3px; }
+.card.red { color: #ff5a6e; }
+
 .finale { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
 .finale h3 { font: 400 24px "Bebas Neue", sans-serif; letter-spacing: .04em; margin: 0 0 4px; }
 .finale .champ { color: var(--gold); font-weight: 600; margin: 0 0 10px; }
