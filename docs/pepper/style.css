@@ -221,3 +221,11 @@ footer a { color: var(--muted); }
   -webkit-mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 72%, transparent 100%);
   mask-image: radial-gradient(ellipse 50% 50% at 50% 50%, #000 72%, transparent 100%); }
 [hidden] { display: none !important; }
+.show-all {
+  display: block; width: 100%; margin: 10px 0 0; padding: 10px; cursor: pointer;
+  background: rgba(0,0,0,.3); color: var(--text); border: 1px solid var(--line); border-radius: 10px;
+  font: 600 13px Inter, system-ui, sans-serif;
+}
+.show-all:hover { border-color: var(--green); color: var(--green); }
+.recap-link { color: var(--green); font-weight: 600; text-decoration: none; }
+.recap-link:hover { text-decoration: underline; }

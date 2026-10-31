@@ -9,6 +9,30 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`)
 let DATA;
 let sortKey = "points";
 
+// Long lists show their top 10 until "Show all" is clicked; a section stays open across re-sorts.
+const LIMIT = 10;
+const expanded = new Set();
+
+function showTop(table, key) {
+  table.closest("section").querySelector(`.show-all[data-key="${key}"]`)?.remove();
+  const rows = [...table.tBodies[0].rows];
+  if (rows.length <= LIMIT) return;
+  const btn = document.createElement("button");
+  btn.className = "show-all";
+  btn.dataset.key = key;
+  const apply = () => {
+    const open = expanded.has(key);
+    rows.forEach((r, i) => (r.hidden = !open && i >= LIMIT));
+    btn.textContent = open ? "Show top 10" : `Show all ${rows.length}`;
+  };
+  btn.addEventListener("click", () => {
+    expanded.has(key) ? expanded.delete(key) : expanded.add(key);
+    apply();
+  });
+  table.closest(".table-wrap").after(btn);
+  apply();
+}
+
 // Every season comes from a club spreadsheet: most have month labels, 2023 has real dates.
 const eventLabel = (e, i, opts) => (e.date ? fmtDate(e.date, opts) : e.label || `Event ${i + 1}`);
 const countsAll = () => !DATA.topN;
@@ -34,6 +58,7 @@ function loadSeason(file) {
     .then((r) => r.json())
     .then((data) => {
       DATA = data;
+      expanded.clear();
       // "Total" only differs from "Points" when just the best N events count.
       if (countsAll() && sortKey === "total") sortKey = "points";
       document.querySelectorAll(".tabs button").forEach((b) => {
@@ -128,6 +153,7 @@ function renderBoard() {
       <td class="num hide-xs">${p.best ? ordinal(p.best) : ""}</td>
     </tr>`).join("");
   $("#board").querySelectorAll("tr").forEach((tr) => tr.addEventListener("click", () => openPlayer(tr.dataset.handle)));
+  showTop($("#board").closest("table"), "board");
 }
 
 document.querySelectorAll(".tabs button").forEach((btn) =>
@@ -140,7 +166,10 @@ document.querySelectorAll(".tabs button").forEach((btn) =>
 function renderEventPicker() {
   const sel = $("#event-pick");
   sel.innerHTML = DATA.events.map((e, i) => `<option value="${i}">${i + 1} · ${esc(eventLabel(e, i))}</option>`).reverse().join("");
-  sel.onchange = () => renderEvent(+sel.value);
+  sel.onchange = () => {
+    expanded.delete("event");
+    renderEvent(+sel.value);
+  };
   renderEvent(DATA.events.length - 1);
 }
 
@@ -168,6 +197,7 @@ function renderEvent(i) {
           ${re ? `<td class="num hide-xs">${r.reentries || ""}</td>` : ""}
         </tr>`).join("")}</tbody>
     </table></div>`;
+  showTop($("#event table"), "event");
 }
 
 // Tournament of Champions, from the blog. Cash amounts were only posted some years, and some
@@ -184,6 +214,7 @@ function renderFinale() {
       <div class="event-meta">
         <span>Players <b>${e.entrants}</b></span>
         ${e.prizePool ? `<span>Paid out <b class="money">${usd(e.prizePool)}</b></span>` : ""}
+        ${e.recap ? `<a class="recap-link" href="${esc(e.recap)}" target="_blank" rel="noopener">Read the recap on the blog →</a>` : ""}
       </div>
       ${e.note ? `<p class="note">${esc(e.note)}</p>` : ""}
       <div class="table-wrap"><table>
@@ -198,6 +229,7 @@ function renderFinale() {
       </table></div>
     </div>`;
   }).join("");
+  $("#finale").querySelectorAll("table").forEach((t, i) => showTop(t, "finale" + i));
 }
 
 function renderRules() {
