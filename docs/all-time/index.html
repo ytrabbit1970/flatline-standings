@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Flatline All-Time</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♠</text></svg>">
+  <style>
+    .lock { max-width: 360px; margin: 40px auto; display: flex; gap: 8px; }
+    .lock[hidden] { display: none; }
+    .lock input { flex: 1; background: rgba(0,0,0,.35); color: var(--text); border: 1px solid var(--line);
+      border-radius: 7px; padding: 10px 12px; font: 500 15px Inter, sans-serif; }
+    .lock button { background: var(--green); color: #04130c; border: 0; border-radius: 7px; padding: 10px 16px;
+      font: 700 14px Inter, sans-serif; cursor: pointer; }
+    .lock-msg { text-align: center; color: var(--muted); min-height: 1.4em; }
+    .board th[data-sort] { cursor: pointer; user-select: none; }
+    .board th[aria-sort] { color: var(--green); }
+    .tag { display: inline-block; font: 700 11px var(--mono); padding: 2px 6px; margin: 1px 2px 1px 0;
+      border-radius: 5px; background: rgba(255, 209, 102, .14); color: var(--gold); }
+  </style>
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+  <header class="hero">
+    <p class="kicker">Admins only</p>
+    <h1>Flatline <span>All-Time</span></h1>
+    <p class="season" id="sub">Every Flatline Faithful season, totaled by player.</p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <main>
+    <form class="lock" id="lock">
+      <input type="password" id="pw" placeholder="Password" autocomplete="current-password" aria-label="Password" required>
+      <button>Open</button>
+    </form>
+    <p class="lock-msg" id="msg"></p>
+
+    <section class="panel" id="panel" hidden>
+      <div class="panel-head"><h2>All-Time Leaderboard</h2></div>
+      <div class="table-wrap">
+        <table class="board">
+          <thead><tr id="head"></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <p class="legend">
+        Click a column to sort. Titles are season points titles; ToC and Extravaganza list the seasons won (chop = shared win).
+        Bounties were tracked from Season 6 and re-entries from Season 3. Season 1 was played on PokerStars;
+        those handles are merged into their Mavens handles.
+      </p>
+    </section>
+  </main>
+
+  <footer><span id="updated"></span> · <a href="../">Current standings</a></footer>
+
+  <script>
+    const $ = (s) => document.querySelector(s);
+    const esc = (s) => String(s).replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
+    const usd = (n) => "$" + Math.round(n).toLocaleString("en-US");
+    const ITERATIONS = 600000; // must match all_time.py
+
+    // data.enc is `openssl enc -aes-256-cbc -pbkdf2 -md sha256` output: "Salted__", 8-byte salt, ciphertext.
+    async function decrypt(b64, pw) {
+      const raw = Uint8Array.from(atob(b64.trim()), (c) => c.charCodeAt(0));
+      const salt = raw.slice(8, 16), body = raw.slice(16);
+      const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveBits"]);
+      const bits = new Uint8Array(await crypto.subtle.deriveBits(
+        { name: "PBKDF2", salt, iterations: ITERATIONS, hash: "SHA-256" }, base, 384));
+      const key = await crypto.subtle.importKey("raw", bits.slice(0, 32), "AES-CBC", false, ["decrypt"]);
+      const plain = await crypto.subtle.decrypt({ name: "AES-CBC", iv: bits.slice(32, 48) }, key, body);
+      return JSON.parse(new TextDecoder().decode(plain));
+    }
+
+    const won = (list) => list.map((w) => `<span class="tag">S${w.season}${w.chop ? " chop" : ""}</span>`).join("");
+    const COLS = [
+      ["#", null, (p, i) => i + 1, "num rank"],
+      ["Player", "handle", (p) => `<span class="player">${esc(p.handle)}</span>`, ""],
+      ["Seasons", "seasons", (p) => `${p.seasons} <small class="same">S${p.first}–${p.last}</small>`, "num"],
+      ["GP", "played", (p) => p.played, "num"],
+      ["Pts", "points", (p) => p.points.toFixed(2), "num pts"],
+      ["Avg", "avgPoints", (p) => p.avgPoints.toFixed(2), "num"],
+      ["W", "wins", (p) => p.wins || "", "num"],
+      ["ITM", "cashes", (p) => p.cashes || "", "num"],
+      ["Cash %", "cashPct", (p) => Math.round(p.cashPct * 100) + "%", "num"],
+      ["$ Won", "winnings", (p) => (p.winnings ? usd(p.winnings) : ""), "num money"],
+      ["KOs $", "bounties", (p) => (p.bounties ? usd(p.bounties) : ""), "num"],
+      ["Re-entries", "reentries", (p) => p.reentries || "", "num"],
+      ["Titles", "titles", (p) => p.titles.map((s) => `<span class="tag">S${s}</span>`).join(""), ""],
+      ["ToC", "toc", (p) => won(p.toc), ""],
+      ["Extravaganza", "extravaganza", (p) => won(p.extravaganza), ""],
+    ];
+    let DATA, sortKey = "points";
+
+    function render() {
+      const val = (p) => (Array.isArray(p[sortKey]) ? p[sortKey].length : p[sortKey]);
+      const rows = [...DATA.players].sort((a, b) =>
+        sortKey === "handle" ? a.handle.localeCompare(b.handle) : val(b) - val(a) || b.points - a.points);
+      $("#head").innerHTML = COLS.map(([label, key, , cls]) =>
+        `<th class="${cls.split(" ")[0] === "num" ? "num" : ""}" ${key ? `data-sort="${key}"` : ""}
+          ${key === sortKey ? 'aria-sort="descending"' : ""}>${label}</th>`).join("");
+      $("#rows").innerHTML = rows.map((p, i) =>
+        `<tr>${COLS.map(([, , cell, cls]) => `<td class="${cls}">${cell(p, i)}</td>`).join("")}</tr>`).join("");
+      $("#head").querySelectorAll("th[data-sort]").forEach((th) =>
+        th.addEventListener("click", () => { sortKey = th.dataset.sort; render(); }));
+    }
+
+    function show(data) {
+      DATA = data;
+      const sum = (k) => data.players.reduce((s, p) => s + p[k], 0);
+      $("#stats").innerHTML = [
+        [data.seasons, "Seasons"], [data.players.length, "Players"], [sum("played").toLocaleString(), "Entries played"],
+        [usd(sum("winnings") + sum("bounties")), "Paid out"],
+      ].map(([v, l]) => `<div class="stat"><b>${v}</b><small>${l}</small></div>`).join("");
+      $("#updated").textContent = "Updated " + new Date(data.updated).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" });
+      $("#lock").hidden = true;
+      $("#msg").textContent = "";
+      $("#panel").hidden = false;
+      render();
+    }
+
+    async function unlock(pw) {
+      $("#msg").textContent = "Unlocking…";
+      try {
+        const enc = await (await fetch("data.enc", { cache: "no-cache" })).text();
+        show(await decrypt(enc, pw));
+        try { sessionStorage.setItem("alltime-pw", pw); } catch {}
+      } catch {
+        $("#msg").textContent = "That password didn't work.";
+        try { sessionStorage.removeItem("alltime-pw"); } catch {}
+      }
+    }
+
+    $("#lock").addEventListener("submit", (e) => { e.preventDefault(); unlock($("#pw").value); });
+    // Stay unlocked for the rest of this browser tab's session.
+    try { const saved = sessionStorage.getItem("alltime-pw"); if (saved) unlock(saved); } catch {}
+  </script>
+</body>
+</html>

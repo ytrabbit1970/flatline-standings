@@ -449,7 +449,7 @@
      "winnings": null
     },
     {
-     "handle": "170736.0",
+     "handle": "170736",
      "place": 26,
      "points": 2.296,
      "bounties": null,
@@ -684,7 +684,7 @@
      "winnings": null
     },
     {
-     "handle": "170736.0",
+     "handle": "170736",
      "place": 24,
      "points": 2.281,
      "bounties": null,
@@ -895,7 +895,7 @@
      "winnings": null
     },
     {
-     "handle": "170736.0",
+     "handle": "170736",
      "place": 24,
      "points": 2.252,
      "bounties": null,
@@ -1034,7 +1034,7 @@
      "winnings": null
     },
     {
-     "handle": "170736.0",
+     "handle": "170736",
      "place": 15,
      "points": 2.885,
      "bounties": null,
@@ -1229,7 +1229,7 @@
      "winnings": null
     },
     {
-     "handle": "170736.0",
+     "handle": "170736",
      "place": 12,
      "points": 3.304,
      "bounties": null,
@@ -3963,7 +3963,7 @@
    "rank": 27
   },
   {
-   "handle": "170736.0",
+   "handle": "170736",
    "points": 13.017,
    "avgPoints": 2.603,
    "played": 5,

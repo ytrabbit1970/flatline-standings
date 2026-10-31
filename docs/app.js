@@ -226,8 +226,8 @@ function renderFinale() {
   $("#finale-panel").hidden = !fin.length;
   $("#finale").innerHTML = fin.map((e) => {
     const kos = e.results.some((r) => r.bounties), partial = e.results.some((r) => r.place == null);
-    // Without places, a shared top prize means the final table chopped.
-    const top = e.results.filter((r) => partial && r.winnings === e.results[0].winnings);
+    // A chop: several 1st places, or (where only cash was recorded) several players sharing the top prize.
+    const top = partial ? e.results.filter((r) => r.winnings === e.results[0].winnings) : e.results.filter((r) => r.place === 1);
     const champ = top.length > 1 ? `${top.length}-way chop · ${top.map((r) => esc(r.handle)).join(", ")}` : esc(e.results[0].handle);
     return `<div>
       <h3>${esc(e.name)}</h3>
