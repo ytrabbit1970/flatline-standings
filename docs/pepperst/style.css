@@ -379,3 +379,8 @@ section.wrap { padding: 28px 0; }
 .well { overflow: hidden; }
 .prose .well img { width: 92%; height: 92%; max-height: none; margin: 0; cursor: pointer; }
 .prose .well.tight img { width: 86%; height: 86%; }
+
+/* Transparent blog images (PSP badges) were made for a white page: put white behind every loaded
+   post, card and lightbox image. The Hall of Fame chips and plaque keep their own transparency. */
+.prose img.loaded, .cover img.loaded, #lightbox img.loaded { background: #fff; }
+.prose .well img.loaded { background: none; }

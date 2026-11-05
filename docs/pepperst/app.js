@@ -607,6 +607,10 @@ function route() {
   window.scrollTo({ top: 0 });
 }
 
+// Many blog images (the PSP badges) are transparent PNGs drawn for a white page. Mark images once
+// loaded so CSS can put white behind them without a white flash while they load.
+document.addEventListener("load", (ev) => ev.target.tagName === "IMG" && ev.target.classList.add("loaded"), true);
+
 renderNav();
 window.addEventListener("hashchange", route);
 route();
