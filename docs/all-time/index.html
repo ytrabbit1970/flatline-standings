@@ -20,6 +20,7 @@
     .lock-msg { text-align: center; color: var(--muted); min-height: 1.4em; }
     .board th[data-sort] { cursor: pointer; user-select: none; }
     .board th[aria-sort] { color: var(--green); }
+    .net-up { color: var(--green); } .net-down { color: var(--red); }
     .tag { display: inline-block; font: 700 11px var(--mono); padding: 2px 6px; margin: 1px 2px 1px 0;
       border-radius: 5px; background: rgba(255, 209, 102, .14); color: var(--gold); }
   </style>
@@ -50,7 +51,8 @@
       </div>
       <p class="legend">
         Click a column to sort. Titles are season points titles; ToC and Extravaganza list the seasons won (chop = shared win).
-        Bounties were tracked from Season 6 and re-entries from Season 3. Season 1 was played on PokerStars;
+        Net $ is $ won plus KOs, minus $25 for every entry and re-entry, in regular-season weeks.
+        Bounties started in Season 6, and re-entries were tracked from Season 3. Season 1 was played on PokerStars;
         those handles are merged into their Mavens handles.
       </p>
     </section>
@@ -89,6 +91,7 @@
       ["Cash %", "cashPct", (p) => Math.round(p.cashPct * 100) + "%", "num"],
       ["$ Won", "winnings", (p) => (p.winnings ? usd(p.winnings) : ""), "num money"],
       ["KOs $", "bounties", (p) => (p.bounties ? usd(p.bounties) : ""), "num"],
+      ["Net $", "net", (p) => `<span class="${p.net >= 0 ? "net-up" : "net-down"}">${p.net < 0 ? "−" : "+"}${usd(Math.abs(p.net))}</span>`, "num"],
       ["Re-entries", "reentries", (p) => p.reentries || "", "num"],
       ["Titles", "titles", (p) => p.titles.map((s) => `<span class="tag">S${s}</span>`).join(""), ""],
       ["ToC", "toc", (p) => won(p.toc), ""],
