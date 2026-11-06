@@ -1,33 +1,80 @@
 // Pepper St Poker: a modern front end for the club's two Blogger blogs.
 // Posts are read live from Blogger's JSON feeds (JSONP, since the feeds don't send CORS headers),
 // so anything published on Blogger shows up here without a rebuild.
+//
+// The same script runs in two places: here on standings.flatline.wtf (hash routes, #/p/...), and
+// inside the Blogger theme on both blogs (real URLs, one page load per page). On Blogger, the page
+// Blogger served is in <noscript id="server">: the post itself, plus the menus and intro the owner
+// edits as gadgets under Layout.
 
 const BLOGS = {
-  main: { id: "9057610958077509444", host: "www.pepperstreetpoker.org", route: "p" },
-  rules: { id: "8563722220474512012", host: "pepperstreetrules.blogspot.com", route: "info" },
+  main: { id: "9057610958077509444", host: "www.pepperstreetpoker.org", origin: "http://www.pepperstreetpoker.org", route: "p" },
+  rules: { id: "8563722220474512012", host: "pepperstreetrules.blogspot.com", origin: "https://pepperstreetrules.blogspot.com", route: "info" },
 };
+const sameHost = (a, b) => a.replace(/^www\./, "") === b.replace(/^www\./, "");
+// Which blog this page is on, or undefined on standings.flatline.wtf.
+const HERE = Object.keys(BLOGS).find((b) => sameHost(location.hostname, BLOGS[b].host));
+const STANDINGS = "https://standings.flatline.wtf/pepper/";
 
-// The original sidebar's two link lists. Paths are rules-blog posts; "href" entries leave the blog.
-const THE_GAME = [
-  ["Blind Structures & Buy-Ins", "2012/09/psp-nlhe-tournament-blind-structures"],
-  ["Rules in General", "2008/08/rules-in-general"],
-  ["Cash Game Info", "2009/04/cash-game"],
-  ["Dealing & Misdeals", "2008/09/heres-deal"],
-  ["New Players", "2008/12/can-i-bring-buddy"],
-  ["The House Fund", "2008/09/house-fund"],
-  ["Be on Time", "2009/04/congratulations"],
-  ["In Memoriam", "2015/09/in-memoriam"],
-];
-const CHAMPIONS = [
-  ["The Tournament of Champions", "2013/10/the-tournament-of-champions"],
-  ["2024-2025 Champions", "2024/10/2024-2025-champions"],
-  ["Player of the Year", "2018/01/player-of-year_19"],
-  ["Legacy Hall of Fame", "2018/10/pepper-street-poker-legacy-hall-of-fame"],
-  ["Legacy Invitational Tournament", "2021/12/legacy-invitational-tournament"],
-  ["Past Years Standings", null, "../pepper/"],
-];
+const link = {
+  home: (blog = "main") => (HERE ? (blog === HERE ? "/" : `${BLOGS[blog].origin}/`) : "#/"),
+  post: (blog, path) => (HERE ? `${blog === HERE ? "" : BLOGS[blog].origin}/${path}.html` : `#/${BLOGS[blog].route}/${path}`),
+  recaps: (year) => (HERE ? `${HERE === "main" ? "" : BLOGS.main.origin}/${year ? `${year}/` : "search"}` : `#/recaps${year ? `/${year}` : ""}`),
+  search: (q) => (HERE ? `${HERE === "main" ? "" : BLOGS.main.origin}/search?q=${encodeURIComponent(q)}` : `#/search/${encodeURIComponent(q)}`),
+};
+// Images and data that live with this site; the Blogger theme loads them from here.
+const asset = (file) => (/^https?:/.test(file) || !HERE ? file : `https://standings.flatline.wtf/pepperst/${file}`);
 
 const $ = (sel, el = document) => el.querySelector(sel);
+
+const SERVER = (() => {
+  const n = document.getElementById("server");
+  return n && new DOMParser().parseFromString(n.textContent, "text/html");
+})();
+
+// The original sidebar's two link lists. On Blogger they're LinkList gadgets, so the owner can rename,
+// reorder or add menus under Layout; these are the fallback when a page has none.
+const RULES = BLOGS.rules.origin;
+const DEFAULT_MENUS = [
+  { title: "The Game", links: [
+    ["Blind Structures & Buy-Ins", `${RULES}/2012/09/psp-nlhe-tournament-blind-structures.html`],
+    ["Rules in General", `${RULES}/2008/08/rules-in-general.html`],
+    ["Cash Game Info", `${RULES}/2009/04/cash-game.html`],
+    ["Dealing & Misdeals", `${RULES}/2008/09/heres-deal.html`],
+    ["New Players", `${RULES}/2008/12/can-i-bring-buddy.html`],
+    ["The House Fund", `${RULES}/2008/09/house-fund.html`],
+    ["Be on Time", `${RULES}/2009/04/congratulations.html`],
+    ["In Memoriam", `${RULES}/2015/09/in-memoriam.html`],
+  ] },
+  { title: "Champions", links: [
+    ["The Tournament of Champions", `${RULES}/2013/10/the-tournament-of-champions.html`],
+    ["2024-2025 Champions", `${RULES}/2024/10/2024-2025-champions.html`],
+    ["Player of the Year", `${RULES}/2018/01/player-of-year_19.html`],
+    ["Legacy Hall of Fame", `${RULES}/2018/10/pepper-street-poker-legacy-hall-of-fame.html`],
+    ["Legacy Invitational Tournament", `${RULES}/2021/12/legacy-invitational-tournament.html`],
+    ["Past Years Standings", STANDINGS],
+  ] },
+];
+const MENU_NOTES = { "The Game": "How we play", Champions: "Player and Champion of the Year" };
+const MENUS = (() => {
+  const menus = SERVER ? [...SERVER.querySelectorAll(".cms-menu")].map((ul) => ({
+    title: ul.dataset.title || "",
+    links: [...ul.querySelectorAll("a")].map((a) => [a.textContent.trim(), a.getAttribute("href")]),
+  })).filter((m) => m.title && m.links.length) : [];
+  return menus.length ? menus : DEFAULT_MENUS;
+})();
+
+// The home page's headline and intro: a Text gadget on Blogger. The headline's last sentence is set in italics.
+const INTRO = (() => {
+  const el = SERVER?.querySelector(".cms-intro");
+  const title = el?.querySelector(".cms-title")?.textContent.trim();
+  const body = el?.querySelector(".cms-body")?.innerHTML.trim();
+  return {
+    title: title || "No rake. No fees. No drama.",
+    body: body || `Just a simple home game: a monthly Saturday tournament and Friday night cash games
+      in the garage around back. Keep your eyes peeled for updates and ramblings.`,
+  };
+})();
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 // Feed titles and summaries arrive with HTML entities still encoded ("&nbsp;", "&amp;").
 const decoder = document.createElement("textarea");
@@ -111,17 +158,18 @@ const KEEP = new Set(["P", "BR", "A", "IMG", "UL", "OL", "LI", "B", "STRONG", "I
 const ATTRS = { A: ["href"], IMG: ["src", "alt"], TD: ["colspan", "rowspan"], TH: ["colspan", "rowspan"], IFRAME: ["src"] };
 const BLOCK = new Set(["P", "DIV", "TABLE", "UL", "OL", "FIGURE", "BLOCKQUOTE", "H1", "H2", "H3", "H4", "H5", "H6", "IFRAME", "HR"]);
 
-// Links into either blog become links into this site.
+// Links into either blog become links into this site (or, on Blogger, plain links within the blogs).
 function localHref(href) {
   try {
-    const u = new URL(href, "http://www.pepperstreetpoker.org/");
-    const blog = Object.keys(BLOGS).find((b) => u.hostname.replace(/^www\./, "") === BLOGS[b].host.replace(/^www\./, ""));
+    const u = new URL(href, `${BLOGS[HERE || "main"].origin}/`);
+    const blog = Object.keys(BLOGS).find((b) => sameHost(u.hostname, BLOGS[b].host));
     const path = pathOf(u.pathname);
-    if (blog && path) return `#/${BLOGS[blog].route}/${path}`;
-    if (blog === "rules" && /2010-player-of-year-standings/.test(u.pathname)) return "../pepper/";
+    if (blog && path) return link.post(blog, path);
+    if (blog === "rules" && /2010-player-of-year-standings/.test(u.pathname)) return STANDINGS;
   } catch {}
   return null;
 }
+const menuHref = (url) => (HERE ? url : localHref(url) || url);
 
 function unwrap(el) {
   el.replaceWith(...el.childNodes);
@@ -219,7 +267,7 @@ function cover(post, size, cls = "") {
 }
 
 function card(post) {
-  return `<a class="card" href="#/p/${esc(post.path)}">
+  return `<a class="card" href="${esc(link.post("main", post.path))}">
     ${cover(post, "w800-h450-c")}
     <div class="card-body">
       <time datetime="${esc(post.published)}">${fmtDate(post.published, { month: "short", day: "numeric", year: "numeric" })}</time>
@@ -229,13 +277,20 @@ function card(post) {
   </a>`;
 }
 
-const linkRow = ([label, path, href], i) =>
-  `<li><a href="${href || `#/info/${path}`}"><span class="idx">${String(i + 1).padStart(2, "0")}</span>${esc(label)}<span class="arrow">→</span></a></li>`;
+const linkRow = ([label, url], i) =>
+  `<li><a href="${esc(menuHref(url))}"><span class="idx">${String(i + 1).padStart(2, "0")}</span>${esc(label)}<span class="arrow">→</span></a></li>`;
+
+const menuPanels = () => MENUS.map((m) => `
+  <div class="panel">
+    ${MENU_NOTES[m.title] ? `<p class="eyebrow">${esc(MENU_NOTES[m.title])}</p>` : ""}
+    <h2>${esc(m.title)}</h2>
+    <ul class="links">${m.links.map(linkRow).join("")}</ul>
+  </div>`).join("");
 
 const skeleton = (n) => `<div class="grid">${'<div class="card sk"><div class="cover"></div><div class="card-body"><i></i><i></i><i></i></div></div>'.repeat(n)}</div>`;
 
 function failed(msg = "Couldn't reach Blogger. Try again in a moment.") {
-  return `<div class="empty"><p>${esc(msg)}</p><a class="btn ghost" href="#/">Back home</a></div>`;
+  return `<div class="empty"><p>${esc(msg)}</p><a class="btn ghost" href="${link.home()}">Back home</a></div>`;
 }
 
 // ---------- navigation ----------
@@ -243,14 +298,13 @@ function failed(msg = "Couldn't reach Blogger. Try again in a moment.") {
 function renderNav() {
   const menu = (label, items) => `
     <div class="dd">
-      <button class="dd-btn" aria-expanded="false">${label}<svg width="10" height="10" viewBox="0 0 10 10"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
-      <div class="dd-menu">${items.map(([l, p, h]) => `<a href="${h || `#/info/${p}`}">${esc(l)}</a>`).join("")}</div>
+      <button class="dd-btn" aria-expanded="false">${esc(label)}<svg width="10" height="10" viewBox="0 0 10 10"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+      <div class="dd-menu">${items.map(([l, url]) => `<a href="${esc(menuHref(url))}">${esc(l)}</a>`).join("")}</div>
     </div>`;
   $("#nav").innerHTML = `
-    <a href="#/recaps">Recaps</a>
-    ${menu("The Game", THE_GAME)}
-    ${menu("Champions", CHAMPIONS)}
-    <a class="nav-cta" href="../pepper/">Standings</a>
+    <a href="${link.recaps()}">Recaps</a>
+    ${MENUS.map((m) => menu(m.title, m.links)).join("")}
+    <a class="nav-cta" href="${STANDINGS}">Standings</a>
     <form class="nav-search" role="search"><input type="search" name="q" placeholder="Search" aria-label="Search posts"></form>`;
   $("#nav").querySelectorAll(".dd-btn").forEach((b) => b.addEventListener("click", (ev) => {
     ev.stopPropagation();
@@ -261,7 +315,7 @@ function renderNav() {
   $(".nav-search").addEventListener("submit", (ev) => {
     ev.preventDefault();
     const q = ev.target.q.value.trim();
-    if (q) location.hash = `#/search/${encodeURIComponent(q)}`;
+    if (q) location.href = link.search(q);
   });
   document.addEventListener("click", () => $("#nav").querySelectorAll(".dd-btn").forEach((x) => x.setAttribute("aria-expanded", "false")));
   $(".menu-btn").addEventListener("click", () => {
@@ -274,38 +328,28 @@ function renderNav() {
 // ---------- views ----------
 
 async function home(view) {
+  // "No rake. No fees. No drama." -> the last sentence in italics.
+  const headline = esc(INTRO.title).replace(/([^.!?]+[.!?]?)\s*$/, "<em>$1</em>");
   view.innerHTML = `
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow"><span class="dot"></span>Magnolia Park · The Garage Around Back</p>
-        <h1>No rake. No fees. <em>No drama.</em></h1>
-        <p class="lede">Just a simple home game: a monthly Saturday tournament and Friday night cash games
-          in the garage around back. Keep your eyes peeled for updates and ramblings.</p>
+        <h1>${headline}</h1>
+        <div class="lede">${INTRO.body}</div>
         <div class="actions">
-          <a class="btn" id="latest-btn" href="#/recaps">Latest recap</a>
-          <a class="btn ghost" href="../pepper/">Standings</a>
+          <a class="btn" id="latest-btn" href="${link.recaps()}">Latest recap</a>
+          <a class="btn ghost" href="${STANDINGS}">Standings</a>
         </div>
       </div>
-      <div class="hero-art"><img src="logo.png" alt="Pepper St Poker, Magnolia Park" width="703" height="523"></div>
+      <div class="hero-art"><img src="${asset("logo.png")}" alt="Pepper St Poker, Magnolia Park" width="703" height="523"></div>
     </section>
 
     <section class="wrap">
-      <div class="sec-head"><h2>Latest from the garage</h2><a class="more" href="#/recaps">All recaps →</a></div>
+      <div class="sec-head"><h2>Latest from the garage</h2><a class="more" href="${link.recaps()}">All recaps →</a></div>
       <div id="latest">${skeleton(4)}</div>
     </section>
 
-    <section class="wrap two">
-      <div class="panel">
-        <p class="eyebrow">How we play</p>
-        <h2>The Game</h2>
-        <ul class="links">${THE_GAME.map(linkRow).join("")}</ul>
-      </div>
-      <div class="panel">
-        <p class="eyebrow">Player and Champion of the Year</p>
-        <h2>Champions</h2>
-        <ul class="links">${CHAMPIONS.map(linkRow).join("")}</ul>
-      </div>
-    </section>
+    <section class="wrap two">${menuPanels()}</section>
 
     <section class="wrap">
       <div class="sec-head"><h2>Archive</h2></div>
@@ -315,9 +359,9 @@ async function home(view) {
   try {
     const posts = await latest(9);
     const [first, ...rest] = posts;
-    $("#latest-btn").href = `#/p/${first.path}`;
+    $("#latest-btn").href = link.post("main", first.path);
     $("#latest").innerHTML = `
-      <a class="feature" href="#/p/${esc(first.path)}">
+      <a class="feature" href="${esc(link.post("main", first.path))}">
         ${cover(first, "w1600-h900-c")}
         <div class="feature-body">
           <span class="tag">Latest</span>
@@ -340,7 +384,27 @@ function yearPills(all, active) {
   const counts = {};
   all.forEach((p) => (counts[p.published.slice(0, 4)] = (counts[p.published.slice(0, 4)] || 0) + 1));
   return Object.keys(counts).sort().reverse().map((y) =>
-    `<a class="pill${y === active ? " on" : ""}" href="#/recaps/${y}">${y}<small>${counts[y]}</small></a>`).join("");
+    `<a class="pill${y === active ? " on" : ""}" href="${link.recaps(y)}">${y}<small>${counts[y]}</small></a>`).join("");
+}
+
+// The rules blog's front page: the menus, then every post on that blog.
+async function rulesHome(view) {
+  view.innerHTML = `
+    <section class="wrap page-head">
+      <p class="eyebrow">Pepper Street Rules</p>
+      <h1>House rules &amp; records</h1>
+    </section>
+    <section class="wrap two">${menuPanels()}</section>
+    <section class="wrap">
+      <div class="sec-head"><h2>Everything on this blog</h2></div>
+      <div id="list"><span class="muted">Loading…</span></div>
+    </section>`;
+  try {
+    const all = await loadIndex("rules");
+    $("#list").innerHTML = `<div class="panel"><ul class="links">${all.map((p, i) => linkRow([p.title, p.link], i)).join("")}</ul></div>`;
+  } catch {
+    $("#list").innerHTML = failed();
+  }
 }
 
 async function recaps(view, year) {
@@ -380,36 +444,62 @@ async function searchView(view, q) {
   }
 }
 
+// The post, with links to its neighbours on the main blog: from the page Blogger served when there is
+// one, otherwise from the feeds.
+async function loadPost(blog, path) {
+  const sp = SERVER?.querySelector(".server-post");
+  if (sp) {
+    const pager = (cls) => {
+      const a = SERVER.querySelector(`.${cls}`);
+      return a && { title: a.textContent.trim() || (cls === "sp-newer" ? "Newer post" : "Older post"), href: a.getAttribute("href") };
+    };
+    return {
+      title: sp.querySelector(".sp-title").textContent.trim() || "Untitled",
+      published: sp.querySelector(".sp-date")?.getAttribute("datetime"),
+      author: sp.querySelector(".sp-author")?.textContent.trim(),
+      content: sp.querySelector(".sp-body").innerHTML,
+      isPage: sp.classList.contains("is-page"),
+      newer: pager("sp-newer"),
+      older: pager("sp-older"),
+    };
+  }
+  const all = await loadIndex(blog);
+  const i = all.findIndex((p) => p.path === path);
+  if (i < 0) return null;
+  const p = await fullPost(blog, all[i].id);
+  // The main blog is newest-first: i - 1 is newer, i + 1 is older.
+  const near = (q) => blog === "main" && q && { title: q.title, href: link.post("main", q.path) };
+  return { ...p, newer: near(all[i - 1]), older: near(all[i + 1]) };
+}
+
 async function post(view, blog, path) {
   view.innerHTML = `<article class="article"><div class="article-head"><div class="sk-line w40"></div><div class="sk-line w90 tall"></div><div class="sk-line w70 tall"></div></div></article>`;
   try {
-    const all = await loadIndex(blog);
-    const i = all.findIndex((p) => p.path === path);
-    if (i < 0) { view.innerHTML = failed("That post couldn't be found."); return; }
-    const p = await fullPost(blog, all[i].id);
+    const p = await loadPost(blog, path);
+    if (!p) { view.innerHTML = failed("That post couldn't be found."); return; }
     const hof = blog === "rules" && path === HOF_PATH;
     const body = hof ? hallOfFameIntro(p.content || "") : clean(p.content || "");
     const text = new DOMParser().parseFromString(body, "text/html").body.textContent;
-    // The main blog is newest-first: i - 1 is newer, i + 1 is older.
-    const newer = blog === "main" ? all[i - 1] : null, older = blog === "main" ? all[i + 1] : null;
+    const dated = blog === "main" && !p.isPage && p.published;
+    const { newer, older } = p;
     document.title = `${p.title} · Pepper St Poker`;
     view.innerHTML = `
       <article class="article">
         <header class="article-head">
-          <a class="back" href="${blog === "main" ? `#/recaps/${p.published.slice(0, 4)}` : "#/"}">← ${blog === "main" ? `${p.published.slice(0, 4)} recaps` : "Home"}</a>
-          ${hof ? `<h1 class="plaque-title"><img src="hof-plaque.png" alt="${esc(p.title)}" width="1200" height="600"></h1>` : `<h1>${esc(p.title)}</h1>`}
+          <a class="back" href="${dated ? link.recaps(p.published.slice(0, 4)) : link.home(blog)}">← ${dated ? `${p.published.slice(0, 4)} recaps` : "Home"}</a>
+          ${hof ? `<h1 class="plaque-title"><img src="${asset("hof-plaque.png")}" alt="${esc(p.title)}" width="1200" height="600"></h1>` : `<h1>${esc(p.title)}</h1>`}
           <p class="meta">
-            ${blog === "main" ? `<time datetime="${esc(p.published)}">${fmtDate(p.published)}</time><span>·</span>` : ""}
+            ${dated ? `<time datetime="${esc(p.published)}">${fmtDate(p.published)}</time><span>·</span>` : ""}
             ${p.author && p.author !== "Unknown" ? `<span>${esc(p.author)}</span><span>·</span>` : ""}
             <span>${readTime(text)} min read</span>
           </p>
         </header>
         <div class="prose">${body}</div>
         <footer class="article-foot">
-          <a class="muted small" href="${esc(p.link.replace(/^http:\/\/(\w+\.)?blogspot/, "https://$1blogspot"))}" target="_blank" rel="noopener">View the original on Blogger ↗</a>
+          ${HERE ? "" : `<a class="muted small" href="${esc(p.link.replace(/^http:\/\/(\w+\.)?blogspot/, "https://$1blogspot"))}" target="_blank" rel="noopener">View the original on Blogger ↗</a>`}
           ${newer || older ? `<nav class="pager">
-            ${older ? `<a href="#/p/${esc(older.path)}"><small>← Older</small>${esc(older.title)}</a>` : "<span></span>"}
-            ${newer ? `<a class="next" href="#/p/${esc(newer.path)}"><small>Newer →</small>${esc(newer.title)}</a>` : "<span></span>"}
+            ${older ? `<a href="${esc(older.href)}"><small>← Older</small>${esc(older.title)}</a>` : "<span></span>"}
+            ${newer ? `<a class="next" href="${esc(newer.href)}"><small>Newer →</small>${esc(newer.title)}</a>` : "<span></span>"}
           </nav>` : ""}
         </footer>
       </article>`;
@@ -477,7 +567,7 @@ function hallOfFameIntro(html) {
   // Local copies of the two bounty chips, recoloured to the site red.
   const bountyImg = (img) => {
     const who = (img.getAttribute("src").match(/LB\+(\w+)\+for/) || [])[1];
-    return who ? `<img src="hof-bounty-${who.toLowerCase()}.jpg" alt="Legacy Bounty chip: ${esc(who)}">` : img.outerHTML;
+    return who ? `<img src="${asset(`hof-bounty-${who.toLowerCase()}.jpg`)}" alt="Legacy Bounty chip: ${esc(who)}">` : img.outerHTML;
   };
   const bounties = chips.length ? `<div class="bounties">${chips.map(bountyImg).join("")}</div>` : "";
   return `<div class="hof-intro">${paragraphs(nodes.slice(0, start))}</div>` + bounties +
@@ -534,7 +624,8 @@ async function renderHallOfFame(html) {
   const el = $("#hof");
   let coins = [];
   try {
-    coins = await fetch("hof.json", { cache: "no-cache" }).then((r) => r.json());
+    coins = (await fetch(asset("hof.json"), { cache: "no-cache" }).then((r) => r.json()))
+      .map((c) => ({ ...c, legacy: c.legacy && asset(c.legacy), named: c.named && asset(c.named) }));
   } catch {}
   // Chips posted on Blogger after hof.json was made: show them too, after the known ones.
   const known = new Set(coins.flatMap((c) => [c.legacy, c.named].filter(Boolean).map(imgKey)));
@@ -592,17 +683,37 @@ $("#lightbox").addEventListener("click", (ev) => ev.target.tagName !== "BUTTON" 
 
 // ---------- router ----------
 
+// The route as "p/2026/01/slug", "info/...", "page/p/slug", "recaps/2025", "search/q", "error" or "".
+// Here it's the hash; on Blogger it comes from the URL Blogger served.
+function currentRoute() {
+  if (!HERE) return decodeURIComponent(location.hash.replace(/^#\/?/, ""));
+  const path = decodeURIComponent(location.pathname);
+  const q = new URLSearchParams(location.search).get("q");
+  let m;
+  if (SERVER?.querySelector(".server-error")) return "error";
+  if ((m = path.match(/^\/(\d{4}\/\d{2}\/[^/]+?)\.html$/))) return `${BLOGS[HERE].route}/${m[1]}`;
+  if ((m = path.match(/^\/(p\/[^/]+?)\.html$/))) return `page/${m[1]}`;
+  if ((m = path.match(/^\/(\d{4})(\/\d{2})?\/?$/))) return HERE === "main" ? `recaps/${m[1]}` : "";
+  if ((m = path.match(/^\/search\/label\/(.+)$/))) return `search/${m[1]}`;
+  if (path.startsWith("/search")) return q ? `search/${q}` : "recaps";
+  return "";
+}
+
 function route() {
   const view = $("#view");
-  const h = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
+  const h = currentRoute();
   const [a, ...rest] = h.split("/");
   document.title = "Pepper St Poker";
   document.body.classList.remove("nav-open");
   $(".menu-btn").setAttribute("aria-expanded", "false");
-  $("#nav").querySelectorAll("a").forEach((l) => l.classList.toggle("on", l.getAttribute("href") === "#/" + h));
+  const here = HERE ? location.href.split(/[?#]/)[0] : "#/" + h;
+  $("#nav").querySelectorAll("a").forEach((l) => l.classList.toggle("on", (HERE ? l.href : l.getAttribute("href")) === here));
   if (a === "p" || a === "info") post(view, a === "p" ? "main" : "rules", rest.join("/"));
+  else if (a === "page") post(view, HERE, rest.join("/"));
   else if (a === "recaps") recaps(view, rest[0]);
   else if (a === "search") searchView(view, rest.join("/"));
+  else if (a === "error") view.innerHTML = failed("That page couldn't be found.");
+  else if (HERE === "rules") rulesHome(view);
   else home(view);
   window.scrollTo({ top: 0 });
 }
@@ -612,5 +723,5 @@ function route() {
 document.addEventListener("load", (ev) => ev.target.tagName === "IMG" && ev.target.classList.add("loaded"), true);
 
 renderNav();
-window.addEventListener("hashchange", route);
+if (!HERE) window.addEventListener("hashchange", route);
 route();

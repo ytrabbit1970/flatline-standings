@@ -107,6 +107,8 @@ main:focus { outline: none; }
 .hero h1 { font-size: clamp(44px, 7vw, 88px); font-weight: 800; letter-spacing: -.035em; line-height: .98; }
 .hero h1 em { font-style: normal; color: var(--red); }
 .lede { margin: 22px 0 30px; max-width: 520px; font-size: 18px; color: var(--muted); }
+.lede p { margin: 0 0 .7em; }
+.lede p:last-child { margin: 0; }
 .actions { display: flex; gap: 12px; flex-wrap: wrap; }
 .hero-art { position: relative; }
 .hero-art::before { content: ""; position: absolute; inset: 15%; background: var(--red-glow); filter: blur(70px); border-radius: 50%; }
@@ -384,3 +386,11 @@ section.wrap { padding: 28px 0; }
    post, card and lightbox image. The Hall of Fame chips and plaque keep their own transparency. */
 .prose img.loaded, .cover img.loaded, #lightbox img.loaded { background: #fff; }
 .prose .well img.loaded { background: none; }
+
+/* ---------- Blogger theme ---------- */
+/* Blogger's own bar and gadget chrome, which the theme doesn't use. */
+#navbar, #navbar-iframe-container, .navbar, #cookieChoiceInfo { display: none !important; }
+/* Without JavaScript, the page Blogger served shows as-is in the article layout. */
+.no-js-page { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; }
+.no-js-page img { max-width: 100%; height: auto; }
+.no-js-page a { color: var(--red); }
