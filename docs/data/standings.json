@@ -1,7 +1,7 @@
 {
  "season": "Season 16",
  "tournament": "Flatline Faithful",
- "updated": "2026-11-20T15:29:18+00:00",
+ "updated": "2026-11-20T15:39:56+00:00",
  "events": [
   {
    "date": "2026-08-06",
@@ -173,26 +173,29 @@
     {
      "place": 1,
      "handle": "A8_Fold_Path",
-     "winnings": 123.5,
+     "winnings": 82.34,
      "bounties": 35.0,
      "reentries": 0,
-     "points": 8.866
+     "points": 8.866,
+     "serverWinnings": 123.5
     },
     {
      "place": 2,
      "handle": "ChoppedRiver",
-     "winnings": 74.1,
+     "winnings": 82.33,
      "bounties": 15.0,
      "reentries": 0,
-     "points": 6.269
+     "points": 6.269,
+     "serverWinnings": 74.1
     },
     {
      "place": 3,
      "handle": "SvenGolly",
-     "winnings": 49.4,
+     "winnings": 82.33,
      "bounties": 0.0,
      "reentries": 0,
-     "points": 5.119
+     "points": 5.119,
+     "serverWinnings": 49.4
     },
     {
      "place": 4,
@@ -305,18 +308,20 @@
     {
      "place": 1,
      "handle": "Polarized616",
-     "winnings": 85.5,
+     "winnings": 68.4,
      "bounties": 10.0,
      "reentries": 0,
-     "points": 7.963
+     "points": 7.963,
+     "serverWinnings": 85.5
     },
     {
      "place": 2,
      "handle": "jalt",
-     "winnings": 51.3,
+     "winnings": 68.4,
      "bounties": 20.0,
      "reentries": 0,
-     "points": 5.631
+     "points": 5.631,
+     "serverWinnings": 51.3
     },
     {
      "place": 3,
@@ -412,18 +417,20 @@
     {
      "place": 1,
      "handle": "CrazyIdeas",
-     "winnings": 123.5,
+     "winnings": 98.8,
      "bounties": 20.0,
      "reentries": 1,
-     "points": 8.866
+     "points": 8.866,
+     "serverWinnings": 123.5
     },
     {
      "place": 2,
      "handle": "LawlessWC",
-     "winnings": 74.1,
+     "winnings": 98.8,
      "bounties": 10.0,
      "reentries": 1,
-     "points": 6.269
+     "points": 6.269,
+     "serverWinnings": 74.1
     },
     {
      "place": 3,
@@ -875,26 +882,29 @@
     {
      "place": 1,
      "handle": "LASwank",
-     "winnings": 162.45,
+     "winnings": 109.87,
      "bounties": 45.0,
      "reentries": 1,
-     "points": 9.958
+     "points": 9.958,
+     "serverWinnings": 162.45
     },
     {
      "place": 2,
      "handle": "Polarized616",
-     "winnings": 105.41,
+     "winnings": 109.86,
      "bounties": 10.0,
      "reentries": 0,
-     "points": 7.041
+     "points": 7.041,
+     "serverWinnings": 105.41
     },
     {
      "place": 3,
      "handle": "CrazyIdeas",
-     "winnings": 61.73,
+     "winnings": 109.86,
      "bounties": 15.0,
      "reentries": 0,
-     "points": 5.749
+     "points": 5.749,
+     "serverWinnings": 61.73
     },
     {
      "place": 4,
@@ -1583,18 +1593,20 @@
     {
      "place": 1,
      "handle": "Manzoniman",
-     "winnings": 136.8,
+     "winnings": 112.79,
      "bounties": 15.0,
      "reentries": 0,
-     "points": 9.442
+     "points": 9.442,
+     "serverWinnings": 136.8
     },
     {
      "place": 2,
      "handle": "ytrabbit",
-     "winnings": 88.77,
+     "winnings": 112.78,
      "bounties": 20.0,
      "reentries": 0,
-     "points": 6.676
+     "points": 6.676,
+     "serverWinnings": 88.77
     },
     {
      "place": 3,
@@ -1846,18 +1858,20 @@
     {
      "place": 1,
      "handle": "LarsEricson",
-     "winnings": 137.7,
+     "winnings": 113.53,
      "bounties": 30.0,
      "reentries": 1,
-     "points": 9.425
+     "points": 9.425,
+     "serverWinnings": 137.7
     },
     {
      "place": 2,
      "handle": "LAWolfie",
-     "winnings": 89.35,
+     "winnings": 113.52,
      "bounties": 10.0,
      "reentries": 0,
-     "points": 6.665
+     "points": 6.665,
+     "serverWinnings": 89.35
     },
     {
      "place": 3,
@@ -2001,18 +2015,20 @@
     {
      "place": 1,
      "handle": "LarsEricson",
-     "winnings": 153.91,
+     "winnings": 126.89,
      "bounties": 45.0,
      "reentries": 0,
-     "points": 9.757
+     "points": 9.757,
+     "serverWinnings": 153.91
     },
     {
      "place": 2,
      "handle": "ChoppedRiver",
-     "winnings": 99.86,
+     "winnings": 126.88,
      "bounties": 15.0,
      "reentries": 0,
-     "points": 6.899
+     "points": 6.899,
+     "serverWinnings": 99.86
     },
     {
      "place": 3,
@@ -2160,7 +2176,7 @@
    "wins": 3,
    "cashes": 6,
    "cashPct": 0.5,
-   "winnings": 578.62,
+   "winnings": 602.63,
    "bounties": 110.0,
    "reentries": 3,
    "best": 1,
@@ -2258,7 +2274,7 @@
    "wins": 2,
    "cashes": 8,
    "cashPct": 0.667,
-   "winnings": 565.56,
+   "winnings": 589.73,
    "bounties": 120.0,
    "reentries": 1,
    "best": 1,
@@ -2356,7 +2372,7 @@
    "wins": 1,
    "cashes": 4,
    "cashPct": 0.286,
-   "winnings": 313.91,
+   "winnings": 301.26,
    "bounties": 60.0,
    "reentries": 1,
    "best": 1,
@@ -2462,7 +2478,7 @@
    "wins": 1,
    "cashes": 5,
    "cashPct": 0.385,
-   "winnings": 457.52,
+   "winnings": 492.77,
    "bounties": 110.0,
    "reentries": 1,
    "best": 1,
@@ -2564,7 +2580,7 @@
    "wins": 2,
    "cashes": 5,
    "cashPct": 0.455,
-   "winnings": 445.31,
+   "winnings": 468.74,
    "bounties": 115.0,
    "reentries": 5,
    "best": 1,
@@ -2658,7 +2674,7 @@
    "wins": 1,
    "cashes": 5,
    "cashPct": 0.417,
-   "winnings": 345.48,
+   "winnings": 292.9,
    "bounties": 90.0,
    "reentries": 7,
    "best": 1,
@@ -2972,7 +2988,7 @@
    "wins": 2,
    "cashes": 2,
    "cashPct": 0.2,
-   "winnings": 260.3,
+   "winnings": 236.29,
    "bounties": 65.0,
    "reentries": 0,
    "best": 1,
@@ -3062,7 +3078,7 @@
    "wins": 1,
    "cashes": 2,
    "cashPct": 0.167,
-   "winnings": 149.95,
+   "winnings": 108.79,
    "bounties": 65.0,
    "reentries": 1,
    "best": 1,
@@ -3356,7 +3372,7 @@
    "wins": 0,
    "cashes": 2,
    "cashPct": 0.222,
-   "winnings": 103.63,
+   "winnings": 120.73,
    "bounties": 55.0,
    "reentries": 3,
    "best": 2,
@@ -3442,7 +3458,7 @@
    "wins": 2,
    "cashes": 2,
    "cashPct": 0.5,
-   "winnings": 291.61,
+   "winnings": 240.42,
    "bounties": 75.0,
    "reentries": 3,
    "best": 1,
@@ -3508,7 +3524,7 @@
    "wins": 0,
    "cashes": 2,
    "cashPct": 0.4,
-   "winnings": 136.8,
+   "winnings": 161.5,
    "bounties": 30.0,
    "reentries": 2,
    "best": 2,
@@ -3644,7 +3660,7 @@
    "wins": 0,
    "cashes": 1,
    "cashPct": 0.25,
-   "winnings": 49.4,
+   "winnings": 82.33,
    "bounties": 5.0,
    "reentries": 0,
    "best": 3,
